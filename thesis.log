@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.16)  17 JUL 2023 13:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.16)  17 JUL 2023 18:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1395,7 +1395,7 @@ or specify an encoding such as \usepackage [latin1]{inputenc}
 in the document preamble.
 Alternatively, save the file in UTF-8 using your editor or another tool
 
-<images/cwbi.png, id=127, 121.05225pt x 37.94176pt>
+<images/cwbi.png, id=125, 121.05225pt x 37.94176pt>
 File: images/cwbi.png Graphic file (type png)
 <use images/cwbi.png>
 Package pdftex.def Info: images/cwbi.png  used on input line 16.
@@ -1405,8 +1405,21 @@ Package pdftex.def Info: images/cwbi.png  used on input line 16.
 
 
 
- <./images/cwbi.png (PNG copy)>]) (./chapters/processi.tex [2]
+ <./images/cwbi.png (PNG copy)>]) (./chapters/sistema-attuale.tex [2]
 Capitolo 2.
+) (./chapters/kick-off.tex [3
+
+]
+Capitolo 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+
+ []
+
+) (./chapters/concept.tex [4
+
+]
+Capitolo 4.
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 4
 .
 (c:/texlive/2023/texmf-dist/tex/latex/base/t1cmss.fd
@@ -1421,30 +1434,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-) (./chapters/kick-off.tex [3
-
-]
-Capitolo 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--12
-
- []
-
-) (./chapters/concept.tex [4
-
-]
-Capitolo 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-<images/usecase/scenario-principale.png, id=154, 463.13025pt x 236.082pt>
+<images/usecase/scenario-principale.png, id=151, 463.13025pt x 236.082pt>
 File: images/usecase/scenario-principale.png Graphic file (type png)
 <use images/usecase/scenario-principale.png>
 Package pdftex.def Info: images/usecase/scenario-principale.png  used on input 
@@ -1514,11 +1504,11 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) ) 
 Here is how much of TeX's memory you used:
- 38390 strings out of 475237
- 671537 string characters out of 5768555
- 1929238 words of memory out of 5000000
- 58783 multiletter control sequences out of 15000+600000
- 585108 words of font info for 151 fonts, out of 8000000 for 9000
+ 38393 strings out of 475237
+ 671610 string characters out of 5768555
+ 1928238 words of memory out of 5000000
+ 58781 multiletter control sequences out of 15000+600000
+ 585343 words of font info for 154 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  99i,10n,125p,2259b,2547s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -1543,10 +1533,10 @@ uper/sfrm1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsi1
 2023/texmf-dist/fonts/type1/public/cm-super/sfti0700.pfb><c:/texlive/2023/texmf
 -dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2023/texmf-dist/font
 s/type1/public/cm-super/sfti1200.pfb>
-Output written on thesis.pdf (19 pages, 476875 bytes).
+Output written on thesis.pdf (19 pages, 480596 bytes).
 PDF statistics:
- 413 PDF objects out of 1000 (max. 8388607)
- 340 compressed objects within 4 object streams
- 74 named destinations out of 1000 (max. 500000)
- 61732 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 408 PDF objects out of 1000 (max. 8388607)
+ 335 compressed objects within 4 object streams
+ 73 named destinations out of 1000 (max. 500000)
+ 61724 words of extra memory for PDF output out of 61914 (max. 10000000)
 

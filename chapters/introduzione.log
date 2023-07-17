@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.16)  17 JUL 2023 13:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.16)  17 JUL 2023 16:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1068,29 +1068,29 @@ Missing character: There is no T in font nullfont!
 Missing character: There is no M in font nullfont!
 Missing character: There is no L in font nullfont!
 Missing character: There is no 5 in font nullfont!
-Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.25 \item HTML5;\glsfirstoccur
-                               
+l.25 \item HTML5\glsfirstoccur
+                               ;
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+Missing character: There is no ; in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.26 \item Css;\glsfirstoccur
-                             
+l.26 \item Css\glsfirstoccur
+                             ;
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+Missing character: There is no ; in font nullfont!
 Missing character: There is no B in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -1102,29 +1102,29 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no 3 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no 5 in font nullfont!
-Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.27 \item Boostrap3/5;\glsfirstoccur
-                                     
+l.27 \item Boostrap3/5\glsfirstoccur
+                                     ;
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+Missing character: There is no ; in font nullfont!
 Missing character: There is no J in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no P in font nullfont!
-Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.28 \item JSP.\glsfirstoccur
-                             
+l.28 \item JSP\glsfirstoccur
+                             .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+Missing character: There is no . in font nullfont!
 Missing character: There is no A in font nullfont!
 Missing character: There is no f in font nullfont!
 Missing character: There is no f in font nullfont!
@@ -1167,16 +1167,16 @@ Missing character: There is no J in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no L in font nullfont!
-Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.32 \item JSTL;\glsfirstoccur
-                              
+l.32 \item JSTL\glsfirstoccur
+                              ;
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+Missing character: There is no ; in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -1184,16 +1184,16 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no 2 in font nullfont!
-Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.33 \item Struts2;\glsfirstoccur
-                                 
+l.33 \item Struts2\glsfirstoccur
+                                 ;
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+Missing character: There is no ; in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no c in font nullfont!
@@ -1202,16 +1202,16 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.34 \item Taconite.\glsfirstoccur
-                                  
+l.34 \item Taconite\glsfirstoccur
+                                  .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+Missing character: There is no . in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -1766,7 +1766,7 @@ Missing character: There is no : in font nullfont!
 <recently read> \glsfirstoccur 
                                
 l.42 ... nomenclatura: \emph{parola}\glsfirstoccur
-                                                  ;
+                                                   ;
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
