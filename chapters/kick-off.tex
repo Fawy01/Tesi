@@ -4,19 +4,52 @@
 \section{Introduzione al progetto}
 Visto i bisogni dell'azienda, l'obiettivo del modulo \textbf{Ticket} è quello di offrire un portale su cui gli utenti registrati, possono aprire, prendere in carico, assegnare ed eliminare dei ticket. \\
 Il modulo è stato pensato sì per i dipendenti interni di CWBI, ma vuole offrire anche ai clienti un modo di segnalare in modo facile e veloce un qualsiasi tipo di problema sulle applicazioni utilizzate. Così anche per CWBI è semplice vedere chi e quando ha inviato una segnalazione, in modo da assegnare un dipendente per trovare una soluzione.\\ 
-Inoltre per rendere più interattivo il gestionale ed avere un riscontro su quali operazioni sono state effettuate sul ticket, ogni utente potrà lasciare dei commenti in modo da far capire a chi prenderà in carico il ticket, a quale fase della soluzioni è arrivato.
-\section{Analisi preventiva dei rischi}
+Inoltre per rendere più interattivo il gestionale ed avere un riscontro su quali operazioni sono state effettuate sul ticket, ogni utente potrà lasciare dei commenti in modo da far capire a chi prenderà in carico il ticket, a quale fase della soluzioni è arrivato.\\
+Lavorando su un'applicazione già esistente, una fase molto importante che il progetto prevede sono le attività di refactoring di moduli preesistenti affinché si adattino al nuovo modulo Ticket. 
 
-Durante la fase di analisi iniziale sono stati individuati alcuni possibili rischi a cui si potrà andare incontro.
-Si è quindi proceduto a elaborare delle possibili soluzioni per far fronte a tali rischi.\\
+\section{Obiettivi}
+Lo stage definisce delle tappe fondamentali da raggiungere, sia per quanto riguarda lo sviluppo di un prodotto, ma soprattutto la formazione della persona è uno dei traguardi principali che l'azienda, il tutor aziendale e lo stagista hanno volontà di completare. Gli obiettivi quindi sono:
+\begin{itemize}
+\item la formazione del tirocinante affinché posso affrontare gli studi e il mondo del lavoro in un'ottica diversa, con nuove conoscenze e con la consapevolezza di un \textbf{metodo} di lavoro che aiuterà ad affrontare i futuri problemi attraverso pensiero logico e strategico;
+\item lo sviluppo del modulo Ticket per supportare e facilitare i rapporti tra azienda e cliente.
+\end{itemize}
 
-\begin{risk}{Performance del simulatore hardware}
-    \riskdescription{le performance del simulatore hardware e la comunicazione con questo potrebbero risultare lenti o non abbastanza buoni da causare il fallimento dei test}
-    \risksolution{coinvolgimento del responsabile a capo del progetto relativo il simulatore hardware}
-    \label{risk:hardware-simulator} 
-\end{risk}
-
-\section{Obiettivi del progetto}
-
+\pagebreak
 
 \section{Pianificazione}
+Il lavoro si svolge nelle 300 ore obbligatorie per il tirocinio formativo e si suddivide in:
+\begin{itemize}
+\item Studio ed analisi dell'architettura già presente in azienda;
+\item Raccolta dei requisiti del prodotto atteso;
+\item Refactoring di codice di classi esistenti per adattarlo al prodotto;
+\item Sviluppo del prodotto;
+\item Test.
+\end{itemize}
+
+\noindent
+Le ore si sono distribuite in 8 settimane lavorative, a loro volta suddivise nel particolare dedicando:
+\begin{table}[h]%
+\label{tab:tabella-pianificazione}
+{\renewcommand{\arraystretch}{2}%}
+\begin{tabularx}{\textwidth}{lXl}
+\hline\hline
+\textbf{Durata in ore} & \textbf{Attività}\\
+\hline
+40 & Formazione iniziale e introduzione tecnologie utilizzata JAVA/JEE lato server\\
+\hline
+40 & Formazione soluzione \textit{baseapp\glsfirstoccur} \; con apprendimento \textit{framework} di lavoro\\
+\hline
+68 & Analisi e raccolta requisiti progetto marketing\\
+\hline
+122 & Sviluppo soluzione (Realizzazione soluzione software in java \textit{back-end} e sviluppo \textit{front-end})\\
+\hline
+15 & Test e supporto UAT\\
+\hline
+15 & Documentazione progetto\\
+\hline
+\end{tabularx}
+\smallskip
+\caption{Tabella della pianificazione del lavoro}
+
+\end{table}
+
