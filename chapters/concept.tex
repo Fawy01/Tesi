@@ -90,7 +90,7 @@ Il requisito è così descritto:
 \caption{Tabella del tracciamento dei requisiti funzionali}
 {\renewcommand{\arraystretch}{2}
 \label{tab:requisiti-funzionali}
-\begin{tabularx}{\textwidth}{lXl}
+\begin{tabularx}{\textwidth}{PXl}
 \hline\hline
 \textbf{Requisito} & \textbf{Descrizione}\\
 \hline
@@ -137,7 +137,7 @@ R1F11.6 & L'utente loggato deve selezionare la priorità del ticket\\
 
 \begin{table}[H]
 {\renewcommand{\arraystretch}{2}%}
-\begin{tabularx}{\textwidth}{lXl}
+\begin{tabularx}{\textwidth}{PXl}
 \hline\hline
 \textbf{Requisito} & \textbf{Descrizione}\\
 
@@ -153,6 +153,7 @@ R1F12 & Il modulo visualizza la pagina di selezione dell' azienda \\
 R1F12.1 & Il modulo visualizza solo e soltanto la lista delle aziende a cui è collegato l'utente loggato \\
 \hline
 R1F13 & Il modulo visualizza la pagina di creazione del ticket\\
+\hline
 R1F13.1 & visualizza solo e soltanto i progetti collegati all'azienda selezionata\\
 \hline
 R1F13.2 & Il modulo fornisce 3 ambienti su cui aprire il ticket: SVIL, PROD, TEST\\
@@ -191,7 +192,7 @@ R1F16.4 & Il modulo visualizza l'etichetta priorità del ticket\\
 
 \begin{table}[H]
 {\renewcommand{\arraystretch}{2}
-\begin{tabularx}{\textwidth}{lXl}
+\begin{tabularx}{\textwidth}{PXl}
 \hline\hline
 \textbf{Requisito} & \textbf{Descrizione}\\
 \hline
@@ -251,18 +252,30 @@ R1F25.7 & L'utente loggato può ricercare i ticket per ambiente\\
 
 \begin{table}[H]
 {\renewcommand{\arraystretch}{2}
-\begin{tabularx}{\textwidth}{lXl}
+\begin{tabularx}{\textwidth}{PXl}
 \hline\hline
 \textbf{Requisito} & \textbf{Descrizione}\\
 \hline
 
 R1F26 & Il modulo, visualizza i bottoni di modifica su ogni riga, solo se il ticket è stato aperto dall'utente attualmente loggato \\
 \hline
-R1F26.1& il modulo, per ogni riga, fornisce il bottone di dettaglio del ticket \\
+R1F26.1& Il modulo, per ogni riga, fornisce il bottone di dettaglio del ticket \\
 \hline
-R1F26.2 & il modulo, per ogni riga, fornisce il bottone di modifica del ticket \\
+R1F26.2 & Il modulo, per ogni riga, fornisce il bottone di modifica del ticket \\
 \hline
-R1F26.3 & il modulo, per ogni riga, fornisce il bottone di elimina del ticket \\
+R1F26.3 & Il modulo, per ogni riga, fornisce il bottone di elimina del ticket \\
+\hline
+R1F27 & Il modulo permette si effettuare il salvataggio del ticket\\
+\hline
+R1F28 & Il modulo visualizza un errore in caso il salvataggio non vada a buon fine \\
+\hline
+R2F28.1 & Il modulo visualizza un errore in caso il titolo sia vuoto\\
+\hline
+R2F28.2 & Il modulo visualizza un errore in caso la data di scadenza sia vuota\\
+\hline
+R2F29 & Il modulo visualizza un avviso in caso non ci siano ticket da visualizzare\\
+\hline
+R2F28 & Il modulo visualizza un avviso dopo l'eliminazione di un ticket\\
 \hline
 
 \end{tabularx}
@@ -277,7 +290,7 @@ R1F26.3 & il modulo, per ogni riga, fornisce il bottone di elimina del ticket \\
 {\renewcommand{\arraystretch}{2}
 \caption{Tabella del tracciamento dei requisiti di vincolo}
 \label{tab:requisiti-vincolo}
-\begin{tabularx}{\textwidth}{lXl}
+\begin{tabularx}{\textwidth}{PXl}
 \hline\hline
 \textbf{Requisito} & \textbf{Descrizione} \\
 \hline
@@ -296,19 +309,41 @@ R1V2.2 & Il modulo permette l'eliminazione del ticket all'utente amministratore\
 
 R1V3 & Il modulo deve limitare la modifica di un commento\\
 \hline
+
+\end{tabularx}
+}
+\end{table}
+
+
+\begin{table}[H]
+{\renewcommand{\arraystretch}{2}
+\caption{Tabella del tracciamento dei requisiti di vincolo}
+\label{tab:requisiti-vincolo}
+\begin{tabularx}{\textwidth}{PXl}
+\hline\hline
+\textbf{Requisito} & \textbf{Descrizione} \\
+\hline
 R1V3.1 & Il modulo permette la modifica del commento all'utente che lo ha aperto\\
 \hline
 R1V3.2 & Il modulo permette la modifica del commento all'utente amministratore\\
 \hline
-
 R1V4 & Il modulo deve limitare l'eliminazione di un commento\\
 \hline
 R1V4.1 & Il modulo permette l'eliminazione del commento all'utente che lo ha aperto\\
 \hline
 R1V4.2 & Il modulo permette l'eliminazione del commento all'utente amministratore\\
 \hline
+R1V5 & Il modulo deve essere sviluppato in Java\\
+\hline
+R1V6 & Il modulo integra classi preesistenti in altri moduli\\
+\hline
+R1V7 & Il modulo deve essere sviluppato secondo l'architettura dell'azienda\\
+\hline
+R1V8 & Devono essere utilizzati i framework previsti dall'azienda per lo sviluppo delle applicazioni aziendali\\
+\hline
 
 \end{tabularx}
 }
 \end{table}
+
 
