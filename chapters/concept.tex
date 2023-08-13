@@ -10,19 +10,83 @@ Per lo studio dei casi di utilizzo del prodotto sono stati creati dei diagrammi.
 I diagrammi dei casi d'uso (in inglese \emph{Use Case Diagram}) sono diagrammi di tipo \gls{uml} dedicati alla descrizione delle funzioni o servizi offerti da un sistema, così come sono percepiti e utilizzati dagli attori che interagiscono col sistema stesso.
 Essendo il progetto finalizzato alla creazione di un tool per l'automazione di un processo, le interazioni da parte dell'utilizzatore devono essere ovviamente ridotte allo stretto necessario. Per questo motivo i diagrammi d'uso risultano semplici e in numero ridotto.
 
-\begin{figure}[!h] 
+\subsection{Attori}
+
+
+\begin{figure}[H]
     \centering 
-    \includegraphics[width=0.9\columnwidth]{usecase/scenario-principale} 
-    \caption{Use Case - UC0: Scenario principale}
+    \includegraphics[width=0.9\columnwidth]{usecase/utenti-primari} 
+    \caption{Gerarchia degli attori}
 \end{figure}
 
-\begin{usecase}{0}{Scenario principale}
-\usecaseactors{Sviluppatore applicativi}
-\usecasepre{Lo sviluppatore è entrato nel plug-in di simulazione all'interno dell'IDE}
-\usecasedesc{La finestra di simulazione mette a disposizione i comandi per configurare, registrare o eseguire un test}
-\usecasepost{Il sistema è pronto per permettere una nuova interazione}
-\label{uc:scenario-principale}
-\end{usecase} 
+\\
+\textbf{Utente Non Autenticato}: utente che ancora non ha effettuato l'accesso alla webapp. 
+\\
+\textbf{Utente Autenticato}: utente che ha effetuato l'accesso.  
+\\ 
+\textbf{Utente Cliente}: utente autenticato con permessi di livello Cliente. Rappresenta i clienti esterni all'azienda. 
+\\ 
+\textbf{Utente CWBI}: utente autenticato con permessi di livello CWBI. Rappresenta i dipendenti dell'azienda CWBI. 
+\\
+\textbf{Utente Amministratore}: utente autenticato con permessi Amministratore. Rappresenta uno o più dipendenti CWBI che hanno la funzione di amministrare la webapp e i contenuti.  \\
+
+
+\subsection{Elenco}
+\subsubsection{UC01 - Autenticazione}
+
+\begin{figure}[H]
+    \centering 
+    \includegraphics[width=0.9\columnwidth]{usecase/UC01}
+    \caption{UC01}
+\end{figure}
+
+            \begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \hline
+                    \textbf{Attore primario} & Utente non autenticato \\
+                    \hline
+                    \textbf{Precondizioni} & L'utente non è autenticato. \\
+                    \hline
+                    \textbf{Postcondizioni} & L'utente è autenticato. \\
+                    \hline
+                    \textbf{Scenario principale} & L'utente accede alla webapp \\
+                    \hline
+                    \textbf{Estensioni} & Se l'accesso non va a buon fine, si verifica \hyperref[UC02]{UC02}. \\
+                    \hline
+                \end{tabularx}
+                \caption{UC01}
+            \end{table}
+
+\subsubsection{UC02 - Errore Autenticazione}
+
+                    \begin{table}[H]
+                    \centering
+                    \renewcommand{\arraystretch}{1.8}
+                    \renewcommand\tabularxcolumn[1]{m{#1}}
+                    \begin{tabularx}{0.9\textwidth} {
+                        >{\hsize=.8\hsize\linewidth=\hsize}X
+                        >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                        \hline
+                        \textbf{Attore primario} & Utente non autenticato \\
+                        \hline
+                        \textbf{Precondizioni} & L'utente sta tentando di autenticarsi. \\
+                        \hline
+                        \textbf{Postcondizioni} & L'operazione fallisce. \\
+                        \hline
+                        \textbf{Scenario principale} &
+                            \begin{enumerate}
+                                \item Si verificano problemi con l'accesso alla webapp;
+                                \item Viene mostrato un errore che informa l'utente del fallimento dell'operazione.
+                            \end{enumerate} \\
+                        \hline
+                    \end{tabularx}
+                    \caption{UC02}
+                \end{table}
 
 \section{Tracciamento dei requisiti}
 
@@ -273,9 +337,9 @@ R2F28.1 & Il modulo visualizza un errore in caso il titolo sia vuoto\\
 \hline
 R2F28.2 & Il modulo visualizza un errore in caso la data di scadenza sia vuota\\
 \hline
-R2F29 & Il modulo visualizza un avviso in caso non ci siano ticket da visualizzare\\
+R2F39 & Il modulo visualizza un avviso in caso non ci siano ticket da visualizzare\\
 \hline
-R2F28 & Il modulo visualizza un avviso dopo l'eliminazione di un ticket\\
+R2F30 & Il modulo visualizza un avviso dopo l'eliminazione di un ticket\\
 \hline
 
 \end{tabularx}

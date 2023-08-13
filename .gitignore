@@ -1,0 +1,31 @@
+# Latex
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+## Inkscape svg
+svg-inkspace/*
+*.pdf_tex
+*.lof
+*.lot
+
+## Latex glossary
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.ist
+
+# Cartella file compilati
+documenti_compilati/*
+*.dvi
+
+# MacOS file
+.DS_Store
+
+# VSCode
+.vscode
