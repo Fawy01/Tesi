@@ -109,8 +109,518 @@ Essendo il progetto finalizzato alla creazione di un tool per l'automazione di u
     \includegraphics[width=0.9\columnwidth]{usecase/UC03}
     \caption{UC03}
 \end{figure}
+  \begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \hline
+                    \textbf{Attore primario} & Utente Amministratore\\
+                    \hline
+             
+                    \hline
+                    \textbf{Precondizioni} & L'utente amministratore vuole registrare un nuovo utente\\
+                    \hline
+                    \textbf{Postcondizioni} & L'utente amministratore ha registrato un nuovo utente\\
+                    \hline
+                    \textbf{Scenario principale} & L'utente è nel modulo di registrazione utente della webapp\\
+                    \hline
+              
+                \end{tabularx}
+                \caption{UC03}
+            \end{table}
 
+\subsubsection{UC04 - Accesso Modulo Ticket}
+\begin{figure}[H]
+    \centering 
+    \includegraphics[width=0.9\columnwidth]{usecase/UC04}
+    \caption{UC04}
+\end{figure}
 
+\begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \hline
+                    \textbf{Attore primario} & Utente autenticato \\
+                    \hline
+      
+                    \hline
+                    \textbf{Precondizioni} & L'utente è nella webapp \\
+                    \hline
+                    \textbf{Postcondizioni} & L'utente è nel modulo ticket \\
+                    \hline
+                    \textbf{Scenario principale} & L'utente accede al modulo ticket e alle sue funzionalità \\
+                    \hline
+                \end{tabularx}
+                \caption{UC04}
+            \end{table}
+            
+  
+\subsubsection{UC05 - Visualizza Lista Ticket}  
+        
+        \begin{figure}[H]
+    \centering 
+    \includegraphics[width=0.8\columnwidth]{usecase/UC05_06_07}
+    \caption{UC05 - UC06 - UC07 - UC08}
+\end{figure}
+
+\subsubsection{UC06 - Visualizza Lista Ticket Proprietari}  
+ \begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \hline
+                    \textbf{Attore primario} & Utente autenticato \\
+                    \hline
+                    \textbf{Precondizioni} & L'utente è nella pagina principale della webapp \\
+                    \hline
+                    \textbf{Postcondizioni} & L'utente visualizza la lista dei ticket aperti da lui. \\
+                    \hline
+                    \textbf{Scenario principale} & L'utente sceglie di visualizzare i ticket proprietari. \\
+                    \hline
+                \end{tabularx}
+                \caption{UC06}
+            \end{table}
+     
+     
+\subsubsection{UC07 - Visualizza Lista Ticket In Carico}  
+ \begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \hline
+                    \textbf{Attore primario} & Utente autenticato \\
+                    \hline
+                    \textbf{Precondizioni} & L'utente è nella pagina di visualizzazione dei ticket. \\
+                    \hline
+                    \textbf{Postcondizioni} & L'utente visualizza la lista dei ticket presi in carico. \\
+                    \hline
+                    \textbf{Scenario principale} & L'utente sceglie di visualizzare i ticket presi in carico. \\
+                    \hline
+                \end{tabularx}
+                \caption{UC07}
+            \end{table}
+            
+\subsubsection{UC08 - Visualizza Lista Degli Ultimi Dieci Ticket}  
+ \begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \hline
+                    \textbf{Attore primario} & Utente autenticato \\
+                    \hline
+                    \textbf{Precondizioni} & L'utente è nella pagina di visualizzazione dei ticket \\
+                    \hline
+                    \textbf{Postcondizioni} & L'utente visualizza la lista degli ultimi dieci ticket aperti. \\
+                    \hline
+                    \textbf{Scenario principale} & L'utente sceglie di visualizzare gli ultimi dieci ticket aperti.\\
+                    \hline
+                \end{tabularx}
+                \caption{UC08}
+            \end{table}            
+    
+
+\subsubsection{UC05.1, UC05.2}
+
+\begin{figure}[H]
+    \centering 
+    \includegraphics[width=0.9\columnwidth]{usecase/UC05_1_2}
+    \caption{UC05.1 - UC05.2}
+\end{figure}
+\subsubsection{UC05.1}
+  \begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \hline
+                    \textbf{Attore primario} & Utente autenticato \\
+                    \hline
+                    \textbf{Precondizioni} & L'utente ha visualizzato la lista dei ticket \\
+                    \hline
+                    \textbf{Postcondizioni} & L'utente visualizza il dettaglio del ticket \\
+                    \hline
+                    \textbf{Scenario principale} & L'utente seleziona il bottone "Dettaglio" per visualizzare i dettagli del ticket \\
+                    \hline
+                  
+                \end{tabularx}
+                \caption{UC05.1}
+            \end{table}   
+   
+\subsubsection{UC05.2}
+  \begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \hline
+                    \textbf{Attore primario} & Utente autenticato \\
+                    \hline
+                    \textbf{Precondizioni} & L'utente ha visualizzato la lista dei ticket \\
+                    \hline
+                    \textbf{Postcondizioni} & L'utente modifica del ticket \\
+                    \hline
+                    \textbf{Scenario principale} & L'utente seleziona il bottone "Modifica" per modificare il ticket \\
+                    \hline
+                  
+                \end{tabularx}
+                \caption{UC05.2}
+            \end{table}   
+                        
+\subsubsection{UC05.1 - Dettaglio}
+
+\begin{figure}[H]
+    \centering 
+    \includegraphics[width=0.8\columnwidth]{usecase/UC05_dettaglio_pt1}
+    \caption{UC05.1 - Dettaglio}
+\end{figure}
+             \begin{figure}[H]
+    \centering 
+    \includegraphics[width=0.8\columnwidth]{usecase/UC05_dettaglio_pt2}
+\end{figure} 
+        
+\begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \hline
+                    \textbf{Attore primario} & Utente autenticato \\
+                    \hline
+                    \textbf{Precondizioni} & L'utente ha selezionato da una lista il dettaglio di un ticket \\
+                    \hline
+                    \textbf{Postcondizioni} & L'utente visualizza i dettagli del ticket \\
+                    \hline
+                    \textbf{Scenario principale} & L'utente visualizza tutte le informazioni del ticket: titolo, descrizione, data di apertura, ecc... \\
+                    \hline
+                \end{tabularx}
+                \caption{UC05.1 - Dettaglio}
+            \end{table}  
+           
+\subsubsection{UC09 - Apertura Nuovo Ticket}
+
+\begin{figure}[H]
+    \centering 
+    \includegraphics[width=0.7\columnwidth]{usecase/UC09}
+    \caption{UC09}
+\end{figure}
+ 
+
+ \begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \hline
+                    \textbf{Attore primario} & Utente autenticato \\
+                    \hline
+                    \textbf{Precondizioni} & L'utente crea un nuovo ticket compilando i campi: azienda, progetto, titolo, descrizione, data di scadenza, ambiente, priorità, stato, allegato. \\
+                    \hline
+                    \textbf{Postcondizioni} & L'utente apre un nuovo ticket, compilando tutti i campi \\
+                    \hline
+                    \textbf{Scenario principale} & L'utente, accedendo al modulo ticket, seleziona la creazione di un nuovo ticket \\
+                    \hline
+                    \textbf{Estensioni} & Se la creazione di un ticket non va a buon fine, si verifica \hyperref[UC17]{UC17}. \\
+
+                    \hline
+                \end{tabularx}
+                \caption{UC09}
+\end{table}
+
+\subsubsection{UC10 - Ricerca Ticket}
+
+\begin{figure}[H]
+    \centering 
+    \includegraphics[width=0.9\columnwidth]{usecase/UC10_11}
+    \caption{UC10 - UC11}
+\end{figure}
+ 
+\begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \hline
+                    \textbf{Attore primario} & Utente autenticato \\
+                    \hline
+                    \textbf{Precondizioni} & L'utente è nella pagina di ricerca di ticket. \\
+                    \hline
+                    \textbf{Postcondizioni} & L'utente ha ricercato e trovato uno o più ticket. \\
+                    \hline
+                    \textbf{Scenario principale} & L'utente ricerca i ticket \\
+                    \hline
+                    \textbf{Estensioni} & Se la ricerca non dà nessun risultato, si verifica \hyperref[UC11]{UC11}. \\
+                    \hline
+                \end{tabularx}
+                \caption{UC10 - UC11}
+            \end{table}
+            
+\begin{figure}[H]
+    \centering 
+    \includegraphics[width=0.7\columnwidth]{usecase/UC10_ricerca_p1}
+    
+\end{figure}     
+\begin{figure}[H]
+    \centering 
+    \includegraphics[width=0.7\columnwidth]{usecase/UC10_ricerca_p2}
+    \caption{Filtri}
+\end{figure}  
+\begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \hline
+                    \textbf{Attore primario} & Utente autenticato \\
+                    \hline
+                    \textbf{Precondizioni} & L'utente è nella pagina di ricerca di ticket. \\
+                    \hline
+                    \textbf{Postcondizioni} & L'utente ha ricercato attraverso dei filtri. \\
+                    \hline
+                    \textbf{Scenario principale} & L'utente seleziona i filtri con cui effettuare la ricerca. \\
+                    \hline
+                    
+                \end{tabularx}
+                \caption{UC10 - Filtri}
+            \end{table}
+            
+
+    
+  \subsubsection{UC11 - Ticket Non Trovato}              
+ \begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \hline
+                    \textbf{Attore primario} & Utente autenticato \\
+                    \hline
+                    \textbf{Precondizioni} & L'utente ha effettuato la ricerca secondo dei filtri\\
+                    \hline
+                    \textbf{Postcondizioni} & Viene visualizzato un avviso perché non è stato trovato nessun ticket. \\
+                    \hline
+                    \textbf{Scenario principale} & La ricerca non è andata a buon fine \\
+                    \hline
+                   
+                \end{tabularx}
+                \caption{UC11}
+            \end{table}               
+                
+                
+                
+\subsubsection{UC12, UC13 - Download Allegato}
+
+\begin{figure}[H]
+    \centering 
+    \includegraphics[width=0.9\columnwidth]{usecase/UC12_13}
+    \caption{UC12 - UC13}
+\end{figure}
+
+ \subsubsection{UC12 - Download Allegato del Ticket}
+ \begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \hline
+                    \textbf{Attore primario} & Utente autenticato \\
+                    \hline
+                    \textbf{Precondizioni} & L'utente è nella pagina di dettaglio del Ticket\\
+                    \hline
+                    \textbf{Postcondizioni} & Viene scaricato l'allegato collegato al ticket. \\
+                    \hline
+                    \textbf{Scenario principale} & L'utente vuole scaricare l'allegato del ticket \\
+                    \hline
+                   
+                \end{tabularx}
+                \caption{UC12}
+            \end{table}  
+            
+\subsubsection{UC13 - Download Allegato del Commento}
+     \begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \hline
+                    \textbf{Attore primario} & Utente autenticato \\
+                    \hline
+                    \textbf{Precondizioni} & L'utente è nella pagina di dettaglio del Ticket\\
+                    \hline
+                    \textbf{Postcondizioni} & Viene scaricato l'allegato collegato al commento. \\
+                    \hline
+                    \textbf{Scenario principale} & L'utente vuole scaricare l'allegato del commento \\
+                    \hline
+                \end{tabularx}
+                \caption{UC13}
+            \end{table}      
+                 
+                 
+  \subsubsection{UC14 - Nuovo Commento}               
+   \begin{figure}[H]
+    \centering 
+    \includegraphics[width=1.1\columnwidth]{usecase/UC14}
+    \caption{UC14}
+\end{figure}      
+        
+       \begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \hline
+                    \textbf{Attore primario} & Utente autenticato \\
+                    \hline
+                    \textbf{Precondizioni} & L'utente è nella pagina di dettaglio del Ticket.\\
+                    \hline
+                    \textbf{Postcondizioni} & L'utente ha pubblicato un commento.\\
+                    \hline
+                    \textbf{Scenario principale} & L'utente vuole aggiungere un commento al ticket che verrà visualizzato nella sezione "Commenti". \\
+                    \hline
+                    
+                \end{tabularx}
+                \caption{UC14}
+            \end{table}
+            
+\begin{figure}[H]
+    \centering 
+    \includegraphics[width=0.7\columnwidth]{usecase/UC14_inserimentoTesto}
+    \caption{UC14.1}
+\end{figure}    
+        
+       \begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \hline
+                    \textbf{Attore primario} & Utente autenticato \\
+                    \hline
+                    \textbf{Precondizioni} & L'utente è nella pagina del commento.\\
+                    \hline
+                    \textbf{Postcondizioni} & L'utente ha inserito il testo del commento\\
+                    \hline
+                    
+                \end{tabularx}
+                \caption{UC14.1}
+            \end{table}
+
+\subsubsection{UC15, UC16 - Eliminazione}
+       
+\begin{figure}[H]
+    \centering 
+    \includegraphics[width=0.7\columnwidth]{usecase/UC15_16}
+    \caption{UC15 - UC16}
+\end{figure}
+ 
+\subsubsection{UC15}
+ 
+       \begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \hline
+                    \textbf{Attore primario} & Utente autenticato \\
+                    \hline
+                    \textbf{Precondizioni} & L'utente è nel modulo Ticket\\
+                    \hline
+                    \textbf{Postcondizioni} & L'utente ha eliminato un Ticket.\\
+                    \hline
+                    \textbf{Scenario principale} & L'utente vuole eliminare il ticket selezionato \\
+                    \hline
+                    
+                \end{tabularx}
+                \caption{UC15}
+            \end{table}          
+
+\subsubsection{UC16}
+ 
+       \begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \hline
+                    \textbf{Attore primario} & Utente autenticato \\
+                    \hline
+                    \textbf{Precondizioni} & L'utente è nel modulo Ticket\\
+                    \hline
+                    \textbf{Postcondizioni} & L'utente ha eliminato un commento.\\
+                    \hline
+                    \textbf{Scenario principale} & L'utente vuole eliminare un commento dalla pagina di dettaglio di un Ticket \\
+                    \hline
+                    
+                \end{tabularx}
+                \caption{UC16}
+            \end{table}    
+
+                  
+\subsubsection{UC17}
+            
+             \begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \hline
+                    \textbf{Attore primario} & Utente autenticato \\
+                    \hline
+                    \textbf{Precondizioni} & L'utente ha provato ha creare un nuovo ticket \\
+                    \hline
+                    \textbf{Postcondizioni} & L'utente non è riuscito a creare il nuovo ticket\\
+                    \hline
+                    \textbf{Scenario principale} & L'utente cerca di creare un nuovo ticket, lasciando vuoti alcuni campi\\
+                   
+                \end{tabularx}
+                \caption{UC17}
+            \end{table}
+            
+\newpage             
+            
 \section{Tracciamento dei requisiti}
 
 Da un'attenta analisi dei requisiti e degli use case effettuata sul progetto è stata stilata la tabella che traccia i requisiti in rapporto agli use case.\\
