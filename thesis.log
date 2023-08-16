@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.16)  13 AUG 2023 19:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.16)  14 AUG 2023 17:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1414,7 +1414,7 @@ or specify an encoding such as \usepackage [latin1]{inputenc}
 in the document preamble.
 Alternatively, save the file in UTF-8 using your editor or another tool
 
-<images/cwbi.png, id=139, 121.05225pt x 37.94176pt>
+<images/cwbi.png, id=141, 121.05225pt x 37.94176pt>
 File: images/cwbi.png Graphic file (type png)
 <use images/cwbi.png>
 Package pdftex.def Info: images/cwbi.png  used on input line 16.
@@ -1446,7 +1446,7 @@ my insertion and my current dilemma will both disappear.
 
 ) (./chapters/concept.tex [5]
 Capitolo 4.
-<images/usecase/utenti-primari.png, id=168, 503.8825pt x 481.8pt>
+<images/usecase/utenti-primari.png, id=171, 503.8825pt x 481.8pt>
 File: images/usecase/utenti-primari.png Graphic file (type png)
 <use images/usecase/utenti-primari.png>
 Package pdftex.def Info: images/usecase/utenti-primari.png  used on input line 
@@ -1474,7 +1474,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--32
 
  []
 
-<images/usecase/UC01.png, id=177, 570.13pt x 342.27875pt>
+<images/usecase/UC01.png, id=179, 570.13pt x 342.27875pt>
 File: images/usecase/UC01.png Graphic file (type png)
 <use images/usecase/UC01.png>
 Package pdftex.def Info: images/usecase/UC01.png  used on input line 39.
@@ -1483,14 +1483,20 @@ Package pdftex.def Info: images/usecase/UC01.png  used on input line 39.
 
 LaTeX Warning: Hyper reference `UC02' on page 8 undefined on input line 61.
 
-[8 <./images/usecase/UC01.png>] [9] [10]
+[8 <./images/usecase/UC01.png>]
+<images/usecase/UC03.png, id=194, 563.10374pt x 211.79124pt>
+File: images/usecase/UC03.png Graphic file (type png)
+<use images/usecase/UC03.png>
+Package pdftex.def Info: images/usecase/UC03.png  used on input line 109.
+(pdftex.def)             Requested size: 334.79773pt x 125.92201pt.
+ [9 <./images/usecase/UC03.png>] [10]
 ! Package array Error:  Illegal pream-token (P): `c' used.
 
 See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.198 \end{tabularx}
+l.221 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1501,7 +1507,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.198 \end{tabularx}
+l.221 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1513,13 +1519,13 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.198 \end{tabularx}
+l.221 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 221--223
 
  []
 
@@ -1529,7 +1535,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.253 \end{tabularx}
+l.276 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1540,7 +1546,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.253 \end{tabularx}
+l.276 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1552,13 +1558,13 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.253 \end{tabularx}
+l.276 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--255
+Underfull \hbox (badness 10000) in paragraph at lines 276--278
 
  []
 
@@ -1569,7 +1575,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.311 \end{tabularx}
+l.334 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1580,7 +1586,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.311 \end{tabularx}
+l.334 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1592,13 +1598,13 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.311 \end{tabularx}
+l.334 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--313
+Underfull \hbox (badness 10000) in paragraph at lines 334--336
 
  []
 
@@ -1609,7 +1615,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.345 \end{tabularx}
+l.368 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1620,7 +1626,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.345 \end{tabularx}
+l.368 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1632,13 +1638,13 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.345 \end{tabularx}
+l.368 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--347
+Underfull \hbox (badness 10000) in paragraph at lines 368--370
 
  []
 
@@ -1648,7 +1654,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.377 \end{tabularx}
+l.400 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1659,7 +1665,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.377 \end{tabularx}
+l.400 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1671,13 +1677,13 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.377 \end{tabularx}
+l.400 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--379
+Underfull \hbox (badness 10000) in paragraph at lines 400--402
 
  []
 
@@ -1687,7 +1693,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.409 \end{tabularx}
+l.432 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1698,7 +1704,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.409 \end{tabularx}
+l.432 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1710,19 +1716,19 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.409 \end{tabularx}
+l.432 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 6396) in paragraph at lines 409--409
+Underfull \hbox (badness 6396) in paragraph at lines 432--432
 []|\T1/cmr/m/n/10 (+20) Il mo-du-lo per-met-te l'e-li-mi-na-zio-ne del com-men-
 to al-l'u-ten-te
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 409--411
+Underfull \hbox (badness 10000) in paragraph at lines 432--434
 
  []
 
@@ -1777,7 +1783,12 @@ LaTeX Warning: Empty bibliography on input line 10.
 ) [21
 
 
-] (./thesis.aux)
+] (./thesis.aux
+
+Package mparhack Warning: Marginpars may have changed.
+(mparhack)                Rerun to get them right.
+
+)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
@@ -1799,16 +1810,24 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) ) 
 Here is how much of TeX's memory you used:
- 38576 strings out of 475237
- 674804 string characters out of 5768555
+ 38593 strings out of 475237
+ 675193 string characters out of 5768555
  1933238 words of memory out of 5000000
- 58919 multiletter control sequences out of 15000+600000
+ 58931 multiletter control sequences out of 15000+600000
  585778 words of font info for 160 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  99i,15n,125p,2259b,2547s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{glo:uml} has been referenced but does not exist, re
 placed by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.21} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{appendix*.30} has been referenced but does not exis
+t, replaced by a fixed one
 
 <c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb><c:/texliv
 e/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2023/tex
@@ -1828,10 +1847,10 @@ uper/sfrm1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsi1
 2023/texmf-dist/fonts/type1/public/cm-super/sfti0700.pfb><c:/texlive/2023/texmf
 -dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2023/texmf-dist/font
 s/type1/public/cm-super/sfti1200.pfb>
-Output written on thesis.pdf (27 pages, 501209 bytes).
+Output written on thesis.pdf (27 pages, 508025 bytes).
 PDF statistics:
- 471 PDF objects out of 1000 (max. 8388607)
- 388 compressed objects within 4 object streams
- 93 named destinations out of 1000 (max. 500000)
- 61753 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 480 PDF objects out of 1000 (max. 8388607)
+ 395 compressed objects within 4 object streams
+ 98 named destinations out of 1000 (max. 500000)
+ 61758 words of extra memory for PDF output out of 61914 (max. 10000000)
 

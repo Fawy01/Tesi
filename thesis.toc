@@ -14,7 +14,8 @@
 \contentsline {subsection}{\numberline {4.1.1}Attori}{7}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Elenco}{8}{subsection.4.1.2}%
 \contentsline {subsubsection}{UC01 - Autenticazione}{8}{section*.15}%
-\contentsline {subsubsection}{UC02 - Errore Autenticazione}{9}{section*.18}%
+\contentsline {subsubsection}{UC02 - Errore Autenticazione}{8}{section*.18}%
+\contentsline {subsubsection}{UC03 - Registrazione Nuovo Utente}{9}{section*.21}%
 \contentsline {section}{\numberline {4.2}Tracciamento dei requisiti}{9}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Requisiti funzionali}{11}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Requisiti di vincolo}{14}{subsection.4.2.2}%
@@ -22,7 +23,7 @@
 \contentsline {section}{\numberline {5.1}Tecnologie e strumenti}{16}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Ciclo di vita del software}{16}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Progettazione}{16}{section.5.3}%
-\contentsline {subsubsection}{Namespace 1}{16}{section*.28}%
+\contentsline {subsubsection}{Namespace 1}{16}{section*.31}%
 \contentsline {section}{\numberline {5.4}Design Pattern utilizzati}{16}{section.5.4}%
 \contentsline {section}{\numberline {5.5}Codifica}{16}{section.5.5}%
 \contentsline {chapter}{\numberline {6}Verifica e validazione}{17}{chapter.6}%
@@ -32,4 +33,4 @@
 \contentsline {section}{\numberline {7.3}Conoscenze acquisite}{18}{section.7.3}%
 \contentsline {section}{\numberline {7.4}Valutazione personale}{18}{section.7.4}%
 \contentsline {chapter}{\numberline {A}Appendice A}{19}{appendix.Alph1}%
-\contentsline {chapter}{Bibliografia}{21}{appendix*.29}%
+\contentsline {chapter}{Bibliografia}{21}{appendix*.32}%
