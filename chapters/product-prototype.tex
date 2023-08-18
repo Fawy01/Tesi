@@ -1,18 +1,43 @@
 \chapter{Progettazione e codifica}
 \label{cap:progettazione-codifica}
 
-\intro{Breve introduzione al capitolo}\\
+\intro{Il capitolo inizialmente presenta gli strumenti e le tecnologie analizzate e utilizzate per la realizzazione del prodotto. Successivamente si vede l'effettiva creazione delle classi del progetto, affiancate da una struttura preesistente fondamentale per le classi che offre affinché il modulo funzioni e svolga la sua funzione. }\\
 
 \section{Tecnologie e strumenti}
 \label{sec:tecnologie-strumenti}
 
 Di seguito viene data una panoramica delle tecnologie e strumenti utilizzati.
 
-\subsection*{Tecnologia 1}
-Descrizione Tecnologia 1.
+\subsection*{HTML5}
+Tecnologia standard per la creazione di pagine web. È studiata e conosciuta con il corso di Tecnologie Web.
 
-\subsection*{Tecnologia 2}
-Descrizione Tecnologia 2
+\subsection*{CSS}
+Tecnologia standard per la creazione di pagine web e il loro abbellimento. Fornisce una vasta gamma di funzionalità per la personalizzazione delle pagine. È studiata e conosciuta con il corso di Tecnologie Web.
+\subsection*{Bootstrap3/5}
+Bootstrap è un framework che fornisce delle classi le quali raggruppano uno o più attributi del css, per la creazione di pagine web \textit{responsive\gls}. \\
+Bootstrap è utilizzato nello stile \textit{inline} di \textit{HTML} e le sue classi vengono inserite all'interno del \textit{tag\gls} "class" di HTML di un elemento. In questo modo, specificando la classe di Boostrap che si vuole utilizzare, verrà applicato un certo stile all'elemento selezionato. Si possono concatenare più classi per un certo elemento.\\
+La differenza tra le due versioni di \textit{Boostrap} 3 e 5 è nella gamma di funzionalità che offrono. La versione 5 è la più recente e molte più funzionalità di quelle precedenti, adattandosi alle nuove feature di \textit{HTML5}. \\
+Ad oggi si cerca di migrare dalle versioni più vecchie a quella più recente.
+\subsection*{Servlet}
+Le \textit{servlet} permettono di soddisfare delle \textit{request\gls} \textit{HTTP\gls} proveniente da web. Ogni servlet viene richiamata e caricata una sola volta e poi resta in memoria per rispondere alle chiamate successive. 
+\subsection*{JSP}
+Le \textit{JavaServer Page} rappresentano una tecnologia fondamentale per la realizzazione di pagine web dinamiche. Infatti forniscono dei \textit{tag} speciali con i quali possono essere richiamate delle funzioni specifiche in modo da rendere la pagina dinamica. I file \textit{JSP} sono caratterizzati dell'estensione .jsp e costituiscono le vere e proprie pagine web visualizzate dall'utente in quanto permettono la codifica in \textit{HTML} e \textit{XML}.
+\subsection*{JSTL}
+\textit{JavaServer Pages Standard Tag Library} è una libreria che estende JSP offrendo nuove funzionalità per applicazioni web in \texit{JAVA EE}. 
+\subsection*{Apache Struts}
+\textit{Apache Struts} è un \textit{framework oper-source} che supporta lo sviluppo di applicazioni web in Java con il pattern MVC. Infatti \textit{Struts} ha il compito di organizzare le richieste del client e richiamare le funzionalità della logica di business. \\
+Il framework è composto da tre elementi principali:
+\begin{itemize}
+\item \textit{Request Handler\gls}: viene mappato ad un URI dallo sviluppatore;
+\item \textit{Response Handler\gls}: la risposta verrà passata ad un'altra risorsa che la completerà;
+\item \textit{Tag}: aiutano lo sviluppatore per lo sviluppo.
+\end{itemize}
+
+\noindent
+Per configurare tutti i collegamenti tra i vari elementi e le loro interazioni si utilizza il file \textit{\textbf{struts.xml}}. In questo file vengono specificati anche gli \textit{\textbf{interceptor}} per le \textit{Action} delle nostre classi. La specifica degli \textit{interceptor} è una fase importante dello sviluppo di un'applicazione web.
+
+\subsection*{Taconite}
+
 
 \section{Ciclo di vita del software}
 \label{sec:ciclo-vita-software}

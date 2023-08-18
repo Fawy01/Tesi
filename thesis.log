@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.16)  16 AUG 2023 13:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.16)  18 AUG 2023 15:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1366,25 +1366,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--18
 
 ) (./preface/table-of-contents.tex [3
 
-] (./thesis.toc)
+] (./thesis.toc [4
+
+
+])
 \tf@toc=\write8
 \openout8 = `thesis.toc'.
 
- [4
-
-
-] (./thesis.lof)
+ [5] (./thesis.lof)
 \tf@lof=\write9
 \openout9 = `thesis.lof'.
 
 
-(./thesis.lot [5
+(./thesis.lot [6
 
 ])
 \tf@lot=\write10
 \openout10 = `thesis.lot'.
 
- [6]) (./chapters/introduzione.tex
+ [7]) (./chapters/introduzione.tex
 Capitolo 1.
 
 ! Package glossaries Error: Glossary entry `�' has not been defined.
@@ -1414,7 +1414,7 @@ or specify an encoding such as \usepackage [latin1]{inputenc}
 in the document preamble.
 Alternatively, save the file in UTF-8 using your editor or another tool
 
-<images/cwbi.png, id=210, 121.05225pt x 37.94176pt>
+<images/cwbi.png, id=218, 121.05225pt x 37.94176pt>
 File: images/cwbi.png Graphic file (type png)
 <use images/cwbi.png>
 Package pdftex.def Info: images/cwbi.png  used on input line 16.
@@ -1446,11 +1446,11 @@ my insertion and my current dilemma will both disappear.
 
 ) (./chapters/concept.tex [5]
 Capitolo 4.
-<images/usecase/utenti-primari.png, id=237, 503.8825pt x 481.8pt>
+<images/usecase/utenti-primari.png, id=246, 503.8825pt x 481.8pt>
 File: images/usecase/utenti-primari.png Graphic file (type png)
 <use images/usecase/utenti-primari.png>
 Package pdftex.def Info: images/usecase/utenti-primari.png  used on input line 
-18.
+27.
 (pdftex.def)             Requested size: 334.79773pt x 320.12831pt.
 [6
 
@@ -1462,7 +1462,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.23 \textbf
+l.32 \textbf
             {Utente Non Autenticato}: utente che ancora non ha effettuato l'...
 
 Your command was ignored.
@@ -1470,117 +1470,117 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--32
+Underfull \hbox (badness 10000) in paragraph at lines 32--41
 
  []
 
-<images/usecase/UC01.png, id=246, 570.13pt x 342.27875pt>
+<images/usecase/UC01.png, id=254, 570.13pt x 342.27875pt>
 File: images/usecase/UC01.png Graphic file (type png)
 <use images/usecase/UC01.png>
-Package pdftex.def Info: images/usecase/UC01.png  used on input line 39.
+Package pdftex.def Info: images/usecase/UC01.png  used on input line 48.
 (pdftex.def)             Requested size: 334.79773pt x 200.99738pt.
 [7 <./images/usecase/utenti-primari.png>]
 
-LaTeX Warning: Hyper reference `UC02' on page 8 undefined on input line 61.
+LaTeX Warning: Hyper reference `UC02' on page 8 undefined on input line 70.
 
 [8 <./images/usecase/UC01.png>]
-<images/usecase/UC03.png, id=260, 563.10374pt x 211.79124pt>
+<images/usecase/UC03.png, id=268, 563.10374pt x 211.79124pt>
 File: images/usecase/UC03.png Graphic file (type png)
 <use images/usecase/UC03.png>
-Package pdftex.def Info: images/usecase/UC03.png  used on input line 109.
+Package pdftex.def Info: images/usecase/UC03.png  used on input line 118.
 (pdftex.def)             Requested size: 334.79773pt x 125.92201pt.
-<images/usecase/UC04.png, id=261, 560.0925pt x 221.82875pt>
+<images/usecase/UC04.png, id=269, 560.0925pt x 221.82875pt>
 File: images/usecase/UC04.png Graphic file (type png)
 <use images/usecase/UC04.png>
-Package pdftex.def Info: images/usecase/UC04.png  used on input line 138.
+Package pdftex.def Info: images/usecase/UC04.png  used on input line 147.
 (pdftex.def)             Requested size: 334.79773pt x 132.60408pt.
  [9 <./images/usecase/UC03.png>]
-<images/usecase/UC05_06_07.png, id=270, 713.66624pt x 506.89375pt>
+<images/usecase/UC05_06_07.png, id=278, 713.66624pt x 506.89375pt>
 File: images/usecase/UC05_06_07.png Graphic file (type png)
 <use images/usecase/UC05_06_07.png>
-Package pdftex.def Info: images/usecase/UC05_06_07.png  used on input line 169.
+Package pdftex.def Info: images/usecase/UC05_06_07.png  used on input line 178.
 
 (pdftex.def)             Requested size: 297.60114pt x 211.37794pt.
  [10 <./images/usecase/UC04.png> <./images/usecase/UC05_06_07.png>]
-<images/usecase/UC05_1_2.png, id=279, 550.055pt x 302.12875pt>
+<images/usecase/UC05_1_2.png, id=287, 550.055pt x 302.12875pt>
 File: images/usecase/UC05_1_2.png Graphic file (type png)
 <use images/usecase/UC05_1_2.png>
-Package pdftex.def Info: images/usecase/UC05_1_2.png  used on input line 242.
+Package pdftex.def Info: images/usecase/UC05_1_2.png  used on input line 251.
 (pdftex.def)             Requested size: 334.79773pt x 183.9018pt.
  [11]
-<images/usecase/UC05_dettaglio_pt1.png, id=287, 620.3175pt x 492.84125pt>
+<images/usecase/UC05_dettaglio_pt1.png, id=296, 620.3175pt x 492.84125pt>
 File: images/usecase/UC05_dettaglio_pt1.png Graphic file (type png)
 <use images/usecase/UC05_dettaglio_pt1.png>
 Package pdftex.def Info: images/usecase/UC05_dettaglio_pt1.png  used on input l
-ine 293.
+ine 302.
 (pdftex.def)             Requested size: 297.60114pt x 236.44078pt.
-<images/usecase/UC05_dettaglio_pt2.png, id=288, 620.3175pt x 482.80376pt>
+<images/usecase/UC05_dettaglio_pt2.png, id=297, 620.3175pt x 482.80376pt>
 File: images/usecase/UC05_dettaglio_pt2.png Graphic file (type png)
 <use images/usecase/UC05_dettaglio_pt2.png>
 Package pdftex.def Info: images/usecase/UC05_dettaglio_pt2.png  used on input l
-ine 298.
+ine 307.
 (pdftex.def)             Requested size: 297.60114pt x 231.62529pt.
  [12 <./images/usecase/UC05_1_2.png>] [13 <./images/usecase/UC05_dettaglio_pt1.
 png> <./images/usecase/UC05_dettaglio_pt2.png>]
-<images/usecase/UC09.png, id=306, 570.13pt x 342.27875pt>
+<images/usecase/UC09.png, id=315, 570.13pt x 342.27875pt>
 File: images/usecase/UC09.png Graphic file (type png)
 <use images/usecase/UC09.png>
-Package pdftex.def Info: images/usecase/UC09.png  used on input line 325.
+Package pdftex.def Info: images/usecase/UC09.png  used on input line 334.
 (pdftex.def)             Requested size: 260.39886pt x 156.32722pt.
 
 
-LaTeX Warning: Hyper reference `UC17' on page 14 undefined on input line 349.
+LaTeX Warning: Hyper reference `UC17' on page 14 undefined on input line 358.
 
-<images/usecase/UC10_11.png, id=307, 540.0175pt x 332.24126pt>
+<images/usecase/UC10_11.png, id=316, 540.0175pt x 332.24126pt>
 File: images/usecase/UC10_11.png Graphic file (type png)
 <use images/usecase/UC10_11.png>
-Package pdftex.def Info: images/usecase/UC10_11.png  used on input line 357.
+Package pdftex.def Info: images/usecase/UC10_11.png  used on input line 366.
 (pdftex.def)             Requested size: 334.79773pt x 205.98744pt.
 [14 <./images/usecase/UC09.png>]
 
-LaTeX Warning: Hyper reference `UC11' on page 15 undefined on input line 379.
+LaTeX Warning: Hyper reference `UC11' on page 15 undefined on input line 388.
 
-<images/usecase/UC10_ricerca_p1.png, id=315, 550.055pt x 452.69125pt>
+<images/usecase/UC10_ricerca_p1.png, id=323, 550.055pt x 452.69125pt>
 File: images/usecase/UC10_ricerca_p1.png Graphic file (type png)
 <use images/usecase/UC10_ricerca_p1.png>
 Package pdftex.def Info: images/usecase/UC10_ricerca_p1.png  used on input line
- 385.
+ 394.
 (pdftex.def)             Requested size: 260.39886pt x 214.3122pt.
-<images/usecase/UC10_ricerca_p2.png, id=316, 550.055pt x 532.99126pt>
+<images/usecase/UC10_ricerca_p2.png, id=324, 550.055pt x 532.99126pt>
 File: images/usecase/UC10_ricerca_p2.png Graphic file (type png)
 <use images/usecase/UC10_ricerca_p2.png>
 Package pdftex.def Info: images/usecase/UC10_ricerca_p2.png  used on input line
- 390.
+ 399.
 (pdftex.def)             Requested size: 260.39886pt x 252.32767pt.
 [15 <./images/usecase/UC10_11.png>] [16 <./images/usecase/UC10_ricerca_p1.png> 
 <./images/usecase/UC10_ricerca_p2.png>]
-<images/usecase/UC12_13.png, id=330, 560.0925pt x 342.27875pt>
+<images/usecase/UC12_13.png, id=338, 560.0925pt x 342.27875pt>
 File: images/usecase/UC12_13.png Graphic file (type png)
 <use images/usecase/UC12_13.png>
-Package pdftex.def Info: images/usecase/UC12_13.png  used on input line 444.
+Package pdftex.def Info: images/usecase/UC12_13.png  used on input line 453.
 (pdftex.def)             Requested size: 334.79773pt x 204.6063pt.
  [17 <./images/usecase/UC12_13.png>]
-<images/usecase/UC14.png, id=338, 560.0925pt x 201.75375pt>
+<images/usecase/UC14.png, id=347, 560.0925pt x 201.75375pt>
 File: images/usecase/UC14.png Graphic file (type png)
 <use images/usecase/UC14.png>
-Package pdftex.def Info: images/usecase/UC14.png  used on input line 495.
+Package pdftex.def Info: images/usecase/UC14.png  used on input line 504.
 (pdftex.def)             Requested size: 409.20227pt x 147.4083pt.
 
-Overfull \hbox (37.20227pt too wide) in paragraph at lines 495--496
+Overfull \hbox (37.20227pt too wide) in paragraph at lines 504--505
  [][] 
  []
 
 [18 <./images/usecase/UC14.png>]
-<images/usecase/UC14_inserimentoTesto.png, id=348, 560.0925pt x 201.75375pt>
+<images/usecase/UC14_inserimentoTesto.png, id=356, 560.0925pt x 201.75375pt>
 File: images/usecase/UC14_inserimentoTesto.png Graphic file (type png)
 <use images/usecase/UC14_inserimentoTesto.png>
 Package pdftex.def Info: images/usecase/UC14_inserimentoTesto.png  used on inpu
-t line 522.
+t line 531.
 (pdftex.def)             Requested size: 260.39886pt x 93.8022pt.
-<images/usecase/UC15_16.png, id=349, 560.0925pt x 302.12875pt>
+<images/usecase/UC15_16.png, id=357, 560.0925pt x 302.12875pt>
 File: images/usecase/UC15_16.png Graphic file (type png)
 <use images/usecase/UC15_16.png>
-Package pdftex.def Info: images/usecase/UC15_16.png  used on input line 549.
+Package pdftex.def Info: images/usecase/UC15_16.png  used on input line 558.
 (pdftex.def)             Requested size: 260.39886pt x 140.46997pt.
  [19 <./images/usecase/UC14_inserimentoTesto.png> <./images/usecase/UC15_16.png
 >] [20] [21]
@@ -1590,7 +1590,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.731 \end{tabularx}
+l.740 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1601,7 +1601,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.731 \end{tabularx}
+l.740 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1613,13 +1613,13 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.731 \end{tabularx}
+l.740 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 731--733
+Underfull \hbox (badness 10000) in paragraph at lines 740--742
 
  []
 
@@ -1629,7 +1629,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.786 \end{tabularx}
+l.795 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1640,7 +1640,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.786 \end{tabularx}
+l.795 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1652,13 +1652,13 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.786 \end{tabularx}
+l.795 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 786--788
+Underfull \hbox (badness 10000) in paragraph at lines 795--797
 
  []
 
@@ -1669,7 +1669,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.844 \end{tabularx}
+l.853 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1680,7 +1680,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.844 \end{tabularx}
+l.853 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1692,13 +1692,13 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.844 \end{tabularx}
+l.853 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 844--846
+Underfull \hbox (badness 10000) in paragraph at lines 853--855
 
  []
 
@@ -1709,7 +1709,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.878 \end{tabularx}
+l.887 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1720,7 +1720,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.878 \end{tabularx}
+l.887 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1732,13 +1732,13 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.878 \end{tabularx}
+l.887 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 878--880
+Underfull \hbox (badness 10000) in paragraph at lines 887--889
 
  []
 
@@ -1748,7 +1748,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.910 \end{tabularx}
+l.919 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1759,7 +1759,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.910 \end{tabularx}
+l.919 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1771,13 +1771,13 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.910 \end{tabularx}
+l.919 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 910--912
+Underfull \hbox (badness 10000) in paragraph at lines 919--921
 
  []
 
@@ -1787,7 +1787,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.942 \end{tabularx}
+l.951 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1798,7 +1798,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.942 \end{tabularx}
+l.951 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1810,19 +1810,19 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.942 \end{tabularx}
+l.951 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 6396) in paragraph at lines 942--942
+Underfull \hbox (badness 6396) in paragraph at lines 951--951
 []|\T1/cmr/m/n/10 (+20) Il mo-du-lo per-met-te l'e-li-mi-na-zio-ne del com-men-
 to al-l'u-ten-te
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 942--944
+Underfull \hbox (badness 10000) in paragraph at lines 951--953
 
  []
 
@@ -1842,24 +1842,159 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-) (./chapters/product-design.tex [27
+! Missing \endcsname inserted.
+<to be read again> 
+                   \aftergroup 
+l.17 ...ione di pagine web \textit{responsive\gls}
+                                                  . \\
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+! Package glossaries Error: Glossary entry `\aftergroup \futurelet ' has not be
+en defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...ione di pagine web \textit{responsive\gls}
+                                                  . \\
+You need to define a glossary entry before you can use it.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \aftergroup 
+l.18 ... inserite all'interno del \textit{tag\gls}
+                                                   "class" di HTML di un ele...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+! Package glossaries Error: Glossary entry `\aftergroup \futurelet ' has not be
+en defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ... inserite all'interno del \textit{tag\gls}
+                                                   "class" di HTML di un ele...
+
+You need to define a glossary entry before you can use it.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \aftergroup 
+l.22 ...o di soddisfare delle \textit{request\gls}
+                                                   \textit{HTTP\gls} proveni...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+! Package glossaries Error: Glossary entry `\aftergroup \futurelet ' has not be
+en defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 ...o di soddisfare delle \textit{request\gls}
+                                                   \textit{HTTP\gls} proveni...
+
+You need to define a glossary entry before you can use it.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \aftergroup 
+l.22 ...lle \textit{request\gls} \textit{HTTP\gls}
+                                                   proveniente da web. Ogni ...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+! Package glossaries Error: Glossary entry `\aftergroup \futurelet ' has not be
+en defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 ...lle \textit{request\gls} \textit{HTTP\gls}
+                                                   proveniente da web. Ogni ...
+
+You need to define a glossary entry before you can use it.
+
+[27
 
 ]
+! Undefined control sequence.
+l.26 ...nzionalità per applicazioni web in \texit
+                                                  {JAVA EE}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \aftergroup 
+l.31 \item \textit{Request Handler\gls}
+                                       : viene mappato ad un URI dallo svilu...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+! Package glossaries Error: Glossary entry `\aftergroup \futurelet ' has not be
+en defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 \item \textit{Request Handler\gls}
+                                       : viene mappato ad un URI dallo svilu...
+
+You need to define a glossary entry before you can use it.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \aftergroup 
+l.32 \item \textit{Response Handler\gls}
+                                        : la risposta verrà passata ad un'a...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+! Package glossaries Error: Glossary entry `\aftergroup \futurelet ' has not be
+en defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 \item \textit{Response Handler\gls}
+                                        : la risposta verrà passata ad un'a...
+
+You need to define a glossary entry before you can use it.
+
+) (./chapters/product-design.tex [28] [29]
 Capitolo 6.
-) (./chapters/conclusioni.tex [28
+) (./chapters/conclusioni.tex [30
 
 ]
 Capitolo 7.
-) (./appendix/appendice-a.tex [29
+) (./appendix/appendice-a.tex [31
 
 ]
 Appendice A.
-) [30
+) [32
 
 ]
 No file thesis.acr.
 No file thesis.gls.
-(./appendix/bibliography.tex [31
+(./appendix/bibliography.tex [33
 
 ]
 
@@ -1874,7 +2009,7 @@ Package biblatex Warning: Type 'online' not found on input line 10.
 
 LaTeX Warning: Empty bibliography on input line 10.
 
-) [32
+) [34
 
 
 ] (./thesis.aux)
@@ -1899,39 +2034,40 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) ) 
 Here is how much of TeX's memory you used:
- 38841 strings out of 475237
- 681493 string characters out of 5768555
+ 38888 strings out of 475237
+ 682007 string characters out of 5768555
  1933238 words of memory out of 5000000
- 59101 multiletter control sequences out of 15000+600000
- 586242 words of font info for 168 fonts, out of 8000000 for 9000
+ 59108 multiletter control sequences out of 15000+600000
+ 588362 words of font info for 183 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  99i,15n,125p,2259b,3162s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{glo:uml} has been referenced but does not exist, re
 placed by a fixed one
 
-<c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb><c:/texliv
-e/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2023/tex
-mf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2023/texmf-dist/fo
-nts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/
-public/cm-super/sfbx1728.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-
-super/sfbx2074.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx
-2488.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb><
-c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb><c:/texlive
-/2023/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb><c:/texlive/2023/texm
-f-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/2023/texmf-dist/fon
-ts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/p
-ublic/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-s
-uper/sfrm1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsi1
-000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsl1000.pfb><c
-:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/
-2023/texmf-dist/fonts/type1/public/cm-super/sfti0700.pfb><c:/texlive/2023/texmf
--dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2023/texmf-dist/font
-s/type1/public/cm-super/sfti1200.pfb>
-Output written on thesis.pdf (39 pages, 705314 bytes).
+<c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb><c:/texliv
+e/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb><c:/texlive/2023/tex
+mf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2023/texmf-dist/fo
+nts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/
+public/cm-super/sfbx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-
+super/sfbx1728.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx
+2074.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><
+c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb><c:/texlive
+/2023/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb><c:/texlive/2023/texm
+f-dist/fonts/type1/public/cm-super/sfcc1440.pfb><c:/texlive/2023/texmf-dist/fon
+ts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/2023/texmf-dist/fonts/type1/p
+ublic/cm-super/sfrm0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-s
+uper/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1
+200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsi1000.pfb><c
+:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsl1000.pfb><c:/texlive/
+2023/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2023/texmf
+-dist/fonts/type1/public/cm-super/sfti0700.pfb><c:/texlive/2023/texmf-dist/font
+s/type1/public/cm-super/sfti1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/pu
+blic/cm-super/sfti1200.pfb>
+Output written on thesis.pdf (42 pages, 740033 bytes).
 PDF statistics:
- 653 PDF objects out of 1000 (max. 8388607)
- 528 compressed objects within 6 object streams
- 160 named destinations out of 1000 (max. 500000)
- 61823 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 688 PDF objects out of 1000 (max. 8388607)
+ 558 compressed objects within 6 object streams
+ 171 named destinations out of 1000 (max. 500000)
+ 63887 words of extra memory for PDF output out of 74296 (max. 10000000)
 
