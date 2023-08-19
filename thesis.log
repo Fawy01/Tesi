@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.16)  18 AUG 2023 15:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.16)  19 AUG 2023 13:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1366,25 +1366,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--18
 
 ) (./preface/table-of-contents.tex [3
 
-] (./thesis.toc [4
-
-
-])
+] (./thesis.toc)
 \tf@toc=\write8
 \openout8 = `thesis.toc'.
 
- [5] (./thesis.lof)
+ [4
+
+
+] (./thesis.lof)
 \tf@lof=\write9
 \openout9 = `thesis.lof'.
 
 
-(./thesis.lot [6
+(./thesis.lot [5
 
 ])
 \tf@lot=\write10
 \openout10 = `thesis.lot'.
 
- [7]) (./chapters/introduzione.tex
+ [6]) (./chapters/introduzione.tex
 Capitolo 1.
 
 ! Package glossaries Error: Glossary entry `Ã' has not been defined.
@@ -1414,7 +1414,7 @@ or specify an encoding such as \usepackage [latin1]{inputenc}
 in the document preamble.
 Alternatively, save the file in UTF-8 using your editor or another tool
 
-<images/cwbi.png, id=218, 121.05225pt x 37.94176pt>
+<images/cwbi.png, id=212, 121.05225pt x 37.94176pt>
 File: images/cwbi.png Graphic file (type png)
 <use images/cwbi.png>
 Package pdftex.def Info: images/cwbi.png  used on input line 16.
@@ -1446,7 +1446,7 @@ my insertion and my current dilemma will both disappear.
 
 ) (./chapters/concept.tex [5]
 Capitolo 4.
-<images/usecase/utenti-primari.png, id=246, 503.8825pt x 481.8pt>
+<images/usecase/utenti-primari.png, id=239, 503.8825pt x 481.8pt>
 File: images/usecase/utenti-primari.png Graphic file (type png)
 <use images/usecase/utenti-primari.png>
 Package pdftex.def Info: images/usecase/utenti-primari.png  used on input line 
@@ -1474,7 +1474,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--41
 
  []
 
-<images/usecase/UC01.png, id=254, 570.13pt x 342.27875pt>
+<images/usecase/UC01.png, id=248, 570.13pt x 342.27875pt>
 File: images/usecase/UC01.png Graphic file (type png)
 <use images/usecase/UC01.png>
 Package pdftex.def Info: images/usecase/UC01.png  used on input line 48.
@@ -1484,37 +1484,37 @@ Package pdftex.def Info: images/usecase/UC01.png  used on input line 48.
 LaTeX Warning: Hyper reference `UC02' on page 8 undefined on input line 70.
 
 [8 <./images/usecase/UC01.png>]
-<images/usecase/UC03.png, id=268, 563.10374pt x 211.79124pt>
+<images/usecase/UC03.png, id=262, 563.10374pt x 211.79124pt>
 File: images/usecase/UC03.png Graphic file (type png)
 <use images/usecase/UC03.png>
 Package pdftex.def Info: images/usecase/UC03.png  used on input line 118.
 (pdftex.def)             Requested size: 334.79773pt x 125.92201pt.
-<images/usecase/UC04.png, id=269, 560.0925pt x 221.82875pt>
+<images/usecase/UC04.png, id=263, 560.0925pt x 221.82875pt>
 File: images/usecase/UC04.png Graphic file (type png)
 <use images/usecase/UC04.png>
 Package pdftex.def Info: images/usecase/UC04.png  used on input line 147.
 (pdftex.def)             Requested size: 334.79773pt x 132.60408pt.
  [9 <./images/usecase/UC03.png>]
-<images/usecase/UC05_06_07.png, id=278, 713.66624pt x 506.89375pt>
+<images/usecase/UC05_06_07.png, id=272, 713.66624pt x 506.89375pt>
 File: images/usecase/UC05_06_07.png Graphic file (type png)
 <use images/usecase/UC05_06_07.png>
 Package pdftex.def Info: images/usecase/UC05_06_07.png  used on input line 178.
 
 (pdftex.def)             Requested size: 297.60114pt x 211.37794pt.
  [10 <./images/usecase/UC04.png> <./images/usecase/UC05_06_07.png>]
-<images/usecase/UC05_1_2.png, id=287, 550.055pt x 302.12875pt>
+<images/usecase/UC05_1_2.png, id=281, 550.055pt x 302.12875pt>
 File: images/usecase/UC05_1_2.png Graphic file (type png)
 <use images/usecase/UC05_1_2.png>
 Package pdftex.def Info: images/usecase/UC05_1_2.png  used on input line 251.
 (pdftex.def)             Requested size: 334.79773pt x 183.9018pt.
  [11]
-<images/usecase/UC05_dettaglio_pt1.png, id=296, 620.3175pt x 492.84125pt>
+<images/usecase/UC05_dettaglio_pt1.png, id=289, 620.3175pt x 492.84125pt>
 File: images/usecase/UC05_dettaglio_pt1.png Graphic file (type png)
 <use images/usecase/UC05_dettaglio_pt1.png>
 Package pdftex.def Info: images/usecase/UC05_dettaglio_pt1.png  used on input l
 ine 302.
 (pdftex.def)             Requested size: 297.60114pt x 236.44078pt.
-<images/usecase/UC05_dettaglio_pt2.png, id=297, 620.3175pt x 482.80376pt>
+<images/usecase/UC05_dettaglio_pt2.png, id=290, 620.3175pt x 482.80376pt>
 File: images/usecase/UC05_dettaglio_pt2.png Graphic file (type png)
 <use images/usecase/UC05_dettaglio_pt2.png>
 Package pdftex.def Info: images/usecase/UC05_dettaglio_pt2.png  used on input l
@@ -1522,7 +1522,7 @@ ine 307.
 (pdftex.def)             Requested size: 297.60114pt x 231.62529pt.
  [12 <./images/usecase/UC05_1_2.png>] [13 <./images/usecase/UC05_dettaglio_pt1.
 png> <./images/usecase/UC05_dettaglio_pt2.png>]
-<images/usecase/UC09.png, id=315, 570.13pt x 342.27875pt>
+<images/usecase/UC09.png, id=309, 570.13pt x 342.27875pt>
 File: images/usecase/UC09.png Graphic file (type png)
 <use images/usecase/UC09.png>
 Package pdftex.def Info: images/usecase/UC09.png  used on input line 334.
@@ -1531,7 +1531,7 @@ Package pdftex.def Info: images/usecase/UC09.png  used on input line 334.
 
 LaTeX Warning: Hyper reference `UC17' on page 14 undefined on input line 358.
 
-<images/usecase/UC10_11.png, id=316, 540.0175pt x 332.24126pt>
+<images/usecase/UC10_11.png, id=310, 540.0175pt x 332.24126pt>
 File: images/usecase/UC10_11.png Graphic file (type png)
 <use images/usecase/UC10_11.png>
 Package pdftex.def Info: images/usecase/UC10_11.png  used on input line 366.
@@ -1540,13 +1540,13 @@ Package pdftex.def Info: images/usecase/UC10_11.png  used on input line 366.
 
 LaTeX Warning: Hyper reference `UC11' on page 15 undefined on input line 388.
 
-<images/usecase/UC10_ricerca_p1.png, id=323, 550.055pt x 452.69125pt>
+<images/usecase/UC10_ricerca_p1.png, id=317, 550.055pt x 452.69125pt>
 File: images/usecase/UC10_ricerca_p1.png Graphic file (type png)
 <use images/usecase/UC10_ricerca_p1.png>
 Package pdftex.def Info: images/usecase/UC10_ricerca_p1.png  used on input line
  394.
 (pdftex.def)             Requested size: 260.39886pt x 214.3122pt.
-<images/usecase/UC10_ricerca_p2.png, id=324, 550.055pt x 532.99126pt>
+<images/usecase/UC10_ricerca_p2.png, id=318, 550.055pt x 532.99126pt>
 File: images/usecase/UC10_ricerca_p2.png Graphic file (type png)
 <use images/usecase/UC10_ricerca_p2.png>
 Package pdftex.def Info: images/usecase/UC10_ricerca_p2.png  used on input line
@@ -1554,13 +1554,13 @@ Package pdftex.def Info: images/usecase/UC10_ricerca_p2.png  used on input line
 (pdftex.def)             Requested size: 260.39886pt x 252.32767pt.
 [15 <./images/usecase/UC10_11.png>] [16 <./images/usecase/UC10_ricerca_p1.png> 
 <./images/usecase/UC10_ricerca_p2.png>]
-<images/usecase/UC12_13.png, id=338, 560.0925pt x 342.27875pt>
+<images/usecase/UC12_13.png, id=332, 560.0925pt x 342.27875pt>
 File: images/usecase/UC12_13.png Graphic file (type png)
 <use images/usecase/UC12_13.png>
 Package pdftex.def Info: images/usecase/UC12_13.png  used on input line 453.
 (pdftex.def)             Requested size: 334.79773pt x 204.6063pt.
  [17 <./images/usecase/UC12_13.png>]
-<images/usecase/UC14.png, id=347, 560.0925pt x 201.75375pt>
+<images/usecase/UC14.png, id=340, 560.0925pt x 201.75375pt>
 File: images/usecase/UC14.png Graphic file (type png)
 <use images/usecase/UC14.png>
 Package pdftex.def Info: images/usecase/UC14.png  used on input line 504.
@@ -1571,13 +1571,13 @@ Overfull \hbox (37.20227pt too wide) in paragraph at lines 504--505
  []
 
 [18 <./images/usecase/UC14.png>]
-<images/usecase/UC14_inserimentoTesto.png, id=356, 560.0925pt x 201.75375pt>
+<images/usecase/UC14_inserimentoTesto.png, id=350, 560.0925pt x 201.75375pt>
 File: images/usecase/UC14_inserimentoTesto.png Graphic file (type png)
 <use images/usecase/UC14_inserimentoTesto.png>
 Package pdftex.def Info: images/usecase/UC14_inserimentoTesto.png  used on inpu
 t line 531.
 (pdftex.def)             Requested size: 260.39886pt x 93.8022pt.
-<images/usecase/UC15_16.png, id=357, 560.0925pt x 302.12875pt>
+<images/usecase/UC15_16.png, id=351, 560.0925pt x 302.12875pt>
 File: images/usecase/UC15_16.png Graphic file (type png)
 <use images/usecase/UC15_16.png>
 Package pdftex.def Info: images/usecase/UC15_16.png  used on input line 558.
@@ -1979,22 +1979,99 @@ l.32 \item \textit{Response Handler\gls}
 
 You need to define a glossary entry before you can use it.
 
-) (./chapters/product-design.tex [28] [29]
+! Undefined control sequence.
+l.40 ...RY Taconite} permette di aggiornare \texit
+                                                  {DOM} multipli utilizzando...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \aftergroup 
+l.40 ... di una singola chiamata \textit{AJAX\gls}
+                                                  . \\
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+! Package glossaries Error: Glossary entry `\aftergroup \futurelet ' has not be
+en defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 ... di una singola chiamata \textit{AJAX\gls}
+                                                  . \\
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `Ã' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 \textit{Spring}\gls Ã¨
+                            un framework volto ad aiutare lo sviluppo di app...
+
+You need to define a glossary entry before you can use it.
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 \textit{Spring}\gls Ã¨
+                            un framework volto ad aiutare lo sviluppo di app...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \aftergroup 
+l.44 ...e, detti anche \textit{\textbf{beans}\gls}
+                                                  .
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+! Package glossaries Error: Glossary entry `\aftergroup \futurelet ' has not be
+en defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 ...e, detti anche \textit{\textbf{beans}\gls}
+                                                  .
+You need to define a glossary entry before you can use it.
+
+[28] [29]) (./chapters/product-design.tex [30]
 Capitolo 6.
-) (./chapters/conclusioni.tex [30
+) (./chapters/conclusioni.tex [31
 
 ]
 Capitolo 7.
-) (./appendix/appendice-a.tex [31
+) (./appendix/appendice-a.tex [32
 
 ]
 Appendice A.
-) [32
+) [33
 
 ]
 No file thesis.acr.
 No file thesis.gls.
-(./appendix/bibliography.tex [33
+(./appendix/bibliography.tex [34
 
 ]
 
@@ -2009,10 +2086,15 @@ Package biblatex Warning: Type 'online' not found on input line 10.
 
 LaTeX Warning: Empty bibliography on input line 10.
 
-) [34
+) [35
 
 
-] (./thesis.aux)
+] (./thesis.aux
+
+Package mparhack Warning: Marginpars may have changed.
+(mparhack)                Rerun to get them right.
+
+)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
@@ -2034,16 +2116,20 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) ) 
 Here is how much of TeX's memory you used:
- 38888 strings out of 475237
- 682007 string characters out of 5768555
+ 38905 strings out of 475237
+ 682184 string characters out of 5768555
  1933238 words of memory out of 5000000
- 59108 multiletter control sequences out of 15000+600000
- 588362 words of font info for 183 fonts, out of 8000000 for 9000
+ 59107 multiletter control sequences out of 15000+600000
+ 588893 words of font info for 189 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  99i,15n,125p,2259b,3162s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{glo:uml} has been referenced but does not exist, re
 placed by a fixed one
+
+
+pdfTeX warning (dest): name{appendix*.95} has been referenced but does not exis
+t, replaced by a fixed one
 
 <c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb><c:/texliv
 e/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb><c:/texlive/2023/tex
@@ -2064,10 +2150,10 @@ uper/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1
 -dist/fonts/type1/public/cm-super/sfti0700.pfb><c:/texlive/2023/texmf-dist/font
 s/type1/public/cm-super/sfti1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/pu
 blic/cm-super/sfti1200.pfb>
-Output written on thesis.pdf (42 pages, 740033 bytes).
+Output written on thesis.pdf (42 pages, 748572 bytes).
 PDF statistics:
- 688 PDF objects out of 1000 (max. 8388607)
- 558 compressed objects within 6 object streams
- 171 named destinations out of 1000 (max. 500000)
- 63887 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 691 PDF objects out of 1000 (max. 8388607)
+ 561 compressed objects within 6 object streams
+ 177 named destinations out of 1000 (max. 500000)
+ 63879 words of extra memory for PDF output out of 74296 (max. 10000000)
 

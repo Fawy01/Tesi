@@ -43,16 +43,14 @@
 \contentsline {subsection}{\numberline {4.3.2}Requisiti di vincolo}{25}{subsection.4.3.2}%
 \contentsline {chapter}{\numberline {5}Progettazione e codifica}{27}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Tecnologie e strumenti}{27}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Ciclo di vita del software}{28}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Progettazione}{28}{section.5.3}%
-\contentsline {subsubsection}{Namespace 1}{28}{section*.89}%
-\contentsline {section}{\numberline {5.4}Design Pattern utilizzati}{29}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Codifica}{29}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Verifica e validazione}{30}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Conclusioni}{31}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Consuntivo finale}{31}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Raggiungimento degli obiettivi}{31}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Conoscenze acquisite}{31}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Valutazione personale}{31}{section.7.4}%
-\contentsline {chapter}{\numberline {A}Appendice A}{32}{appendix.Alph1}%
-\contentsline {chapter}{Bibliografia}{34}{appendix*.90}%
+\contentsline {section}{\numberline {5.2}Progettazione}{29}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Design Pattern utilizzati}{30}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Codifica}{30}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Verifica e validazione}{31}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Conclusioni}{32}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Consuntivo finale}{32}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Raggiungimento degli obiettivi}{32}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Conoscenze acquisite}{32}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Valutazione personale}{32}{section.7.4}%
+\contentsline {chapter}{\numberline {A}Appendice A}{33}{appendix.Alph1}%
+\contentsline {chapter}{Bibliografia}{35}{appendix*.96}%

@@ -36,18 +36,35 @@ Il framework è composto da tre elementi principali:
 \noindent
 Per configurare tutti i collegamenti tra i vari elementi e le loro interazioni si utilizza il file \textit{\textbf{struts.xml}}. In questo file vengono specificati anche gli \textit{\textbf{interceptor}} per le \textit{Action} delle nostre classi. La specifica degli \textit{interceptor} è una fase importante dello sviluppo di un'applicazione web.
 
-\subsection*{Taconite}
+\subsection*{JQUERY Taconite}
+\textit{JQUERY Taconite} permette di aggiornare \texit{DOM} multipli utilizzando il risultato di una singola chiamata \textit{AJAX\gls}. \\
+Viene generato un \textit{XML} con le istruzioni per l'aggiornamento dei diversi \textit{DOM}
+\subsection*{Spring}
+\textit{Spring}\gls è un framework volto ad aiutare lo sviluppo di applicazioni più o meno complesse attraverso la sua architettura modulare. Spring è diviso in cinque livelli e in questo modo si possono escludere le parti non necessarie per l'applicazione.\\
+L'elemento principale di \textit{Spring} è il \textit{Core Container} che ha il compito di creazione e gestione di tutti gli oggetti dell'applicazione, detti anche \textit{\textbf{beans}\gls}.
+\subsection*{Wro4j}
+\textit{Wro4j} è uno strumento per l'ottimizzare le risorse web e velocizzare il caricamento delle pagine. Il suo compito è quello di organizzare le risorse, come i file \textit{css} e \textit{js}, raggrupparli e farli scaricare tutti in una sola volta alla pagina web.\\
+Normalmente un browser può scaricare al massimo due risorse contemporaneamente e questo limite porta ad un caricamento della pagina lento in vista di molte risorse da scaricare. \textit{Wro4j} elimina questo problema comprendendo tutte le risorse in un'unica risorsa.
+\subsection*{SVNKit}
+\textit{SVNKit} è uno \textit{toolkit} \textit{Open-Source} e permette l'accesso il remoto e in locale a delle \textit{repository} per le applicazioni Java. Funge anche da sistema di versionamento. 
 
+\subsection*{Apache Maven}
+\textit{Apache Maven} è uno strumento per la gestione delle dipendenze tra un progetto Java e le versioni delle librerie che servono e si occupa anche di effettuare il download di tali risorse. \\
+Le relazioni tra progetto e librerie sono definite in un file \textit{XML} chiamato \textit{\textbf{POM}}.
 
-\section{Ciclo di vita del software}
-\label{sec:ciclo-vita-software}
+\subsection*{Apache Tomcat}
+\textit{Apache Tomcat}è un server web che permette l'esecuzione di applicazioni web. Supporta le specifiche di \textit{JSP} e \textit{servlet}.\\
+Esistono diverse versioni per i server \textit{Tomcat} e si può scegliere la versione che offre le funzionalità giuste per la propria applicazione.
+
 
 \section{Progettazione}
 \label{sec:progettazione}
-
-\subsubsection{Namespace 1} %**************************
-Descrizione namespace 1.
-
+La fase di progettazione è una fase cruciale per la realizzazione del progetto. Prima ancora di iniziare la progettazione del lavoro assegnato è importante analizzare l'ambiente già esistente, capirne il funzionamento e individuare se ci sono elementi che potrebbero servire al nostro scopo. \\
+Una tecnica per una buona progettazione è concentrarsi su un elemento alla volta. Prendere in considerazione tutti gli elementi del progetto potrebbe sembrare più efficace e veloce, ma così facendo si può perdere il focus della funzione delle classi del prodotto.\\ 
+Quindi l'idea è quella di analizzare e progettare una singola classe, vedere se funziona correttamente e da lì procedere ed andare avanti con lo studio per la realizzazione della prossima classe.
+\subsection*{Base di Dati}
+Per la progettazione della base di dati si è partiti da una struttura già esistente nell'azienda e si sono inseriti i nuovi elementi del progetto. Si è eseguito un \textit{refactoring} di alcune delle tabelle preesistenti per correggerle ed adattarle a quelle nuove, senza però modificarne attributi fondamentali per le altre parti della webapp. Anche qui c'è stato allora una fase di profonda e attenta analisi per avere una base di dati consistente. 
+\subsubsection*{Tabelle preesistenti}
 \begin{namespacedesc}
     \classdesc{Classe 1}{Descrizione classe 1}
     \classdesc{Classe 2}{Descrizione classe 2}
