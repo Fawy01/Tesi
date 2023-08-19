@@ -39,6 +39,10 @@ Per configurare tutti i collegamenti tra i vari elementi e le loro interazioni s
 \subsection*{JQUERY Taconite}
 \textit{JQUERY Taconite} permette di aggiornare \texit{DOM} multipli utilizzando il risultato di una singola chiamata \textit{AJAX\gls}. \\
 Viene generato un \textit{XML} con le istruzioni per l'aggiornamento dei diversi \textit{DOM}
+
+\subsection*{Hibernate}
+È un framework che permette di mappare gli oggetti del modello ad un \textit{database} relazionale. Lo sviluppatore non deve preoccuparsi di implementazione ma è \textit{Hibernate} che si occupa del collegamento al database e di eseguire le operazioni \textit{CRUD\gls}, andando a generare query e leggerne il risultato.
+
 \subsection*{Spring}
 \textit{Spring}\gls è un framework volto ad aiutare lo sviluppo di applicazioni più o meno complesse attraverso la sua architettura modulare. Spring è diviso in cinque livelli e in questo modo si possono escludere le parti non necessarie per l'applicazione.\\
 L'elemento principale di \textit{Spring} è il \textit{Core Container} che ha il compito di creazione e gestione di tutti gli oggetti dell'applicazione, detti anche \textit{\textbf{beans}\gls}.
@@ -53,9 +57,10 @@ Normalmente un browser può scaricare al massimo due risorse contemporaneamente 
 Le relazioni tra progetto e librerie sono definite in un file \textit{XML} chiamato \textit{\textbf{POM}}.
 
 \subsection*{Apache Tomcat}
-\textit{Apache Tomcat}è un server web che permette l'esecuzione di applicazioni web. Supporta le specifiche di \textit{JSP} e \textit{servlet}.\\
+\textit{Apache Tomcat} è un server web che permette l'esecuzione di applicazioni web. Supporta le specifiche di \textit{JSP} e \textit{servlet}.\\
 Esistono diverse versioni per i server \textit{Tomcat} e si può scegliere la versione che offre le funzionalità giuste per la propria applicazione.
-
+\subsection*{DBeaver}
+È un'applicazione che si occupa di gestire i database. Si possono creare nuovi database, creare tabelle, manipolare i dati, ecc...
 
 \section{Progettazione}
 \label{sec:progettazione}
@@ -65,12 +70,37 @@ Quindi l'idea è quella di analizzare e progettare una singola classe, vedere se
 \subsection*{Base di Dati}
 Per la progettazione della base di dati si è partiti da una struttura già esistente nell'azienda e si sono inseriti i nuovi elementi del progetto. Si è eseguito un \textit{refactoring} di alcune delle tabelle preesistenti per correggerle ed adattarle a quelle nuove, senza però modificarne attributi fondamentali per le altre parti della webapp. Anche qui c'è stato allora una fase di profonda e attenta analisi per avere una base di dati consistente. 
 \subsubsection*{Tabelle preesistenti}
-\begin{namespacedesc}
-    \classdesc{Classe 1}{Descrizione classe 1}
-    \classdesc{Classe 2}{Descrizione classe 2}
-\end{namespacedesc}
+Il progetto utilizza tabelle preesistenti per il suo scopo. Le tabelle sono: 
+\begin{itemize}
 
 
+    \item \textbf{Cliente}: questa tabella rappresenta l'entità cliente e ha tutti gli attributi necessari per definirne lo scopo all'interno della webapp. Il cliente non è la singola persona ma bensì l'azienda a cui poi saranno collegati sia i dipendenti sia i progetti richiesti da questa. Gli altri attributi presenti servono per le altre parti della webapp
+    \item \textbf{User}: gli user sono tutte le persone coinvolte nell'azienda, interne ed esterne. Quindi troveremo sia il personale di CWBI sia il personale delle aziende clienti.
+    \item \textbf{Progetto}: questa tabella rappresenta un progetto dell'azienda. Avrà tutti gli attributi necessari e sarà collegata ad un cliente. Un progetto può essere collegato a più aziende diverse.
+    \item \textbf{ProgettoCliente}: questa tabella rappresenta la relazione tra progetto e cliente. Viene chiamata in causa quando si dovrà scegliere l'azienda e il progetto su cui si vorrà aprire il ticket.
+        \item \textbf{ProgettoUser}: questa tabella rappresenta la relazione tra progetto e user. Ogni progetto può avere associato uno o più utenti.
+\end{itemize}
+
+\subsubsection*{Tabelle introdotte}
+\begin{itemize}
+	\item \textbf{Ticket}: questa tabella rappresenta l'entità ticket con tutti gli attributi che lo caratterizzano. Sarà collegata all'entità ProgettoCliente in quanto il ticket sarà aperto per uno specifico progetto di una specifica azienda.
+	
+	\item \textbf{TicketItem}: questa tabella rappresenta i commenti presenti in ogni ticket. Un commento potrà avere un solo ticket di riferimento, cioè quello in cui è stato scritto.
+\end{itemize}
+
+
+\begin{figure}[H]
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+    \centering 
+    \includegraphics[width=1.1\columnwidth]{diagrammaBase} 
+    \bigskip
+    \caption{Base di Dati - Relazioni delle tabelle del progetto}
+\end{figure}
+
+\newpage
 \section{Design Pattern utilizzati}
 
 \section{Codifica}
