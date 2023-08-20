@@ -67,6 +67,10 @@ Esistono diverse versioni per i server \textit{Tomcat} e si può scegliere la ve
 La fase di progettazione è una fase cruciale per la realizzazione del progetto. Prima ancora di iniziare la progettazione del lavoro assegnato è importante analizzare l'ambiente già esistente, capirne il funzionamento e individuare se ci sono elementi che potrebbero servire al nostro scopo. \\
 Una tecnica per una buona progettazione è concentrarsi su un elemento alla volta. Prendere in considerazione tutti gli elementi del progetto potrebbe sembrare più efficace e veloce, ma così facendo si può perdere il focus della funzione delle classi del prodotto.\\ 
 Quindi l'idea è quella di analizzare e progettare una singola classe, vedere se funziona correttamente e da lì procedere ed andare avanti con lo studio per la realizzazione della prossima classe.
+
+
+
+
 \subsection*{Base di Dati}
 Per la progettazione della base di dati si è partiti da una struttura già esistente nell'azienda e si sono inseriti i nuovi elementi del progetto. Si è eseguito un \textit{refactoring} di alcune delle tabelle preesistenti per correggerle ed adattarle a quelle nuove, senza però modificarne attributi fondamentali per le altre parti della webapp. Anche qui c'è stato allora una fase di profonda e attenta analisi per avere una base di dati consistente. 
 \subsubsection*{Tabelle preesistenti}
@@ -101,6 +105,232 @@ Il progetto utilizza tabelle preesistenti per il suo scopo. Le tabelle sono:
 \end{figure}
 
 \newpage
+
+\begin{figure}[H]
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+    \centering 
+    \includegraphics[width=1.1\columnwidth]{diagrammaEvoBase} 
+    \bigskip
+    \caption{Base di Dati - Tabelle del progetto}
+\end{figure}
+\newpage
+
+\subsubsection*{Analisi delle tabelle}
+            \begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \textbf{Cliente}\\
+                    \hline
+                    \textit{Id} & Identificativo univoco di ogni cliente. \\
+                    \hline
+                    \textit{Nome} & Nome dell'azienda.  \\
+                    \hline
+                    \textit{Indirizzo} & Indirizzo della sede principale dell'azienda. \\
+                    \hline
+                    \textit{Partita Iva} & Partita Iva dell'azienda \\
+                    \hline
+   	                \textit{Telefono} & Telefono dell'azienda \\
+                    \hline
+                \end{tabularx}
+                \smallskip
+                \caption{Tabella Cliente}
+            \end{table}
+            \smallskip
+ \begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \textbf{ProgettoCliente}\\
+                    \hline
+                    \textit{Id} & Identificativo univoco di ogni ProgettoCliente. \\
+                    \hline
+                    \textit{IdProgetto} & Id del progetto a cui si riferisce.  \\
+                    \hline
+                    \textit{IdCliente} & Id dell'azienda a cui si riferisce. \\
+                    \hline
+                \end{tabularx}
+                \smallskip
+                \caption{Tabella ProgettoCliente}
+            \end{table}
+            \smallskip
+ \begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \textbf{Progetto}\\
+                    \hline
+                    \textit{Id} & Identificativo univoco di ogni Progetto. \\
+                    \hline
+                    \textit{Titolo} & Titolo del progetto.  \\
+                    \hline
+                    \textit{Data di creazione} & Data in cui è stato aperto il progetto. \\
+                    \hline
+                \end{tabularx}
+                \smallskip
+                \caption{Tabella Progetto}
+            \end{table}
+            \smallskip
+
+ \begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \textbf{ProgettoUser}\\
+                    \hline
+                    \textit{Id} & Identificativo univoco di ogni ProgettoUser. \\
+                    \hline
+                    \textit{IdProgetto} & Id del progetto a cui si riferisce.  \\
+                    \hline
+                    \textit{IdUser} & Id dell'utente a cui si riferisce. \\
+                    \hline
+                \end{tabularx}
+                \smallskip
+                \caption{Tabella ProgettoUser}
+            \end{table}   
+                 
+    			\smallskip 
+            \begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \textbf{User}\\
+                    \hline
+                    \textit{Id} & Identificativo univoco di ogni User. \\
+                    \hline
+                    \textit{Nome} & Nome dell'utente.  \\
+                    \hline
+                    \textit{Cognome} & Cognome dell'utente.  \\
+                    \hline
+                     \textit{Data di nascita} & Data di nascita dell'utente.  \\
+                    \hline
+                    \textit{indirizzo} & Indirizzo dell'utente.  \\
+                    \hline
+                    \textit{Partita Iva} & Partita Iva dell'utente \\
+                    \hline
+   	                \textit{Telefono} & Telefono dell'utente \\
+                    \hline
+                \end{tabularx}
+                \smallskip
+                \caption{Tabella User}
+            \end{table}
+            \smallskip 
+            
+ \begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \textbf{Ticket}\\
+                    \hline
+                    \textit{Id} & Identificativo univoco di ogni Ticket. \\
+                    \hline
+                    \textit{Titolo} & Titolo del ticket.  \\
+                    \hline
+                    \textit{Stato} & Stato del Ticket. \\
+                    \hline
+                    \textit{Priorità} & Priorità che un ticket ha. Parte da un minimo di 1, quindi poco urgente, ad un massimo di 4, urgente. \\
+                    \hline            
+            
+                 \end{tabularx}
+                \smallskip
+                \caption{Tabella Ticket}
+            \end{table}  
+            
+ \begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \hline
+                    \textit{Ambiente} & Ambiente del Ticket. Un ticket può essere aperto in base all'ambiente in cui si sta testando l'applicazione e si trova il problema. Si hanno tre diversi ambienti: PROD, SVIL, TEST.\\
+                    \hline
+                    \textit{Descrizione} & Descrizione del Ticket. Utile per approfondire il problema che si è riscontrato.\\
+                    \hline
+                    \textit{IdUser} & Id dell'utente che ha aperto il ticket. \\
+                    \hline
+                    \textit{IdAssegnatario} &  Id dell'utente a cui è stato assegnato il ticket. Può essere cambiato durante il ciclo di vita del ticket. \\
+                
+                    \hline
+                   \textit{IdAllegato} &  Id dell'allegato caricato al ticket. Può essere cambiato durante il ciclo di vita del ticket. \\
+                
+                    \hline
+                \end{tabularx}
+                \smallskip
+                \caption{Tabella Ticket}
+            \end{table}   
+                 
+    			\smallskip      
+
+ \begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \textbf{TicketItem}\\
+                    \hline
+                     \textit{Id} & Identificativo univoco di ogni Commento. \\
+                    \hline
+                    \textit{Commento} & Contenuto del commento. \\
+                    \hline
+                    \textit{IdAllegato} & Id dell'allegato caricato al commento. \\
+                    \hline
+                    \textit{Data di Modifica} & Data in cui è stato modificato il ticket. \\
+                    \hline
+                \end{tabularx}
+                \smallskip
+                \caption{Tabella TicketItem}
+            \end{table}
+            \smallskip
+            
+ \begin{table}[H]
+                \centering
+                \renewcommand{\arraystretch}{1.8}
+                \renewcommand\tabularxcolumn[1]{m{#1}}
+                \begin{tabularx}{0.9\textwidth} {
+                    >{\hsize=.8\hsize\linewidth=\hsize}X
+                    >{\hsize=1.2\hsize\linewidth=\hsize}X}
+                    \textbf{Allegato}\\
+                    \hline
+                    \textit{FileByte} & Contenuto del file caricato codificato in un vettore di caratteri (char[]) \\
+                    \hline
+                    \textit{FileSize} & Dimensione del file caricato. \\
+                    \hline
+                    \textit{TypeFile} & Tipo del file caricato. \\
+                    \hline
+                \end{tabularx}
+                \smallskip
+                \caption{Tabella Allegato}
+            \end{table}
+            \smallskip
+
+\subsection*{Architettura}
+
 \section{Design Pattern utilizzati}
 
 \section{Codifica}

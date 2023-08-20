@@ -44,13 +44,13 @@
 \contentsline {chapter}{\numberline {5}Progettazione e codifica}{27}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Tecnologie e strumenti}{27}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Progettazione}{29}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Design Pattern utilizzati}{32}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Codifica}{32}{section.5.4}%
-\contentsline {chapter}{\numberline {6}Verifica e validazione}{33}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Conclusioni}{34}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Consuntivo finale}{34}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Raggiungimento degli obiettivi}{34}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Conoscenze acquisite}{34}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Valutazione personale}{34}{section.7.4}%
-\contentsline {chapter}{\numberline {A}Appendice A}{35}{appendix.Alph1}%
-\contentsline {chapter}{Bibliografia}{37}{appendix*.100}%
+\contentsline {section}{\numberline {5.3}Design Pattern utilizzati}{36}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Codifica}{36}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Verifica e validazione}{37}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Conclusioni}{38}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Consuntivo finale}{38}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Raggiungimento degli obiettivi}{38}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Conoscenze acquisite}{38}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Valutazione personale}{38}{section.7.4}%
+\contentsline {chapter}{\numberline {A}Appendice A}{39}{appendix.Alph1}%
+\contentsline {chapter}{Bibliografia}{41}{appendix*.112}%
