@@ -71,7 +71,7 @@ Quindi l'idea è quella di analizzare e progettare una singola classe, vedere se
 
 
 
-\subsection*{Base di Dati}
+\subsection{Base di Dati}
 Per la progettazione della base di dati si è partiti da una struttura già esistente nell'azienda e si sono inseriti i nuovi elementi del progetto. Si è eseguito un \textit{refactoring} di alcune delle tabelle preesistenti per correggerle ed adattarle a quelle nuove, senza però modificarne attributi fondamentali per le altre parti della webapp. Anche qui c'è stato allora una fase di profonda e attenta analisi per avere una base di dati consistente. 
 \subsubsection*{Tabelle preesistenti}
 Il progetto utilizza tabelle preesistenti per il suo scopo. Le tabelle sono: 
@@ -327,9 +327,35 @@ Il progetto utilizza tabelle preesistenti per il suo scopo. Le tabelle sono:
                 \smallskip
                 \caption{Tabella Allegato}
             \end{table}
-            \smallskip
+            
+\newpage
+\subsection{Architettura}
+Lo sviluppo dell'applicazione avviene secondo il \textit{pattern} architetturale \textbf{MVC \glsfirstoccur} (\textit{Model - View - Controller}). \\
+Questo \textit{pattern} permette di dividere e rendere modulabile l'applicazione.
+\begin{itemize}
+\item \textbf{Model}: si occupa della gestione dei dati, del salvataggio delle risorse e della logica di business;
+\item \textbf{View}: si occupa di visualizzare i dati salvati nel modello, presentandoli secondo una schema definito.
+\item \textbf{Controller}: ha il compito di gestire la comunicazione tra il modello e la vista ed elaborare gli input dell'utente per poi fornire in output un determinato risultato.
+\end{itemize}
 
-\subsection*{Architettura}
+\begin{figure}[H]
+    \centering 
+    \includegraphics[width=0.4\columnwidth]{MVC} 
+    \bigskip
+    \caption{Schema MVC}
+\end{figure}
+
+\noindent
+Utilizzare il pattern \textit{MVC} permette di avere dei \textbf{vantaggi}:
+\begin{itemize}
+\item \textbf{Manutenzione}: la suddivisione in componenti rende la manutenzione dell'applicazione più semplice, andando a concentrarsi sulla parte interessata.  
+\item \textbf{Scalabilità}: con l'aumentare delle esigenze l'applicazione richiederà degli aggiornamenti che saranno meglio integrabili.
+\item \textbf{Testabilità}: senza il pattern \textit{MVC}, per eseguire il test su un parte dell'applicazione, bisognerebbe eseguire la diagnosi sul complessivo. Mentre la suddivisione in componenti permette di eseguire i test più velocemente prendendo in considerazione la parte su cui si vuole eseguirli.
+\item \textbf{Separazione delle responsabilità}: ogni componente ha un compito ben preciso e non andrà a interessarsi delle parti di codice che non sono sotto la sua responsabilità.
+\end{itemize}
+
+\subsection*{Model}
+
 
 \section{Design Pattern utilizzati}
 
