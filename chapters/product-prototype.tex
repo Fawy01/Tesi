@@ -355,7 +355,25 @@ Utilizzare il pattern \textit{MVC} permette di avere dei \textbf{vantaggi}:
 \end{itemize}
 
 \subsection*{Model}
+Si parte da un modello preesistente e strutturato secondo gli standard aziendali. Infatti questa parte è divisa in più livelli, ognuno dei quali ha un diverso scopo e diverse funzionalità. In generale, la struttura presente è illustrata come segue: 
 
+\begin{figure}[H]
+    \centering 
+    \includegraphics[width=0.6\columnwidth]{SchemaModel} 
+    \bigskip
+    \caption{Struttura Model CWBI}
+\end{figure}
+
+\noindent
+Come detto in precedenza alcune delle classi già presenti sono utilizzate per supportare le nuove entità introdotte con il progetto. \\
+\\
+\noindent
+Il primo passo per la creazione di una nuova classe è andare a mappare gli attributi di questa all'interno del file xml che conterrà la mappatura e specificherà la struttura della tabella che sarà costruita poi sul database. \\
+Prendiamo come esempio la classe Ticket. Allora creeremo il file \textit{\textbf{ticket.xml}} e scriveremo la tabella \textit{ticket-a} con tutti gli attributi.\\
+\\
+\noindent
+Dopo si comincia a codificare la classe \textbf{TicketDB.java} che rappresenta l'oggetto vero e proprio che sarà utilizzato nella  webapp. Importante specificare che gli attributi inseriti in questa classe saranno uguali agli attributi specificati nella tabella   \textit{ticket-a} nel file di mappatura.\\
+Le nomenclatura \textit{DB} dopo il nome della classe è uno standard dell'azienda inserito per ogni nuovo modello che si introduce.
 
 \section{Design Pattern utilizzati}
 
