@@ -365,15 +365,40 @@ Si parte da un modello preesistente e strutturato secondo gli standard aziendali
 \end{figure}
 
 \noindent
-Come detto in precedenza alcune delle classi già presenti sono utilizzate per supportare le nuove entità introdotte con il progetto. \\
+Come detto in precedenza alcune delle classi già presenti sono utilizzate per supportare le nuove entità introdotte con il progetto. Per la codifica del nostro nuovo Model ci basiamo sulla figura \textit{5.4}, partendo dal basso e andando verso l'alto.  \\
 \\
 \noindent
-Il primo passo per la creazione di una nuova classe è andare a mappare gli attributi di questa all'interno del file xml che conterrà la mappatura e specificherà la struttura della tabella che sarà costruita poi sul database. \\
+Il primo passo per la creazione di una nuova classe è mappare i suoi attributi all'interno del file xml che conterrà la mappatura e specificherà la struttura della tabella che sarà costruita poi sul database. \\
 Prendiamo come esempio la classe Ticket. Allora creeremo il file \textit{\textbf{ticket.xml}} e scriveremo la tabella \textit{ticket-a} con tutti gli attributi.\\
 \\
 \noindent
-Dopo si comincia a codificare la classe \textbf{TicketDB.java} che rappresenta l'oggetto vero e proprio che sarà utilizzato nella  webapp. Importante specificare che gli attributi inseriti in questa classe saranno uguali agli attributi specificati nella tabella   \textit{ticket-a} nel file di mappatura.\\
+Dopo si comincia a codificare la classe \textbf{TicketDB.java} che rappresenta l'oggetto vero e proprio che sarà utilizzato nella  webapp. Importante specificare che gli attributi inseriti in questa classe saranno uguali agli attributi specificati nella tabella   \textit{ticket-a} nel file di mappatura. La classe sarà composta quindi dagli attributi, i costruttori e le funzioni di \textit{get} degli attributi.\\
 Le nomenclatura \textit{DB} dopo il nome della classe è uno standard dell'azienda inserito per ogni nuovo modello che si introduce.
+\\
+\noindent
+Successivamente si creano due classi: \textit{\textbf{TicketDao}} e \textit{\textbf{TicketDaoHibernate}}. \\
+Partiamo con \textit{TicketDao} che rappresenta l'interfaccia in cui saranno presenti le firme di tutte le funzioni per la manipolazione dei dati, secondo il pattern \textit{\textbf{Dao}}: le operazioni \textit{CRUD}. \\
+La classe \textit{TicketDaoHibernate} invece è l'implementazione dell'interfaccia \textit{TicketDao}, che implementa quindi le funzioni presenti. \\
+In realtà, l'esecuzione effettiva della funzione CRUD richiesta, non avviene dentro TicketDaoHibernate ma all'interno di ogni funzione implementata, viene richiamata un'altra funzione che ha lo stesso scopo di quella in cui sta venendo richiamata ma è implementata in un'altra classe \textit{Hibernate}, padre di \textit{TicketDaoHibarnate} che 
+effettuerà le operazioni classiche CRUD. \\
+In generale, \textit{TicketDaoHibarnate} implementa le funzioni dell'interfaccia a cui si riferisce, ma le operazioni CRUD vengono sempre effettuate dall'\textit{Hibernate} padre.\\
+
+\noindent
+Il prossimo passo è creare le classi service: \textit{\textbf{TicketService}} e \textit{\textbf{TicketServiceImpl}}.\\
+La classe \textit{TicketService} è l'interfaccia al cui interno troviamo le firme delle funzioni che la webapp consentirà di svolgere, come ad esempio la funzione di ricerca. \\
+\textit{TicketServiceImpl} invece è l'implementazione delle funzioni di TicketService. All'interno di ogni funzione, il dato viene manipolato e alla fine, verrà richiamata la funzione della classe TicketDao specifica per il contesto. 
+Si può dire che all'interno dell'implementazione di una funzione \textit{service} il dato viene manipolato e personalizzato affinché, ad esempio la funzione di ricerca, ci fornisca il risultato desiderato.\\
+
+\noindent
+È importante notare che la funzione di ricerca non è una funzione \textit{CRUD} e viene implementata nel service. Infatti nella sua implementazione, questa funzione richiamerà la funzione di \textit{TicketDaoHibernate} che effettuerà la \textbf{lettura} del dato corrispondete ai parametri di ricerca.\\
+
+\noindent
+Allora tutte le funzioni all'interno delle applicazioni si riducono sempre a delle semplice funzioni \textit{\textbf{CRUD}}.\\
+
+\noindent
+L'ultima fase è creare le classi manager. Queste classi non sempre sono necessarie e fungono da supporto per le classi service. \\
+Nel progetto \textbf{non} sono state codificate classi manager.
+
 
 \section{Design Pattern utilizzati}
 
