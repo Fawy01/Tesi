@@ -399,6 +399,45 @@ Allora tutte le funzioni all'interno delle applicazioni si riducono sempre a del
 L'ultima fase è creare le classi manager. Queste classi non sempre sono necessarie e fungono da supporto per le classi service. \\
 Nel progetto \textbf{non} sono state codificate classi manager.
 
+\subsection*{Controller}
+Lo scopo dei \textit{controller} all'interno dell'applicazione è quello di gestire le interazioni tra la parte di \textit{front-end} (View) e la parte di \textit{back-end} (Model), oltre a gestire anche gli input degli utenti.\\
+
+\noindent
+Il \textit{controller} ha il compito di \textit{istanziare} le classi del Model, richiamarne le funzioni per avere un risultato e inviarlo poi al \textit{front-end} in modo da essere visualizzato.
+All'interno dell'applicazione le classi che fungono da \textit{controller} sono marcate dall'annotazione \textit{@Controller} di Spring.\\
+Un'altra annotazione Spring presente è \textit{@Autowired} che serve per indicare le dipendenze dei \textit{bean} (classi. Infatti all'interno dei controller troveremo degli oggetti \textit{Service} che saranno utilizzati per le operazioni sul Model. Quindi quando verrà istanziata il controller, anche gli oggetti all'interno di esso verranno creati.\\
+
+\noindent
+\textit{CWBI} struttura i controller in due cartelle distinte. Prendiamo come esempio la classe Ticket del modello:\\
+
+\textbf{Cartella Form}
+\begin{itemize}
+\item \textit{TicketForm}: questa classe identifica i campi di input presenti alla creazione o alla modifica di un ticket, detti appunto \textit{Form}. Quindi quando l'utente compilerà i campi, andrà a popolare gli attributi di questa classe. \\ Le caratteristiche di TicketForm saranno adeguate alla controparte dell'oggetto Ticket nel modello. Infatti il \textit{controller} che si occupa della creazione e della modifica, dovrà costruire l'oggetto Ticket partendo dall'oggetto TicketForm appena popolato. 
+
+\item \textit{TicketSearchForm}: questa classe identifica i campi di input presenti alla ricerca di un ticket. L'utente per effettuare la ricerca di un ticket potrà scegliere o compilare dei filtri , che saranno rappresentati da \textit{TicketSearchForm}. \\
+Le caratteristiche di tale classe sono redatte in base ai tipi di filtri che si vogliono fornire all'utente e devono essere adeguati per le proprietà dell'oggetto su cui si sta facendo la ricerca.
+
+\end{itemize}
+\medskip
+
+\textbf{Cartella Action} 
+\begin{itemize}
+\item[] Le classi presenti in questa cartella, sono dette \textit{Action} e sono i veri e propri \textit{controller} che svolgono le varie funzioni.
+
+\item \textit{TicketAction}: come si può leggere, la classe non presenta la nomenclatura \textit{Form}. Infatti questa \textit{Action} si occupa di gestire le pagine della webapp che non hanno form al loro interno. Il dettaglio del Ticket sarà gestito da \textit{TicketAction} in quanto non possiede nessun tipo di campo da compilare.\\
+Si trovano diverse funzioni, come ad esempio la funzione di caricamento della pagina di dettaglio di un Ticket. In questa funzione viene utilizzato l'oggetto \textit{TicketService} per richiamare la funzione di ricerca per id e trovare l'oggetto \textit{Ticket} corrispondente e stampare i dati a schermo.
+
+\item \textit{TicketFormAction}: questo \textit{controller} si occupa di gestire le \textit{Action} che riguardano la pagina di creazione e modifica di un \textit{Ticket} attraverso la manipolazione dell'oggetto \textit{TicketForm}. Prendiamo come esempio la creazione di un nuovo Ticket.\\
+Quando si entra nella pagina di creazione di un ticket, i campi dell'oggetto \textit{TicketForm} sono inizializzati vuoti dall'Action \textit{input} e devono essere compilati dall'utente. Al salvataggio, viene richiamata un'altra \textit{Action} che si occupa di prendere i valori presenti nell'oggetto \textit{TicketForm} e creare un nuovo oggetto \textit{Ticket} con i dati prelevati.\\ Alla fine, con l'oggetto \textit{TicketService} il nuovo oggetto \textit{Ticket} viene salvato. 
+
+\item \textit{TicketSearchFormAction}: l'ultimo \textit{controller} è utilizzato per le pagine di ricerca di un ticket e utilizzano l'oggetto \textit{TicketSearchForm} per le proprie funzionalità. Quando si entra nella pagina di ricerca, i campi dell'oggetto \textit{TicketSearchForm} che rappresentano i filtri di ricerca, vengono lasciati vuoti e sarà l'utente poi riempirli. Quando si effettua la ricerca, viene richiamata la \textit{Action} di \textit{search}, dove si costruisce un nuovo oggetto \textit{Ticket} a seconda delle caratteristiche (filtri) dell'oggetto \textit{TicketSearchForm}. \\
+Viene quindi utilizzato l'oggetto \textit{TicketService} per richiamare la funzione di ricerca che prende in input un oggetto \textit{Ticket} e confronta quale dei ticket presenti nel database ha i valori uguali a quelli del ticket passato. Vengono così trovati tutti i ticket corrispondenti ai filtri inseriti.
+\end{itemize}
+
+COME FRONTEND E CONTROLLER COMUNICANO CON LE ACTION --> struts 
+In \textit{TicketAction} troviamo delle funzioni, dette anche \textit{Action}, dove ognuna è riconosciuta in modo univoco da una nomenclatura utilizzata per far comunicare il front-end con il controller. \\ 
+Il collegamento tra front-end e le \textit{Action} 
+
 
 \section{Design Pattern utilizzati}
 

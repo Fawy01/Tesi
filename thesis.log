@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.16)  22 AUG 2023 16:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.16)  23 AUG 2023 15:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2140,22 +2140,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 395--397
 
  []
 
-) (./chapters/product-design.tex [38]
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--404
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--409
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--412
+
+ []
+
+[38]) (./chapters/product-design.tex [39] [40]
 Capitolo 6.
-) (./chapters/conclusioni.tex [39
+) (./chapters/conclusioni.tex [41
 
 ]
 Capitolo 7.
-) (./appendix/appendice-a.tex [40
+) (./appendix/appendice-a.tex [42
 
 ]
 Appendice A.
-) [41
+) [43
 
 ]
 No file thesis.acr.
 No file thesis.gls.
-(./appendix/bibliography.tex [42
+(./appendix/bibliography.tex [44
 
 ]
 
@@ -2170,10 +2185,15 @@ Package biblatex Warning: Type 'online' not found on input line 10.
 
 LaTeX Warning: Empty bibliography on input line 10.
 
-) [43
+) [45
 
 
-] (./thesis.aux)
+] (./thesis.aux
+
+Package mparhack Warning: Marginpars may have changed.
+(mparhack)                Rerun to get them right.
+
+)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
@@ -2195,11 +2215,11 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) ) 
 Here is how much of TeX's memory you used:
- 39009 strings out of 475237
- 683989 string characters out of 5768555
+ 39032 strings out of 475237
+ 684233 string characters out of 5768555
  1933238 words of memory out of 5000000
- 59163 multiletter control sequences out of 15000+600000
- 590649 words of font info for 200 fonts, out of 8000000 for 9000
+ 59165 multiletter control sequences out of 15000+600000
+ 591598 words of font info for 209 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  99i,15n,125p,2259b,3162s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -2226,10 +2246,10 @@ uper/sfrm0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1
 s/type1/public/cm-super/sfti0700.pfb><c:/texlive/2023/texmf-dist/fonts/type1/pu
 blic/cm-super/sfti1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-su
 per/sfti1200.pfb>
-Output written on thesis.pdf (51 pages, 879271 bytes).
+Output written on thesis.pdf (53 pages, 885016 bytes).
 PDF statistics:
- 787 PDF objects out of 1000 (max. 8388607)
- 637 compressed objects within 7 object streams
- 204 named destinations out of 1000 (max. 500000)
+ 797 PDF objects out of 1000 (max. 8388607)
+ 645 compressed objects within 7 object streams
+ 207 named destinations out of 1000 (max. 500000)
  65963 words of extra memory for PDF output out of 74296 (max. 10000000)
 
