@@ -434,10 +434,21 @@ Quando si entra nella pagina di creazione di un ticket, i campi dell'oggetto \te
 Viene quindi utilizzato l'oggetto \textit{TicketService} per richiamare la funzione di ricerca che prende in input un oggetto \textit{Ticket} e confronta quale dei ticket presenti nel database ha i valori uguali a quelli del ticket passato. Vengono così trovati tutti i ticket corrispondenti ai filtri inseriti.
 \end{itemize}
 
-COME FRONTEND E CONTROLLER COMUNICANO CON LE ACTION --> struts 
-In \textit{TicketAction} troviamo delle funzioni, dette anche \textit{Action}, dove ognuna è riconosciuta in modo univoco da una nomenclatura utilizzata per far comunicare il front-end con il controller. \\ 
-Il collegamento tra front-end e le \textit{Action} 
+\subsection*{View}
+L'ultimo componente dell'architettura è la \textit{\textbf{View}} che ha il compito di visualizzare i dati secondo una logica e fornire la possibilità all'utente di interagire con il modello.
+\\
+\noindent
+Le pagine che compongono la webapp sono file \textit{jsp} che permettono di scrivere codice con standard HTML o XML, ma anche di integrare le funzionalità di Java rendendo i contenuti dinamici. \\
+\newpage
+\noindent
+La \textbf{\textit{View}} è supportata anche da diversi \textit{framework} come \textit{Bootstrap} che fornisce delle classi per personalizzare il contenuto della pagina andando a codificare tali classi direttamente nel attributo "class" dei tag di HTML. \\
+Alle pagine jsp è affiancata un'estensione detta \textit{JSTL} che mette a disposizione dei tag per la visualizzazione dei dati in modo dinamico.
+\\
+\noindent
+Per l'interazione tra modello, controller e view entra in gioco un'ulteriore \textit{framework}, senza il quale, non sarebbe possibile il funzionamento della webapp cos' com'è stata pensata e codificata da CWBI: \textit{\textbf{Struts}}.\\
 
+\noindent
+L'utente, nell'utilizzo della webapp, interagisce con gli elementi messi a disposizione dalla \textit{View} e richiama delle specifiche \textit{Action} di controller specifici. Questa interazione è possibile grazie a \textit{Struts} che permette di associare un file jsp ad una Action di un controller, andando a configurare il file \textit{struts.xml}.
 
 \section{Design Pattern utilizzati}
 
