@@ -450,6 +450,32 @@ Per l'interazione tra modello, controller e view entra in gioco un'ulteriore \te
 \noindent
 L'utente, nell'utilizzo della webapp, interagisce con gli elementi messi a disposizione dalla \textit{View} e richiama delle specifiche \textit{Action} di controller specifici. Questa interazione è possibile grazie a \textit{Struts} che permette di associare un file jsp ad una Action di un controller, andando a configurare il file \textit{struts.xml}.
 
-\section{Design Pattern utilizzati}
+\section{Design Pattern}
+I \textbf{\textit{Design Pattern}} sono soluzioni generali utilizzate per risolvere problemi ricorrenti durante lo sviluppo di un'applicazione. Esistono diversi \textit{design pattern} ed ognuno di loro ha uno scopo preciso durante la codifica del prodotto. \\
+Possiamo riconoscere tre famiglie per i \textit{design pattern}:\\
+\begin{itemize}
+\item \textbf{Comportamentali}: definiscono le interazioni tra gli oggetti e distribuiscono le responsabilità.
+\item \textbf{Creazionali}: si occupano di come creare gli oggetti
+\item \textbf{Strutturali}: provvedono a definire la struttura delle classi, degli oggetti e come essi sono composti.
+\end{itemize} 
+\\
+\noindent
+L'azienda \textit{CWBI} ha applicato i seguenti \textit{design pattern} per la codifica delle loro applicazioni. Tali pattern sono anche presenti nel progetto in quanto basato su una struttura ben definita e solida.
 
+\subsection*{Dependency Injection}
+La \textit{Dependency injection} è una tecnica che si occupa di separare la creazione di un oggetto dal suo effettivo utilizzo. Quindi quando un oggetto vuole utilizzare un servizio/oggetto, non deve preoccuparsi di come questo servizio/oggetto è composto o creato in quanto li verrà \textit{iniettato} dall'esterno. Quindi le dipendenze di un oggetto con i componenti o i servizi che lo compongono sono risolte e iniettate da una classe chiamata \textbf{\textit{Injectors}}.\\
+Questo \textit{pattern} porta ad avere vantaggi come il riutilizzo, la testabilità e la manutenzione del codice. 
+
+\subsection*{Inversion of Control}  
+L' \textbf{\textit{Inversion of Control}}, detto anche \textbf{\textit{IoC}} è un design pattern molto importante ed è uno dei modi per applicare la \textit{dependency injection}.\\
+Normalmente il flusso di un'applicazione è determinato dagli oggetti e quindi dal codice che la compongono. Con \textit{IoC} il controllo del flusso è affidato ad un \textit{framework} che si occuperà degli oggetti e delle loro dipendenze.\\
+Un esempio di framework che applica \textit{IoC} è \textit{Spring} che introduce delle annotazioni come: \textit{@Component}, \textit{@Service}, \textit{@Repository} o \textit{@Controller}.
+
+\subsection*{Decorator}
+ \begin{figure}[H]
+    \centering 
+    \includegraphics[width=0.5\columnwidth]{decorator} 
+    \bigskip
+    \caption{Pattern decorator}
+\end{figure}
 \section{Codifica}
