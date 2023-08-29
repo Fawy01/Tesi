@@ -465,7 +465,7 @@ L'azienda \textit{CWBI} ha applicato i seguenti \textit{design pattern} per la c
 \subsection*{Dependency Injection}
 La \textit{Dependency injection} è una tecnica che si occupa di separare la creazione di un oggetto dal suo effettivo utilizzo. Quindi quando un oggetto vuole utilizzare un servizio/oggetto, non deve preoccuparsi di come questo servizio/oggetto è composto o creato in quanto li verrà \textit{iniettato} dall'esterno. Quindi le dipendenze di un oggetto con i componenti o i servizi che lo compongono sono risolte e iniettate da una classe chiamata \textbf{\textit{Injectors}}.\\
 Questo \textit{pattern} porta ad avere vantaggi come il riutilizzo, la testabilità e la manutenzione del codice. 
-
+\newpage
 \subsection*{Inversion of Control}  
 L' \textbf{\textit{Inversion of Control}}, detto anche \textbf{\textit{IoC}} è un design pattern molto importante ed è uno dei modi per applicare la \textit{dependency injection}.\\
 Normalmente il flusso di un'applicazione è determinato dagli oggetti e quindi dal codice che la compongono. Con \textit{IoC} il controllo del flusso è affidato ad un \textit{framework} che si occuperà degli oggetti e delle loro dipendenze.\\
@@ -474,8 +474,27 @@ Un esempio di framework che applica \textit{IoC} è \textit{Spring} che introduc
 \subsection*{Decorator}
  \begin{figure}[H]
     \centering 
-    \includegraphics[width=0.5\columnwidth]{decorator} 
+    \includegraphics[width=0.6\columnwidth]{decorator} 
     \bigskip
     \caption{Pattern decorator}
 \end{figure}
+
+Il pattern \textit{\textbf{Decorator}} è un pattern strutturale che permette di introdurre nuove funzionalità e comportamenti ad un oggetto senza cambiarne la struttura. L'introduzione di questi nuovi elementi viene effettuata a \textit{run-time}.
+Come si vede dalla \textit{figura 5.5} gli elementi che compongono il \textit{decorator} sono:
+\begin{itemize}
+\item \textbf{Component}: rappresenta l'interfaccia dell'oggetto da creare;
+\item \textbf{ConcreteComponent}: è l'oggetto a cui verranno aggiunte le nuove caratteristiche;
+\item \textbf{Decorator}: è l'interfaccia dei Decorator che aggiungeranno le nuove funzioni;			 
+\item \textbf{ConcreteDecorator}: rappresenta gli oggetti Decorator che hanno il compito di aggiungere le nuove funzionalità al \textit{ConcreteComponent}. 
+\end{itemize}
+\subsection*{Data Access Object}
+ \begin{figure}[H]
+    \centering 
+    \includegraphics[width=0.7\columnwidth]{DAO} 
+    \bigskip
+    \caption{Pattern DAO}
+\end{figure}
+Il pattern \textit{\textbf{Data Access Object}}, detto anche \textit{\textbf{Dao}}, è un pattern architetturale che permette di dividere il livello di business dell'applicazione dalla fonte da cui arrivano i dati, per esempio un database. \\
+Mette a disposizione un'interfaccia che mappa le operazione sui dati alle chiamate per il database. In generale, facilita l'utilizzo delle funzioni \textit{CRUD} separando i bisogni dell'applicazione dal come questi bisogni dovranno essere soddisfatti. In questo modo il livello business e il database evolveranno separatamente senza conoscere i dettagli l'uno dell'altro.
+
 \section{Codifica}
