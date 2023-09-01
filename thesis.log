@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.16)  31 AUG 2023 19:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.16)  1 SEP 2023 17:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1414,7 +1414,7 @@ or specify an encoding such as \usepackage [latin1]{inputenc}
 in the document preamble.
 Alternatively, save the file in UTF-8 using your editor or another tool
 
-<images/cwbi.png, id=296, 121.05225pt x 37.94176pt>
+<images/cwbi.png, id=294, 121.05225pt x 37.94176pt>
 File: images/cwbi.png Graphic file (type png)
 <use images/cwbi.png>
 Package pdftex.def Info: images/cwbi.png  used on input line 16.
@@ -1446,7 +1446,7 @@ my insertion and my current dilemma will both disappear.
 
 ) (./chapters/concept.tex [5]
 Capitolo 4.
-<images/usecase/utenti-primari.png, id=324, 503.8825pt x 481.8pt>
+<images/usecase/utenti-primari.png, id=322, 503.8825pt x 481.8pt>
 File: images/usecase/utenti-primari.png Graphic file (type png)
 <use images/usecase/utenti-primari.png>
 Package pdftex.def Info: images/usecase/utenti-primari.png  used on input line 
@@ -1474,7 +1474,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--41
 
  []
 
-<images/usecase/UC01.png, id=332, 570.13pt x 342.27875pt>
+<images/usecase/UC01.png, id=330, 570.13pt x 342.27875pt>
 File: images/usecase/UC01.png Graphic file (type png)
 <use images/usecase/UC01.png>
 Package pdftex.def Info: images/usecase/UC01.png  used on input line 48.
@@ -1484,37 +1484,37 @@ Package pdftex.def Info: images/usecase/UC01.png  used on input line 48.
 LaTeX Warning: Hyper reference `UC02' on page 8 undefined on input line 70.
 
 [8 <./images/usecase/UC01.png>]
-<images/usecase/UC03.png, id=347, 563.10374pt x 211.79124pt>
+<images/usecase/UC03.png, id=345, 563.10374pt x 211.79124pt>
 File: images/usecase/UC03.png Graphic file (type png)
 <use images/usecase/UC03.png>
 Package pdftex.def Info: images/usecase/UC03.png  used on input line 118.
 (pdftex.def)             Requested size: 334.79773pt x 125.92201pt.
-<images/usecase/UC04.png, id=348, 560.0925pt x 221.82875pt>
+<images/usecase/UC04.png, id=346, 560.0925pt x 221.82875pt>
 File: images/usecase/UC04.png Graphic file (type png)
 <use images/usecase/UC04.png>
 Package pdftex.def Info: images/usecase/UC04.png  used on input line 147.
 (pdftex.def)             Requested size: 334.79773pt x 132.60408pt.
  [9 <./images/usecase/UC03.png>]
-<images/usecase/UC05_06_07.png, id=357, 713.66624pt x 506.89375pt>
+<images/usecase/UC05_06_07.png, id=355, 713.66624pt x 506.89375pt>
 File: images/usecase/UC05_06_07.png Graphic file (type png)
 <use images/usecase/UC05_06_07.png>
 Package pdftex.def Info: images/usecase/UC05_06_07.png  used on input line 178.
 
 (pdftex.def)             Requested size: 297.60114pt x 211.37794pt.
  [10 <./images/usecase/UC04.png> <./images/usecase/UC05_06_07.png>]
-<images/usecase/UC05_1_2.png, id=367, 550.055pt x 302.12875pt>
+<images/usecase/UC05_1_2.png, id=365, 550.055pt x 302.12875pt>
 File: images/usecase/UC05_1_2.png Graphic file (type png)
 <use images/usecase/UC05_1_2.png>
 Package pdftex.def Info: images/usecase/UC05_1_2.png  used on input line 251.
 (pdftex.def)             Requested size: 334.79773pt x 183.9018pt.
  [11]
-<images/usecase/UC05_dettaglio_pt1.png, id=375, 620.3175pt x 492.84125pt>
+<images/usecase/UC05_dettaglio_pt1.png, id=373, 620.3175pt x 492.84125pt>
 File: images/usecase/UC05_dettaglio_pt1.png Graphic file (type png)
 <use images/usecase/UC05_dettaglio_pt1.png>
 Package pdftex.def Info: images/usecase/UC05_dettaglio_pt1.png  used on input l
 ine 302.
 (pdftex.def)             Requested size: 297.60114pt x 236.44078pt.
-<images/usecase/UC05_dettaglio_pt2.png, id=376, 620.3175pt x 512.91624pt>
+<images/usecase/UC05_dettaglio_pt2.png, id=374, 620.3175pt x 512.91624pt>
 File: images/usecase/UC05_dettaglio_pt2.png Graphic file (type png)
 <use images/usecase/UC05_dettaglio_pt2.png>
 Package pdftex.def Info: images/usecase/UC05_dettaglio_pt2.png  used on input l
@@ -1522,7 +1522,7 @@ ine 307.
 (pdftex.def)             Requested size: 297.60114pt x 246.07178pt.
  [12 <./images/usecase/UC05_1_2.png>] [13 <./images/usecase/UC05_dettaglio_pt1.
 png> <./images/usecase/UC05_dettaglio_pt2.png>]
-<images/usecase/UC09.png, id=393, 570.13pt x 342.27875pt>
+<images/usecase/UC09.png, id=391, 570.13pt x 342.27875pt>
 File: images/usecase/UC09.png Graphic file (type png)
 <use images/usecase/UC09.png>
 Package pdftex.def Info: images/usecase/UC09.png  used on input line 334.
@@ -1531,7 +1531,7 @@ Package pdftex.def Info: images/usecase/UC09.png  used on input line 334.
 
 LaTeX Warning: Hyper reference `UC17' on page 14 undefined on input line 358.
 
-<images/usecase/UC10_11.png, id=394, 540.0175pt x 332.24126pt>
+<images/usecase/UC10_11.png, id=392, 540.0175pt x 332.24126pt>
 File: images/usecase/UC10_11.png Graphic file (type png)
 <use images/usecase/UC10_11.png>
 Package pdftex.def Info: images/usecase/UC10_11.png  used on input line 366.
@@ -1540,13 +1540,13 @@ Package pdftex.def Info: images/usecase/UC10_11.png  used on input line 366.
 
 LaTeX Warning: Hyper reference `UC11' on page 15 undefined on input line 388.
 
-<images/usecase/UC10_ricerca_p1.png, id=401, 550.055pt x 452.69125pt>
+<images/usecase/UC10_ricerca_p1.png, id=399, 550.055pt x 452.69125pt>
 File: images/usecase/UC10_ricerca_p1.png Graphic file (type png)
 <use images/usecase/UC10_ricerca_p1.png>
 Package pdftex.def Info: images/usecase/UC10_ricerca_p1.png  used on input line
  394.
 (pdftex.def)             Requested size: 260.39886pt x 214.3122pt.
-<images/usecase/UC10_ricerca_p2.png, id=402, 550.055pt x 532.99126pt>
+<images/usecase/UC10_ricerca_p2.png, id=400, 550.055pt x 532.99126pt>
 File: images/usecase/UC10_ricerca_p2.png Graphic file (type png)
 <use images/usecase/UC10_ricerca_p2.png>
 Package pdftex.def Info: images/usecase/UC10_ricerca_p2.png  used on input line
@@ -1554,13 +1554,13 @@ Package pdftex.def Info: images/usecase/UC10_ricerca_p2.png  used on input line
 (pdftex.def)             Requested size: 260.39886pt x 252.32767pt.
 [15 <./images/usecase/UC10_11.png>] [16 <./images/usecase/UC10_ricerca_p1.png> 
 <./images/usecase/UC10_ricerca_p2.png>]
-<images/usecase/UC12_13.png, id=417, 560.0925pt x 342.27875pt>
+<images/usecase/UC12_13.png, id=415, 560.0925pt x 342.27875pt>
 File: images/usecase/UC12_13.png Graphic file (type png)
 <use images/usecase/UC12_13.png>
 Package pdftex.def Info: images/usecase/UC12_13.png  used on input line 453.
 (pdftex.def)             Requested size: 334.79773pt x 204.6063pt.
  [17 <./images/usecase/UC12_13.png>]
-<images/usecase/UC14.png, id=425, 560.0925pt x 201.75375pt>
+<images/usecase/UC14.png, id=423, 560.0925pt x 201.75375pt>
 File: images/usecase/UC14.png Graphic file (type png)
 <use images/usecase/UC14.png>
 Package pdftex.def Info: images/usecase/UC14.png  used on input line 504.
@@ -1571,13 +1571,13 @@ Overfull \hbox (37.20227pt too wide) in paragraph at lines 504--505
  []
 
 [18 <./images/usecase/UC14.png>]
-<images/usecase/UC14_inserimentoTesto.png, id=434, 560.0925pt x 201.75375pt>
+<images/usecase/UC14_inserimentoTesto.png, id=432, 560.0925pt x 201.75375pt>
 File: images/usecase/UC14_inserimentoTesto.png Graphic file (type png)
 <use images/usecase/UC14_inserimentoTesto.png>
 Package pdftex.def Info: images/usecase/UC14_inserimentoTesto.png  used on inpu
 t line 531.
 (pdftex.def)             Requested size: 260.39886pt x 93.8022pt.
-<images/usecase/UC15_16.png, id=435, 560.0925pt x 302.12875pt>
+<images/usecase/UC15_16.png, id=433, 560.0925pt x 302.12875pt>
 File: images/usecase/UC15_16.png Graphic file (type png)
 <use images/usecase/UC15_16.png>
 Package pdftex.def Info: images/usecase/UC15_16.png  used on input line 558.
@@ -2078,7 +2078,7 @@ l.48 ...e, detti anche \textit{\textbf{beans}\gls}
 You need to define a glossary entry before you can use it.
 
 [28] [29]
-<images/diagrammaBase.png, id=509, 563.10374pt x 563.10374pt>
+<images/diagrammaBase.png, id=507, 563.10374pt x 563.10374pt>
 File: images/diagrammaBase.png Graphic file (type png)
 <use images/diagrammaBase.png>
 Package pdftex.def Info: images/diagrammaBase.png  used on input line 102.
@@ -2089,7 +2089,7 @@ Overfull \hbox (37.20227pt too wide) in paragraph at lines 102--104
  []
 
 [30] [31 <./images/diagrammaBase.png>]
-<images/diagrammaEvoBase.png, id=521, 763.85374pt x 897.3525pt>
+<images/diagrammaEvoBase.png, id=519, 763.85374pt x 897.3525pt>
 File: images/diagrammaEvoBase.png Graphic file (type png)
 <use images/diagrammaEvoBase.png>
 Package pdftex.def Info: images/diagrammaEvoBase.png  used on input line 116.
@@ -2100,12 +2100,12 @@ Overfull \hbox (37.20227pt too wide) in paragraph at lines 116--118
  []
 
 [32 <./images/diagrammaEvoBase.png>] [33] [34] [35]
-<images/MVC.png, id=541, 803.0pt x 919.435pt>
+<images/MVC.png, id=539, 803.0pt x 919.435pt>
 File: images/MVC.png Graphic file (type png)
 <use images/MVC.png>
 Package pdftex.def Info: images/MVC.png  used on input line 343.
 (pdftex.def)             Requested size: 148.79773pt x 170.3734pt.
-<images/SchemaModel.png, id=542, 451.6875pt x 299.1175pt>
+<images/SchemaModel.png, id=540, 451.6875pt x 299.1175pt>
 File: images/SchemaModel.png Graphic file (type png)
 <use images/SchemaModel.png>
 Package pdftex.def Info: images/SchemaModel.png  used on input line 362.
@@ -2184,12 +2184,12 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [40]
-<images/decorator.png, id=572, 1027.84pt x 814.04124pt>
+<images/decorator.png, id=570, 1027.84pt x 814.04124pt>
 File: images/decorator.png Graphic file (type png)
 <use images/decorator.png>
 Package pdftex.def Info: images/decorator.png  used on input line 477.
 (pdftex.def)             Requested size: 223.20227pt x 176.76685pt.
-<images/DAO.jpg, id=573, 1003.75pt x 501.875pt>
+<images/DAO.jpg, id=571, 1003.75pt x 501.875pt>
 File: images/DAO.jpg Graphic file (type jpg)
 <use images/DAO.jpg>
 Package pdftex.def Info: images/DAO.jpg  used on input line 493.
@@ -2197,7 +2197,7 @@ Package pdftex.def Info: images/DAO.jpg  used on input line 493.
  [41 <./images/decorator.png>]) (./chapters/product-design.tex [42 <./images/DA
 O.jpg (PNG copy)>]
 Capitolo 6.
-<images/debug.png, id=586, 574.5465pt x 524.96124pt>
+<images/debug.png, id=584, 574.5465pt x 524.96124pt>
 File: images/debug.png Graphic file (type png)
 <use images/debug.png>
 Package pdftex.def Info: images/debug.png  used on input line 21.
@@ -2206,12 +2206,12 @@ Package pdftex.def Info: images/debug.png  used on input line 21.
 
 ]) (./chapters/prodotto-finale.tex [44 <./images/debug.png>]
 Capitolo 7.
-<images/ticketApertidaMe1.png, id=595, 649.67719pt x 271.0125pt>
+<images/ticketApertidaMe1.png, id=593, 649.67719pt x 271.0125pt>
 File: images/ticketApertidaMe1.png Graphic file (type png)
 <use images/ticketApertidaMe1.png>
 Package pdftex.def Info: images/ticketApertidaMe1.png  used on input line 24.
 (pdftex.def)             Requested size: 409.20227pt x 170.70155pt.
-<images/ticketApertidaMe2.png, id=596, 684.30656pt x 271.0125pt>
+<images/ticketApertidaMe2.png, id=594, 684.30656pt x 271.0125pt>
 File: images/ticketApertidaMe2.png Graphic file (type png)
 <use images/ticketApertidaMe2.png>
 Package pdftex.def Info: images/ticketApertidaMe2.png  used on input line 25.
@@ -2229,19 +2229,19 @@ Overfull \hbox (37.20227pt too wide) in paragraph at lines 24--26
 [45
 
 ]
-<images/menu.png, id=601, 344.03531pt x 161.10187pt>
+<images/menu.png, id=599, 344.03531pt x 161.10187pt>
 File: images/menu.png Graphic file (type png)
 <use images/menu.png>
 Package pdftex.def Info: images/menu.png  used on input line 34.
 (pdftex.def)             Requested size: 260.39886pt x 121.93721pt.
  [46 <./images/ticketApertidaMe1.PNG> <./images/ticketApertidaMe2.PNG> <./image
 s/menu.PNG>]
-<images/NewTicket-Step1.png, id=610, 438.8897pt x 402.75468pt>
+<images/NewTicket-Step1.png, id=608, 438.8897pt x 402.75468pt>
 File: images/NewTicket-Step1.png Graphic file (type png)
 <use images/NewTicket-Step1.png>
 Package pdftex.def Info: images/NewTicket-Step1.png  used on input line 51.
 (pdftex.def)             Requested size: 260.39886pt x 238.96292pt.
-<images/newTicket-Step2-prima parte.png, id=611, 1346.78156pt x 438.13687pt>
+<images/newTicket-Step2-prima parte.png, id=609, 1346.78156pt x 438.13687pt>
 File: images/newTicket-Step2-prima parte.png Graphic file (type png)
 <use images/newTicket-Step2-prima parte.png>
 Package pdftex.def Info: images/newTicket-Step2-prima parte.png  used on input 
@@ -2252,7 +2252,7 @@ Overfull \hbox (186.0pt too wide) in paragraph at lines 59--60
  [][] 
  []
 
-<images/newTicket-Step2-seconda parte.png, id=612, 1344.52313pt x 220.57407pt>
+<images/newTicket-Step2-seconda parte.png, id=610, 1344.52313pt x 220.57407pt>
 File: images/newTicket-Step2-seconda parte.png Graphic file (type png)
 <use images/newTicket-Step2-seconda parte.png>
 Package pdftex.def Info: images/newTicket-Step2-seconda parte.png  used on inpu
@@ -2264,17 +2264,17 @@ Overfull \hbox (186.0pt too wide) in paragraph at lines 66--67
  []
 
 [47 <./images/NewTicket-Step1.PNG> <./images/newTicket-Step2-prima parte.PNG>]
-<images/ricercaTicket1.1.png, id=622, 191.9672pt x 328.22626pt>
+<images/ricercaTicket1.1.png, id=620, 191.9672pt x 328.22626pt>
 File: images/ricercaTicket1.1.png Graphic file (type png)
 <use images/ricercaTicket1.1.png>
 Package pdftex.def Info: images/ricercaTicket1.1.png  used on input line 77.
 (pdftex.def)             Requested size: 130.20227pt x 222.63496pt.
-<images/ricercaTicket1.2.png, id=623, 191.9672pt x 321.45094pt>
+<images/ricercaTicket1.2.png, id=621, 191.9672pt x 321.45094pt>
 File: images/ricercaTicket1.2.png Graphic file (type png)
 <use images/ricercaTicket1.2.png>
 Package pdftex.def Info: images/ricercaTicket1.2.png  used on input line 78.
 (pdftex.def)             Requested size: 130.20227pt x 218.03929pt.
-<images/ricercaTicket2.png, id=624, 1153.30875pt x 420.82219pt>
+<images/ricercaTicket2.png, id=622, 1153.30875pt x 420.82219pt>
 File: images/ricercaTicket2.png Graphic file (type png)
 <use images/ricercaTicket2.png>
 Package pdftex.def Info: images/ricercaTicket2.png  used on input line 83.
@@ -2286,12 +2286,12 @@ Overfull \hbox (111.60114pt too wide) in paragraph at lines 83--84
 
 [48 <./images/newTicket-Step2-seconda parte.PNG> <./images/ricercaTicket1.1.PNG
 > <./images/ricercaTicket1.2.PNG>]
-<images/dettaglioTicket1.png, id=633, 464.4853pt x 46.67438pt>
+<images/dettaglioTicket1.png, id=631, 464.4853pt x 46.67438pt>
 File: images/dettaglioTicket1.png Graphic file (type png)
 <use images/dettaglioTicket1.png>
 Package pdftex.def Info: images/dettaglioTicket1.png  used on input line 114.
 (pdftex.def)             Requested size: 409.20227pt x 41.11984pt.
-<images/dettaglioTicket2.png, id=634, 322.20375pt x 43.66313pt>
+<images/dettaglioTicket2.png, id=632, 322.20375pt x 43.66313pt>
 File: images/dettaglioTicket2.png Graphic file (type png)
 <use images/dettaglioTicket2.png>
 Package pdftex.def Info: images/dettaglioTicket2.png  used on input line 115.
@@ -2302,7 +2302,7 @@ Overfull \hbox (37.20227pt too wide) in paragraph at lines 114--116
  []
 
 [49 <./images/ricercaTicket2.PNG>]
-<images/dettaglioTicket3.png, id=640, 1342.2647pt x 183.68625pt>
+<images/dettaglioTicket3.png, id=638, 1342.2647pt x 183.68625pt>
 File: images/dettaglioTicket3.png Graphic file (type png)
 <use images/dettaglioTicket3.png>
 Package pdftex.def Info: images/dettaglioTicket3.png  used on input line 125.
@@ -2312,7 +2312,7 @@ Overfull \hbox (93.0pt too wide) in paragraph at lines 125--126
  [][] 
  []
 
-<images/dettaglioTicket4.png, id=641, 536.0025pt x 179.92218pt>
+<images/dettaglioTicket4.png, id=639, 536.0025pt x 179.92218pt>
 File: images/dettaglioTicket4.png Graphic file (type png)
 <use images/dettaglioTicket4.png>
 Package pdftex.def Info: images/dettaglioTicket4.png  used on input line 134.
@@ -2324,7 +2324,7 @@ Overfull \hbox (74.39886pt too wide) in paragraph at lines 134--135
 
 [50 <./images/dettaglioTicket1.PNG> <./images/dettaglioTicket2.PNG> <./images/d
 ettaglioTicket3.PNG> <./images/dettaglioTicket4.PNG>]
-<images/nota.png, id=650, 489.32813pt x 416.30531pt>
+<images/nota.png, id=648, 489.32813pt x 416.30531pt>
 File: images/nota.png Graphic file (type png)
 <use images/nota.png>
 Package pdftex.def Info: images/nota.png  used on input line 144.
@@ -2332,13 +2332,9 @@ Package pdftex.def Info: images/nota.png  used on input line 144.
 )
 (./chapters/conclusioni.tex [51 <./images/nota.PNG>]
 Capitolo 8.
-) (./appendix/appendice-a.tex [52
+[52
 
-]
-Appendice A.
-) [53
-
-]
+]) [53]
 No file thesis.acr.
 No file thesis.gls.
 (./appendix/bibliography.tex [54
@@ -2383,11 +2379,11 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 (\end occurred when \if on line 11 was incomplete)
 (\end occurred when \ifdefined on line 1 was incomplete) 
 Here is how much of TeX's memory you used:
- 39324 strings out of 475237
- 691235 string characters out of 5768555
+ 39281 strings out of 475237
+ 690551 string characters out of 5768555
  1933238 words of memory out of 5000000
- 59399 multiletter control sequences out of 15000+600000
- 592261 words of font info for 215 fonts, out of 8000000 for 9000
+ 59375 multiletter control sequences out of 15000+600000
+ 589780 words of font info for 203 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  99i,15n,125p,2259b,3164s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -2414,10 +2410,10 @@ uper/sfrm0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1
 s/type1/public/cm-super/sfti0700.pfb><c:/texlive/2023/texmf-dist/fonts/type1/pu
 blic/cm-super/sfti1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-su
 per/sfti1200.pfb>
-Output written on thesis.pdf (64 pages, 3322522 bytes).
+Output written on thesis.pdf (64 pages, 3324228 bytes).
 PDF statistics:
- 974 PDF objects out of 1000 (max. 8388607)
- 778 compressed objects within 8 object streams
- 250 named destinations out of 1000 (max. 500000)
- 66136 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 969 PDF objects out of 1000 (max. 8388607)
+ 773 compressed objects within 8 object streams
+ 249 named destinations out of 1000 (max. 500000)
+ 62032 words of extra memory for PDF output out of 74296 (max. 10000000)
 
