@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.16)  2 SEP 2023 18:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.16)  2 SEP 2023 19:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1331,35 +1331,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 ) (./preface/summary.tex [2
 
 ]
-
-! Package glossaries Error: Glossary entry `�' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 ...el modulo web relativo al ticketing\gls è
-                                                   l'analisi del problema co...
-
-You need to define a glossary entry before you can use it.
-
-
-! LaTeX Error: Invalid UTF-8 byte "A8.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 ...el modulo web relativo al ticketing\gls è
-                                                   l'analisi del problema co...
-
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 11--18
 
  []
@@ -1446,15 +1417,16 @@ my insertion and my current dilemma will both disappear.
 
 ) (./chapters/concept.tex [5]
 Capitolo 4.
-<images/usecase/utenti-primari.png, id=322, 503.8825pt x 481.8pt>
-File: images/usecase/utenti-primari.png Graphic file (type png)
-<use images/usecase/utenti-primari.png>
-Package pdftex.def Info: images/usecase/utenti-primari.png  used on input line 
-27.
-(pdftex.def)             Requested size: 334.79773pt x 320.12831pt.
 [6
 
 ]
+<images/usecase/utenti-primari.png, id=328, 503.8825pt x 481.8pt>
+File: images/usecase/utenti-primari.png Graphic file (type png)
+<use images/usecase/utenti-primari.png>
+Package pdftex.def Info: images/usecase/utenti-primari.png  used on input line 
+28.
+(pdftex.def)             Requested size: 297.60114pt x 284.56094pt.
+
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1462,7 +1434,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32 \textbf
+l.33 \textbf
             {Utente Non Autenticato}: utente che ancora non ha effettuato l'...
 
 Your command was ignored.
@@ -1470,103 +1442,103 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--41
+Underfull \hbox (badness 10000) in paragraph at lines 33--42
 
  []
 
 <images/usecase/UC01.png, id=330, 570.13pt x 342.27875pt>
 File: images/usecase/UC01.png Graphic file (type png)
 <use images/usecase/UC01.png>
-Package pdftex.def Info: images/usecase/UC01.png  used on input line 48.
+Package pdftex.def Info: images/usecase/UC01.png  used on input line 49.
 (pdftex.def)             Requested size: 334.79773pt x 200.99738pt.
 [7 <./images/usecase/utenti-primari.png>]
 
-LaTeX Warning: Hyper reference `UC02' on page 8 undefined on input line 70.
+LaTeX Warning: Hyper reference `UC02' on page 8 undefined on input line 71.
 
 [8 <./images/usecase/UC01.png>]
 <images/usecase/UC03.png, id=345, 563.10374pt x 211.79124pt>
 File: images/usecase/UC03.png Graphic file (type png)
 <use images/usecase/UC03.png>
-Package pdftex.def Info: images/usecase/UC03.png  used on input line 118.
+Package pdftex.def Info: images/usecase/UC03.png  used on input line 119.
 (pdftex.def)             Requested size: 334.79773pt x 125.92201pt.
 <images/usecase/UC04.png, id=346, 560.0925pt x 221.82875pt>
 File: images/usecase/UC04.png Graphic file (type png)
 <use images/usecase/UC04.png>
-Package pdftex.def Info: images/usecase/UC04.png  used on input line 147.
+Package pdftex.def Info: images/usecase/UC04.png  used on input line 148.
 (pdftex.def)             Requested size: 334.79773pt x 132.60408pt.
  [9 <./images/usecase/UC03.png>]
 <images/usecase/UC05_06_07.png, id=355, 713.66624pt x 506.89375pt>
 File: images/usecase/UC05_06_07.png Graphic file (type png)
 <use images/usecase/UC05_06_07.png>
-Package pdftex.def Info: images/usecase/UC05_06_07.png  used on input line 178.
+Package pdftex.def Info: images/usecase/UC05_06_07.png  used on input line 179.
 
 (pdftex.def)             Requested size: 297.60114pt x 211.37794pt.
  [10 <./images/usecase/UC04.png> <./images/usecase/UC05_06_07.png>]
 <images/usecase/UC05_1_2.png, id=365, 550.055pt x 302.12875pt>
 File: images/usecase/UC05_1_2.png Graphic file (type png)
 <use images/usecase/UC05_1_2.png>
-Package pdftex.def Info: images/usecase/UC05_1_2.png  used on input line 251.
+Package pdftex.def Info: images/usecase/UC05_1_2.png  used on input line 252.
 (pdftex.def)             Requested size: 334.79773pt x 183.9018pt.
  [11]
 <images/usecase/UC05_dettaglio_pt1.png, id=373, 620.3175pt x 492.84125pt>
 File: images/usecase/UC05_dettaglio_pt1.png Graphic file (type png)
 <use images/usecase/UC05_dettaglio_pt1.png>
 Package pdftex.def Info: images/usecase/UC05_dettaglio_pt1.png  used on input l
-ine 302.
+ine 303.
 (pdftex.def)             Requested size: 297.60114pt x 236.44078pt.
 <images/usecase/UC05_dettaglio_pt2.png, id=374, 620.3175pt x 512.91624pt>
 File: images/usecase/UC05_dettaglio_pt2.png Graphic file (type png)
 <use images/usecase/UC05_dettaglio_pt2.png>
 Package pdftex.def Info: images/usecase/UC05_dettaglio_pt2.png  used on input l
-ine 307.
+ine 308.
 (pdftex.def)             Requested size: 297.60114pt x 246.07178pt.
  [12 <./images/usecase/UC05_1_2.png>] [13 <./images/usecase/UC05_dettaglio_pt1.
 png> <./images/usecase/UC05_dettaglio_pt2.png>]
 <images/usecase/UC09.png, id=391, 570.13pt x 342.27875pt>
 File: images/usecase/UC09.png Graphic file (type png)
 <use images/usecase/UC09.png>
-Package pdftex.def Info: images/usecase/UC09.png  used on input line 334.
+Package pdftex.def Info: images/usecase/UC09.png  used on input line 335.
 (pdftex.def)             Requested size: 260.39886pt x 156.32722pt.
 
 
-LaTeX Warning: Hyper reference `UC17' on page 14 undefined on input line 358.
+LaTeX Warning: Hyper reference `UC17' on page 14 undefined on input line 359.
 
 <images/usecase/UC10_11.png, id=392, 540.0175pt x 332.24126pt>
 File: images/usecase/UC10_11.png Graphic file (type png)
 <use images/usecase/UC10_11.png>
-Package pdftex.def Info: images/usecase/UC10_11.png  used on input line 366.
+Package pdftex.def Info: images/usecase/UC10_11.png  used on input line 367.
 (pdftex.def)             Requested size: 334.79773pt x 205.98744pt.
 [14 <./images/usecase/UC09.png>]
 
-LaTeX Warning: Hyper reference `UC11' on page 15 undefined on input line 388.
+LaTeX Warning: Hyper reference `UC11' on page 15 undefined on input line 389.
 
 <images/usecase/UC10_ricerca_p1.png, id=399, 550.055pt x 452.69125pt>
 File: images/usecase/UC10_ricerca_p1.png Graphic file (type png)
 <use images/usecase/UC10_ricerca_p1.png>
 Package pdftex.def Info: images/usecase/UC10_ricerca_p1.png  used on input line
- 394.
+ 395.
 (pdftex.def)             Requested size: 260.39886pt x 214.3122pt.
 <images/usecase/UC10_ricerca_p2.png, id=400, 550.055pt x 532.99126pt>
 File: images/usecase/UC10_ricerca_p2.png Graphic file (type png)
 <use images/usecase/UC10_ricerca_p2.png>
 Package pdftex.def Info: images/usecase/UC10_ricerca_p2.png  used on input line
- 399.
+ 400.
 (pdftex.def)             Requested size: 260.39886pt x 252.32767pt.
 [15 <./images/usecase/UC10_11.png>] [16 <./images/usecase/UC10_ricerca_p1.png> 
 <./images/usecase/UC10_ricerca_p2.png>]
 <images/usecase/UC12_13.png, id=415, 560.0925pt x 342.27875pt>
 File: images/usecase/UC12_13.png Graphic file (type png)
 <use images/usecase/UC12_13.png>
-Package pdftex.def Info: images/usecase/UC12_13.png  used on input line 453.
+Package pdftex.def Info: images/usecase/UC12_13.png  used on input line 454.
 (pdftex.def)             Requested size: 334.79773pt x 204.6063pt.
  [17 <./images/usecase/UC12_13.png>]
 <images/usecase/UC14.png, id=423, 560.0925pt x 201.75375pt>
 File: images/usecase/UC14.png Graphic file (type png)
 <use images/usecase/UC14.png>
-Package pdftex.def Info: images/usecase/UC14.png  used on input line 504.
+Package pdftex.def Info: images/usecase/UC14.png  used on input line 505.
 (pdftex.def)             Requested size: 409.20227pt x 147.4083pt.
 
-Overfull \hbox (37.20227pt too wide) in paragraph at lines 504--505
+Overfull \hbox (37.20227pt too wide) in paragraph at lines 505--506
  [][] 
  []
 
@@ -1575,12 +1547,12 @@ Overfull \hbox (37.20227pt too wide) in paragraph at lines 504--505
 File: images/usecase/UC14_inserimentoTesto.png Graphic file (type png)
 <use images/usecase/UC14_inserimentoTesto.png>
 Package pdftex.def Info: images/usecase/UC14_inserimentoTesto.png  used on inpu
-t line 531.
+t line 532.
 (pdftex.def)             Requested size: 260.39886pt x 93.8022pt.
 <images/usecase/UC15_16.png, id=433, 560.0925pt x 302.12875pt>
 File: images/usecase/UC15_16.png Graphic file (type png)
 <use images/usecase/UC15_16.png>
-Package pdftex.def Info: images/usecase/UC15_16.png  used on input line 558.
+Package pdftex.def Info: images/usecase/UC15_16.png  used on input line 559.
 (pdftex.def)             Requested size: 260.39886pt x 140.46997pt.
  [19 <./images/usecase/UC14_inserimentoTesto.png> <./images/usecase/UC15_16.png
 >] [20] [21]
@@ -1590,7 +1562,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.740 \end{tabularx}
+l.741 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1601,7 +1573,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.740 \end{tabularx}
+l.741 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1613,13 +1585,13 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.740 \end{tabularx}
+l.741 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--742
+Underfull \hbox (badness 10000) in paragraph at lines 741--743
 
  []
 
@@ -1629,7 +1601,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.795 \end{tabularx}
+l.796 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1640,7 +1612,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.795 \end{tabularx}
+l.796 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1652,13 +1624,13 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.795 \end{tabularx}
+l.796 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 795--797
+Underfull \hbox (badness 10000) in paragraph at lines 796--798
 
  []
 
@@ -1669,7 +1641,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.853 \end{tabularx}
+l.854 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1680,7 +1652,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.853 \end{tabularx}
+l.854 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1692,13 +1664,13 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.853 \end{tabularx}
+l.854 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 853--855
+Underfull \hbox (badness 10000) in paragraph at lines 854--856
 
  []
 
@@ -1709,7 +1681,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.887 \end{tabularx}
+l.888 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1720,7 +1692,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.887 \end{tabularx}
+l.888 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1732,13 +1704,13 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.887 \end{tabularx}
+l.888 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 887--889
+Underfull \hbox (badness 10000) in paragraph at lines 888--890
 
  []
 
@@ -1748,7 +1720,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.919 \end{tabularx}
+l.920 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1759,7 +1731,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.919 \end{tabularx}
+l.920 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1771,13 +1743,13 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.919 \end{tabularx}
+l.920 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 919--921
+Underfull \hbox (badness 10000) in paragraph at lines 920--922
 
  []
 
@@ -1787,7 +1759,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.951 \end{tabularx}
+l.952 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1798,7 +1770,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.951 \end{tabularx}
+l.952 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1810,19 +1782,19 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.951 \end{tabularx}
+l.952 \end{tabularx}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 6396) in paragraph at lines 951--951
+Underfull \hbox (badness 6396) in paragraph at lines 952--952
 []|\T1/cmr/m/n/10 (+20) Il mo-du-lo per-met-te l'e-li-mi-na-zio-ne del com-men-
 to al-l'u-ten-te
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 951--953
+Underfull \hbox (badness 10000) in paragraph at lines 952--954
 
  []
 
@@ -2379,11 +2351,11 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 (\end occurred when \if on line 11 was incomplete)
 (\end occurred when \ifdefined on line 1 was incomplete) 
 Here is how much of TeX's memory you used:
- 39281 strings out of 475237
- 690551 string characters out of 5768555
+ 39283 strings out of 475237
+ 690573 string characters out of 5768555
  1933238 words of memory out of 5000000
  59375 multiletter control sequences out of 15000+600000
- 589780 words of font info for 203 fonts, out of 8000000 for 9000
+ 589851 words of font info for 204 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  99i,15n,125p,2259b,3164s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -2410,7 +2382,7 @@ uper/sfrm0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1
 s/type1/public/cm-super/sfti0700.pfb><c:/texlive/2023/texmf-dist/fonts/type1/pu
 blic/cm-super/sfti1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-su
 per/sfti1200.pfb>
-Output written on thesis.pdf (64 pages, 3325890 bytes).
+Output written on thesis.pdf (64 pages, 3326258 bytes).
 PDF statistics:
  969 PDF objects out of 1000 (max. 8388607)
  773 compressed objects within 8 object streams

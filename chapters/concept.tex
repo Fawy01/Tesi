@@ -4,27 +4,28 @@
 In questo capitolo vengono analizzati tutti i requisiti individuati, come ad esempio apertura ticket, chiusura ecc..\\
 Lo scopo è definire con chiarezza la funzione che svolge ogni requisito all'interno dell'applicazione, andando  ad assegnare a questi un'etichetta che li identifica in base alla  loro natura.
 \section{Ciclo di vita di un Ticket}
-Lo studio del ciclo di vita di un ticket è fondamentale per capire le interazioni che questo deve avere con le altre classi della webapp e per comprendere gli elementi fondamentali che compongono la nostra entità. Un ticket può essere nello stato di:
+Lo studio del ciclo di vita di un ticket è fondamentale per capire le interazioni che questo oggetto deve avere con le altre classi della webapp e per comprendere gli elementi fondamentali che compongono la nostra entità. \\
+Un ticket può essere nello stato di:
 \begin{itemize}
 \item APERTO
 \item CHIUSO
 \end{itemize}
-Lo stato APERTO viene assegnato al ticket la prima volta che viene aperto e rimarrà così fino allo conclusione delle attività previste nel ticket.
-Lo stato CHIUSO verrà assegnato quando, chi ha in carico il ticket, ha concluso tutte le operazioni previste e quindi cambia lo stato in chiuso.
-Quando un ticket viene chiuso potrà essere aperto nuovamente qualora, chi se ne occupa, ritiene che le attività non siano state svolte completamente o se il cliente non rimane soddisfatto delle soluzioni applicate.
-È importante specificare che un ticket può essere preso in carico da più tecnici durante il suo ciclo di vita. Infatti le operazioni richieste del cliente possono richiedere diversi ruoli; il ticket verrà chiuso da chi lo prende in carico per ultimo.
+Lo stato APERTO viene assegnato al ticket la prima volta che viene creato e rimarrà così fino allo conclusione delle attività previste.
+Lo stato CHIUSO verrà assegnato quando, chi ha in carico il ticket ha concluso tutte le operazioni e quindi cambia lo stato in chiuso.
+Quando un ticket viene chiuso potrà essere aperto nuovamente qualora, chi se ne occupa, ritiene che le attività non siano state svolte completamente o se il cliente non rimane soddisfatto delle soluzioni applicate.\\
+È importante specificare che un ticket può essere preso in carico da più tecnici durante il suo ciclo di vita. Infatti le operazioni assegnate dal cliente possono richiedere diversi ruoli; il ticket verrà chiuso da chi lo prende in carico per ultimo.
 \section{Casi d'uso}
 
 Per lo studio dei casi di utilizzo del prodotto sono stati creati dei diagrammi.
 I diagrammi dei casi d'uso (in inglese \emph{Use Case Diagram}) sono diagrammi di tipo \gls{uml} dedicati alla descrizione delle funzioni o servizi offerti da un sistema, così come sono percepiti e utilizzati dagli attori che interagiscono col sistema stesso.
-Essendo il progetto finalizzato alla creazione di un tool per l'automazione di un processo, le interazioni da parte dell'utilizzatore devono essere ovviamente ridotte allo stretto necessario. Per questo motivo i diagrammi d'uso risultano semplici e in numero ridotto.
+Essendo il progetto finalizzato alla creazione di un modulo dedicato al solo ticketing, le interazioni da parte dell'utilizzatore devono essere ovviamente ridotte allo stretto necessario. Per questo motivo i diagrammi d'uso risultano semplici e in numero ridotto.
 
 \subsection{Attori}
 
 
 \begin{figure}[H]
     \centering 
-    \includegraphics[width=0.9\columnwidth]{usecase/utenti-primari} 
+    \includegraphics[width=0.8\columnwidth]{usecase/utenti-primari} 
     \caption{Gerarchia degli attori}
 \end{figure}
 
