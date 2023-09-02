@@ -63,6 +63,6 @@
 \contentsline {chapter}{\numberline {8}Conclusioni}{52}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Consuntivo finale}{52}{section.8.1}%
 \contentsline {section}{\numberline {8.2}Raggiungimento degli obiettivi}{52}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Valutazione degli strumenti utilizzati}{52}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Valutazione personale}{53}{section.8.4}%
+\contentsline {section}{\numberline {8.3}Valutazione degli strumenti utilizzati}{53}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Miglioramenti e future estensioni}{53}{section.8.4}%
 \contentsline {chapter}{Bibliografia}{55}{appendix*.133}%
