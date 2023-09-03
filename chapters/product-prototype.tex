@@ -1,7 +1,7 @@
 \chapter{Progettazione e codifica}
 \label{cap:progettazione-codifica}
 
-\intro{Il capitolo inizialmente presenta gli strumenti e le tecnologie analizzate e utilizzate per la realizzazione del prodotto. Successivamente si vede l'effettiva creazione delle classi del progetto, affiancate da una struttura preesistente fondamentale per le classi che offre affinché il modulo funzioni e svolga la sua funzione. }\\
+\intro{Il capitolo inizialmente presenta gli strumenti e le tecnologie analizzate e utilizzate per la realizzazione del prodotto. Successivamente si vede l'effettiva creazione delle classi del progetto, affiancate da una struttura preesistente fondamentale per le classi affinché il modulo funzioni e svolga la sua funzione. }\\
 
 \section{Tecnologie e strumenti}
 \label{sec:tecnologie-strumenti}
@@ -9,10 +9,10 @@
 Di seguito viene data una panoramica delle tecnologie e strumenti utilizzati.
 
 \subsection*{HTML5}
-Tecnologia standard per la creazione di pagine web. È studiata e conosciuta con il corso di Tecnologie Web.
+Tecnologia standard per la creazione di pagine web. Studiata attraverso il corso di Tecnologie Web.
 
 \subsection*{CSS}
-Tecnologia standard per la creazione di pagine web e il loro abbellimento. Fornisce una vasta gamma di funzionalità per la personalizzazione delle pagine. È studiata e conosciuta con il corso di Tecnologie Web.
+Tecnologia standard per la creazione di pagine web e il loro abbellimento. Fornisce una vasta gamma di funzionalità per la personalizzazione delle pagine. Studiata attraverso il corso di Tecnologie Web.
 \subsection*{Bootstrap3/5}
 Bootstrap è un framework che fornisce delle classi le quali raggruppano uno o più attributi del css, per la creazione di pagine web \textit{responsive\gls}. \\
 Bootstrap è utilizzato nello stile \textit{inline} di \textit{HTML} e le sue classi vengono inserite all'interno del \textit{tag\gls} "class" di HTML di un elemento. In questo modo, specificando la classe di Boostrap che si vuole utilizzare, verrà applicato un certo stile all'elemento selezionato. Si possono concatenare più classi per un certo elemento.\\
@@ -21,11 +21,11 @@ Ad oggi si cerca di migrare dalle versioni più vecchie a quella più recente.
 \subsection*{Servlet}
 Le \textit{servlet} permettono di soddisfare delle \textit{request\gls} \textit{HTTP\gls} proveniente da web. Ogni servlet viene richiamata e caricata una sola volta e poi resta in memoria per rispondere alle chiamate successive. 
 \subsection*{JSP}
-Le \textit{JavaServer Page} rappresentano una tecnologia fondamentale per la realizzazione di pagine web dinamiche. Infatti forniscono dei \textit{tag} speciali con i quali possono essere richiamate delle funzioni specifiche in modo da rendere la pagina dinamica. I file \textit{JSP} sono caratterizzati dell'estensione .jsp e costituiscono le vere e proprie pagine web visualizzate dall'utente in quanto permettono la codifica in \textit{HTML} e \textit{XML}.
+Le \textit{JavaServer Page} rappresentano una tecnologia fondamentale per la realizzazione di pagine web dinamiche. Infatti forniscono dei \textit{tag} speciali con i quali possono essere richiamate delle funzioni specifiche in modo da rendere la pagina dinamica. I file \textit{JSP} sono caratterizzati dell'estensione .jsp e costituiscono le vere e proprie pagine web visualizzate dall'utente; infatti sono codificate in \textit{HTML} e \textit{XML}.
 \subsection*{JSTL}
 \textit{JavaServer Pages Standard Tag Library} è una libreria che estende JSP offrendo nuove funzionalità per applicazioni web in \texit{JAVA EE}. 
 \subsection*{Apache Struts}
-\textit{Apache Struts} è un \textit{framework oper-source} che supporta lo sviluppo di applicazioni web in Java con il pattern MVC. Infatti \textit{Struts} ha il compito di organizzare le richieste del client e richiamare le funzionalità della logica di business. \\
+\textit{Apache Struts} è un \textit{framework oper-source} che supporta lo sviluppo di applicazioni web in Java con il pattern MVC. \textit{Struts} ha il compito di organizzare le richieste del client e richiamare le funzionalità della logica di business. \\
 Il framework è composto da tre elementi principali:
 \begin{itemize}
 \item \textit{Request Handler\gls}: viene mappato ad un URI dallo sviluppatore;
@@ -38,7 +38,7 @@ Per configurare tutti i collegamenti tra i vari elementi e le loro interazioni s
 
 \subsection*{JQUERY Taconite}
 \textit{JQUERY Taconite} permette di aggiornare \texit{DOM} multipli utilizzando il risultato di una singola chiamata \textit{AJAX\gls}. \\
-Viene generato un \textit{XML} con le istruzioni per l'aggiornamento dei diversi \textit{DOM}
+Viene generato un \textit{XML} con le istruzioni per l'aggiornamento dei diversi \textit{DOM}.
 
 \subsection*{Hibernate}
 È un framework che permette di mappare gli oggetti del modello ad un \textit{database} relazionale. Lo sviluppatore non deve preoccuparsi di implementazione ma è \textit{Hibernate} che si occupa del collegamento al database e di eseguire le operazioni \textit{CRUD\gls}, andando a generare query e leggerne il risultato.
@@ -54,7 +54,7 @@ Normalmente un browser può scaricare al massimo due risorse contemporaneamente 
 
 \subsection*{Apache Maven}
 \textit{Apache Maven} è uno strumento per la gestione delle dipendenze tra un progetto Java e le versioni delle librerie che servono e si occupa anche di effettuare il download di tali risorse. \\
-Le relazioni tra progetto e librerie sono definite in un file \textit{XML} chiamato \textit{\textbf{POM}}.
+Le relazioni tra progetto e librerie sono definite in un file \textit{XML} chiamato \textit{\textbf{pom.xml}}.
 
 \subsection*{Apache Tomcat}
 \textit{Apache Tomcat} è un server web che permette l'esecuzione di applicazioni web. Supporta le specifiche di \textit{JSP} e \textit{servlet}.\\
@@ -66,22 +66,22 @@ Esistono diverse versioni per i server \textit{Tomcat} e si può scegliere la ve
 \label{sec:progettazione}
 La fase di progettazione è una fase cruciale per la realizzazione del progetto. Prima ancora di iniziare la progettazione del lavoro assegnato è importante analizzare l'ambiente già esistente, capirne il funzionamento e individuare se ci sono elementi che potrebbero servire al nostro scopo. \\
 Una tecnica per una buona progettazione è concentrarsi su un elemento alla volta. Prendere in considerazione tutti gli elementi del progetto potrebbe sembrare più efficace e veloce, ma così facendo si può perdere il focus della funzione delle classi del prodotto.\\ 
-Quindi l'idea è quella di analizzare e progettare una singola classe, vedere se funziona correttamente e da lì procedere ed andare avanti con lo studio per la realizzazione della prossima classe.
+Quindi l'idea è quella di analizzare e progettare una singola classe, vedere se funziona correttamente e da lì procedere ed andare avanti con lo studio per la realizzazione delle prossime classi.
 
 
 
 
 \subsection{Base di Dati}
-Per la progettazione della base di dati si è partiti da una struttura già esistente nell'azienda e si sono inseriti i nuovi elementi del progetto. Si è eseguito un \textit{refactoring} di alcune delle tabelle preesistenti per correggerle ed adattarle a quelle nuove, senza però modificarne attributi fondamentali per le altre parti della webapp. Anche qui c'è stato allora una fase di profonda e attenta analisi per avere una base di dati consistente. 
+Per la progettazione della base di dati si è partiti da un database già esistente nell'azienda e si sono inseriti i nuovi elementi del progetto. Si è eseguito un \textit{refactoring} di alcune delle tabelle preesistenti per correggerle ed adattarle a quelle nuove, senza però modificarne attributi fondamentali per le altre parti della webapp. Anche qui c'è stato allora una fase di profonda e attenta analisi per avere una base di dati consistente. 
 \subsubsection*{Tabelle preesistenti}
 Il progetto utilizza tabelle preesistenti per il suo scopo. Le tabelle sono: 
 \begin{itemize}
 
 
-    \item \textbf{Cliente}: questa tabella rappresenta l'entità cliente e ha tutti gli attributi necessari per definirne lo scopo all'interno della webapp. Il cliente non è la singola persona ma bensì l'azienda a cui poi saranno collegati sia i dipendenti sia i progetti richiesti da questa. Gli altri attributi presenti servono per le altre parti della webapp
-    \item \textbf{User}: gli user sono tutte le persone coinvolte nell'azienda, interne ed esterne. Quindi troveremo sia il personale di CWBI sia il personale delle aziende clienti.
-    \item \textbf{Progetto}: questa tabella rappresenta un progetto dell'azienda. Avrà tutti gli attributi necessari e sarà collegata ad un cliente. Un progetto può essere collegato a più aziende diverse.
-    \item \textbf{ProgettoCliente}: questa tabella rappresenta la relazione tra progetto e cliente. Viene chiamata in causa quando si dovrà scegliere l'azienda e il progetto su cui si vorrà aprire il ticket.
+    \item \textbf{Cliente}: questa tabella rappresenta l'entità cliente e ha tutti gli attributi necessari per definirne lo scopo all'interno della webapp. Il cliente non è la singola persona ma bensì l'azienda a cui poi saranno collegati sia i dipendenti sia i progetti richiesti da questa. Alcuni attributi presenti servono per le altre componenti della webapp;
+    \item \textbf{User}: gli user sono tutte le persone coinvolte nell'azienda, interne ed esterne. Quindi troveremo sia il personale di CWBI sia il personale delle aziende clienti;
+    \item \textbf{Progetto}: questa tabella rappresenta un progetto dell'azienda. Avrà tutti gli attributi necessari e sarà collegata ad un cliente. Un progetto può essere collegato a più aziende diverse;
+    \item \textbf{ProgettoCliente}: questa tabella rappresenta la relazione tra progetto e cliente. Viene chiamata in causa quando si dovrà scegliere l'azienda e il progetto su cui si vorrà aprire il ticket;
         \item \textbf{ProgettoUser}: questa tabella rappresenta la relazione tra progetto e user. Ogni progetto può avere associato uno o più utenti.
 \end{itemize}
 

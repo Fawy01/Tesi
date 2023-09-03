@@ -29,16 +29,14 @@ Essendo il progetto finalizzato alla creazione di un modulo dedicato al solo tic
     \caption{Gerarchia degli attori}
 \end{figure}
 
-\\
-\textbf{Utente Non Autenticato}: utente che ancora non ha effettuato l'accesso alla webapp. 
-\\
-\textbf{Utente Autenticato}: utente che ha effetuato l'accesso.  
-\\ 
-\textbf{Utente Cliente}: utente autenticato con permessi di livello Cliente. Rappresenta i clienti esterni all'azienda. 
-\\ 
-\textbf{Utente CWBI}: utente autenticato con permessi di livello CWBI. Rappresenta i dipendenti dell'azienda CWBI. 
-\\
-\textbf{Utente Amministratore}: utente autenticato con permessi Amministratore. Rappresenta uno o più dipendenti CWBI che hanno la funzione di amministrare la webapp e i contenuti.  \\
+\begin{itemize}
+\item \textbf{Utente Non Autenticato}: utente che ancora non ha effettuato l'accesso alla webapp. 
+\item \textbf{Utente Autenticato}: utente che ha effetuato l'accesso.  
+\item \textbf{Utente Cliente}: utente autenticato con permessi di livello Cliente. Rappresenta i clienti esterni all'azienda. 
+\item \textbf{Utente CWBI}: utente autenticato con permessi di livello CWBI. Rappresenta i dipendenti dell'azienda CWBI. 
+\item \textbf{Utente Amministratore}: utente autenticato con permessi Amministratore. Rappresenta uno o più dipendenti CWBI che hanno la funzione di amministrare la webapp e i contenuti. 
+\end{itemize}
+
 
 
 \subsection{Elenco}
@@ -633,12 +631,12 @@ Essendo il progetto finalizzato alla creazione di un modulo dedicato al solo tic
             
 \section{Tracciamento dei requisiti}
 
-Da un'attenta analisi dei requisiti e degli use case effettuata sul progetto è stata stilata la tabella che traccia i requisiti in rapporto agli use case.\\
+Dopo un'attenta analisi dei requisiti e degli use case è stata stilata la tabella che traccia i requisiti in rapporto agli use case.\\
 Il requisito è così descritto:
     \begin{itemize}
     \setlength\itemsep{1em}
 
-        \item \textbf{codice identificativo}: ogni codice 				identificativo è univoco e definito seguendo lo 					standard di codifica \textbf{R[Importanza][Tipologia]				[Codice]}  il significato delle cui voci è:
+        \item \textbf{codice identificativo}: ogni codice 				identificativo è univoco e definito seguendo lo 					standard di codifica \textbf{R[Importanza][Tipologia]				[Codice]}; il significato delle voci è:
         \begin{itemize}
         \setlength\itemsep{1em}
 
@@ -694,7 +692,7 @@ Il requisito è così descritto:
 \subsection{Requisiti funzionali}
     
 \begin{table}[!h]
-\caption{Tabella del tracciamento dei requisiti funzionali}
+
 {\renewcommand{\arraystretch}{2}
 \label{tab:requisiti-funzionali}
 \begin{tabularx}{\textwidth}{PXl}
@@ -740,6 +738,7 @@ R1F11.6 & L'utente loggato deve selezionare la priorità del ticket\\
 
 \end{tabularx}
 }
+\caption{Tabella del tracciamento dei requisiti funzionali}
 \end{table}
 
 \begin{table}[H]
@@ -887,6 +886,7 @@ R2F30 & Il modulo visualizza un avviso dopo l'eliminazione di un ticket\\
 
 \end{tabularx}
 }
+\caption{Tabella del tracciamento dei requisiti funzionali}
 \end{table}
 
 \bigskip
@@ -895,7 +895,7 @@ R2F30 & Il modulo visualizza un avviso dopo l'eliminazione di un ticket\\
 
 \begin{table}[!h]
 {\renewcommand{\arraystretch}{2}
-\caption{Tabella del tracciamento dei requisiti di vincolo}
+
 \label{tab:requisiti-vincolo}
 \begin{tabularx}{\textwidth}{PXl}
 \hline\hline
@@ -924,7 +924,7 @@ R1V3 & Il modulo deve limitare la modifica di un commento\\
 
 \begin{table}[H]
 {\renewcommand{\arraystretch}{2}
-\caption{Tabella del tracciamento dei requisiti di vincolo}
+
 \label{tab:requisiti-vincolo}
 \begin{tabularx}{\textwidth}{PXl}
 \hline\hline
@@ -951,6 +951,7 @@ R1V8 & Devono essere utilizzati i framework previsti dall'azienda per lo svilupp
 
 \end{tabularx}
 }
+\caption{Tabella del tracciamento dei requisiti di vincolo}
 \end{table}
 
 
