@@ -2,67 +2,69 @@
 \babel@toc {italian}{}\relax 
 \contentsline {chapter}{\numberline {1}Introduzione}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}L'azienda}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Tecnologie utilizzate}{1}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Organizzazione del testo}{2}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Struttura}{2}{section.1.4}%
-\contentsline {chapter}{\numberline {2}Descrizione del sistema attuale}{3}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Descrizione dello stage}{4}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduzione al progetto}{4}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Obiettivi}{4}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Pianificazione}{5}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Analisi dei requisiti}{6}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Ciclo di vita di un Ticket}{6}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Casi d'uso}{6}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Attori}{7}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Elenco}{8}{subsection.4.2.2}%
-\contentsline {subsubsection}{UC01 - Autenticazione}{8}{section*.15}%
-\contentsline {subsubsection}{UC02 - Errore Autenticazione}{8}{section*.18}%
-\contentsline {subsubsection}{UC03 - Registrazione Nuovo Utente}{9}{section*.21}%
-\contentsline {subsubsection}{UC04 - Accesso Modulo Ticket}{10}{section*.24}%
-\contentsline {subsubsection}{UC05 - Visualizza Lista Ticket}{10}{section*.27}%
-\contentsline {subsubsection}{UC06 - Visualizza Lista Ticket Proprietari}{11}{section*.29}%
-\contentsline {subsubsection}{UC07 - Visualizza Lista Ticket In Carico}{11}{section*.31}%
-\contentsline {subsubsection}{UC08 - Visualizza Lista Degli Ultimi Dieci Ticket}{11}{section*.33}%
-\contentsline {subsubsection}{UC05.1, UC05.2}{12}{section*.35}%
-\contentsline {subsubsection}{UC05.1}{12}{section*.37}%
-\contentsline {subsubsection}{UC05.2}{12}{section*.39}%
-\contentsline {subsubsection}{UC05.1 - Dettaglio}{13}{section*.41}%
-\contentsline {subsubsection}{UC09 - Apertura Nuovo Ticket}{14}{section*.45}%
-\contentsline {subsubsection}{UC10 - Ricerca Ticket}{15}{section*.48}%
-\contentsline {subsubsection}{UC11 - Ticket Non Trovato}{17}{section*.54}%
-\contentsline {subsubsection}{UC12, UC13 - Download Allegato}{17}{section*.56}%
-\contentsline {subsubsection}{UC12 - Download Allegato del Ticket}{18}{section*.58}%
-\contentsline {subsubsection}{UC13 - Download Allegato del Commento}{18}{section*.60}%
-\contentsline {subsubsection}{UC14 - Nuovo Commento}{18}{section*.62}%
-\contentsline {subsubsection}{UC15, UC16 - Eliminazione}{19}{section*.67}%
-\contentsline {subsubsection}{UC15}{20}{section*.69}%
-\contentsline {subsubsection}{UC16}{20}{section*.71}%
-\contentsline {subsubsection}{UC17}{20}{section*.73}%
-\contentsline {section}{\numberline {4.3}Tracciamento dei requisiti}{21}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Requisiti funzionali}{22}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Requisiti di vincolo}{25}{subsection.4.3.2}%
-\contentsline {chapter}{\numberline {5}Progettazione e codifica}{27}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Tecnologie e strumenti}{27}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Progettazione}{29}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Base di Dati}{30}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Architettura}{36}{subsection.5.2.2}%
-\contentsline {section}{\numberline {5.3}Design Pattern}{40}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Verifica e validazione}{43}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Processo di Verifica}{43}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Debbuging}{43}{subsection.6.1.1}%
-\contentsline {section}{\numberline {6.2}Processo di Validazione}{44}{section.6.2}%
-\contentsline {chapter}{\numberline {7}Prodotto finale}{45}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Scopo del capitolo}{45}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Pagina iniziale}{45}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Home Ticket}{45}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Menu Ticket}{46}{subsection.7.2.2}%
-\contentsline {section}{\numberline {7.3}Nuovo Ticket}{47}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Ricerca Ticket}{48}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Dettaglio Ticket}{49}{section.7.5}%
-\contentsline {section}{\numberline {7.6}Commento Ticket}{51}{section.7.6}%
-\contentsline {chapter}{\numberline {8}Conclusioni}{52}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Consuntivo finale}{52}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Raggiungimento degli obiettivi}{52}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Valutazione degli strumenti utilizzati}{53}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Miglioramenti e future estensioni}{53}{section.8.4}%
-\contentsline {chapter}{Bibliografia}{55}{appendix*.133}%
+\contentsline {section}{\numberline {1.2}Lo stage}{1}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Bisogni dell'azienda}{1}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Il progetto}{2}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Tecnologie utilizzate}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Organizzazione del testo}{3}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Struttura}{3}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Descrizione dello stage}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Sistema attuale}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Introduzione al progetto}{5}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Obiettivi}{5}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Pianificazione}{5}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Analisi dei requisiti}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Ciclo di vita di un Ticket}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Casi d'uso}{7}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Attori}{8}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Elenco}{9}{subsection.3.2.2}%
+\contentsline {subsubsection}{UC01 - Autenticazione}{9}{section*.15}%
+\contentsline {subsubsection}{UC02 - Errore Autenticazione}{9}{section*.18}%
+\contentsline {subsubsection}{UC03 - Registrazione Nuovo Utente}{10}{section*.21}%
+\contentsline {subsubsection}{UC04 - Accesso Modulo Ticket}{11}{section*.24}%
+\contentsline {subsubsection}{UC05 - Visualizza Lista Ticket}{11}{section*.27}%
+\contentsline {subsubsection}{UC06 - Visualizza Lista Ticket Proprietari}{12}{section*.29}%
+\contentsline {subsubsection}{UC07 - Visualizza Lista Ticket In Carico}{12}{section*.31}%
+\contentsline {subsubsection}{UC08 - Visualizza Lista Degli Ultimi Dieci Ticket}{12}{section*.33}%
+\contentsline {subsubsection}{UC05.1, UC05.2}{13}{section*.35}%
+\contentsline {subsubsection}{UC05.1}{13}{section*.37}%
+\contentsline {subsubsection}{UC05.2}{13}{section*.39}%
+\contentsline {subsubsection}{UC05.1 - Dettaglio}{14}{section*.41}%
+\contentsline {subsubsection}{UC09 - Apertura Nuovo Ticket}{15}{section*.45}%
+\contentsline {subsubsection}{UC10 - Ricerca Ticket}{16}{section*.48}%
+\contentsline {subsubsection}{UC11 - Ticket Non Trovato}{18}{section*.54}%
+\contentsline {subsubsection}{UC12, UC13 - Download Allegato}{18}{section*.56}%
+\contentsline {subsubsection}{UC12 - Download Allegato del Ticket}{19}{section*.58}%
+\contentsline {subsubsection}{UC13 - Download Allegato del Commento}{19}{section*.60}%
+\contentsline {subsubsection}{UC14 - Nuovo Commento}{19}{section*.62}%
+\contentsline {subsubsection}{UC15, UC16 - Eliminazione}{20}{section*.67}%
+\contentsline {subsubsection}{UC15}{21}{section*.69}%
+\contentsline {subsubsection}{UC16}{21}{section*.71}%
+\contentsline {subsubsection}{UC17}{21}{section*.73}%
+\contentsline {section}{\numberline {3.3}Tracciamento dei requisiti}{22}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Requisiti funzionali}{23}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Requisiti di vincolo}{26}{subsection.3.3.2}%
+\contentsline {chapter}{\numberline {4}Progettazione e codifica}{28}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Tecnologie e strumenti}{28}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Progettazione}{30}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Base di Dati}{31}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Architettura}{37}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Design Pattern}{41}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Verifica e validazione}{44}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Processo di Verifica}{44}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Debbuging}{44}{subsection.5.1.1}%
+\contentsline {section}{\numberline {5.2}Processo di Validazione}{45}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Prodotto finale}{46}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Pagina iniziale}{46}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Home Ticket}{46}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Menu Ticket}{47}{subsection.6.1.2}%
+\contentsline {section}{\numberline {6.2}Nuovo Ticket}{48}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Ricerca Ticket}{49}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Dettaglio Ticket}{50}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Commento Ticket}{52}{section.6.5}%
+\contentsline {chapter}{\numberline {7}Conclusioni}{53}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Consuntivo finale}{53}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Raggiungimento degli obiettivi}{53}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Valutazione degli strumenti utilizzati}{54}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Miglioramenti e future estensioni}{54}{section.7.4}%
+\contentsline {chapter}{Bibliografia}{56}{appendix*.133}%

@@ -4,39 +4,38 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces CWBI\relax }}{1}{figure.caption.12}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Gerarchia degli attori\relax }}{8}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces UC01\relax }}{9}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces UC03\relax }}{10}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces UC04\relax }}{11}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces UC05 - UC06 - UC07 - UC08\relax }}{11}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces UC05.1 - UC05.2\relax }}{13}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces UC05.1 - Dettaglio\relax }}{14}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces UC09\relax }}{15}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces UC10 - UC11\relax }}{16}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Filtri\relax }}{17}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces UC12 - UC13\relax }}{18}{figure.caption.57}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces UC14\relax }}{19}{figure.caption.63}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces UC14.1\relax }}{20}{figure.caption.65}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces UC15 - UC16\relax }}{20}{figure.caption.68}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Gerarchia degli attori\relax }}{7}{figure.caption.14}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces UC01\relax }}{8}{figure.caption.16}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces UC03\relax }}{9}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces UC04\relax }}{10}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces UC05 - UC06 - UC07 - UC08\relax }}{10}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces UC05.1 - UC05.2\relax }}{12}{figure.caption.36}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces UC05.1 - Dettaglio\relax }}{13}{figure.caption.42}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces UC09\relax }}{14}{figure.caption.46}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces UC10 - UC11\relax }}{15}{figure.caption.49}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Filtri\relax }}{16}{figure.caption.52}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces UC12 - UC13\relax }}{17}{figure.caption.57}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces UC14\relax }}{18}{figure.caption.63}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces UC14.1\relax }}{19}{figure.caption.65}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces UC15 - UC16\relax }}{19}{figure.caption.68}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Base di Dati - Relazioni delle tabelle del progetto\relax }}{32}{figure.caption.98}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Base di Dati - Tabelle del progetto\relax }}{33}{figure.caption.99}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Schema MVC\relax }}{37}{figure.caption.110}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Struttura Model CWBI\relax }}{38}{figure.caption.112}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Pattern decorator\relax }}{42}{figure.caption.118}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Pattern DAO\relax }}{43}{figure.caption.120}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Base di Dati - Relazioni delle tabelle del progetto\relax }}{31}{figure.caption.98}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Base di Dati - Tabelle del progetto\relax }}{32}{figure.caption.99}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Schema MVC\relax }}{36}{figure.caption.110}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Struttura Model CWBI\relax }}{37}{figure.caption.112}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Pattern decorator\relax }}{41}{figure.caption.118}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Pattern DAO\relax }}{42}{figure.caption.120}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces IDE Eclipse - Debug\relax }}{45}{figure.caption.121}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces IDE Eclipse - Debug\relax }}{44}{figure.caption.121}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Home Ticket\relax }}{46}{figure.caption.122}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Menu Ticket\relax }}{46}{figure.caption.123}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Nuovo Ticket - Step 1\relax }}{47}{figure.caption.124}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Nuovo Ticket - Step 2\relax }}{48}{figure.caption.126}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Ricerca Ticket\relax }}{49}{figure.caption.128}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Parte iniziale Dettaglio Ticket\relax }}{50}{figure.caption.129}%
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Parte Centrale Dettaglio Ticket\relax }}{50}{figure.caption.130}%
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Commenti Dettaglio Ticket\relax }}{50}{figure.caption.131}%
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Commenti Dettaglio Ticket\relax }}{51}{figure.caption.132}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Home Ticket\relax }}{47}{figure.caption.122}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Menu Ticket\relax }}{47}{figure.caption.123}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Nuovo Ticket - Step 1\relax }}{48}{figure.caption.124}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Nuovo Ticket - Step 2\relax }}{49}{figure.caption.126}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Ricerca Ticket\relax }}{50}{figure.caption.128}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Parte iniziale Dettaglio Ticket\relax }}{51}{figure.caption.129}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Parte Centrale Dettaglio Ticket\relax }}{51}{figure.caption.130}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Commenti Dettaglio Ticket\relax }}{51}{figure.caption.131}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Commenti Dettaglio Ticket\relax }}{52}{figure.caption.132}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

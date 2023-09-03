@@ -64,32 +64,30 @@ Esistono diverse versioni per i server \textit{Tomcat} e si può scegliere la ve
 
 \section{Progettazione}
 \label{sec:progettazione}
-La fase di progettazione è una fase cruciale per la realizzazione del progetto. Prima ancora di iniziare la progettazione del lavoro assegnato è importante analizzare l'ambiente già esistente, capirne il funzionamento e individuare se ci sono elementi che potrebbero servire al nostro scopo. \\
-Una tecnica per una buona progettazione è concentrarsi su un elemento alla volta. Prendere in considerazione tutti gli elementi del progetto potrebbe sembrare più efficace e veloce, ma così facendo si può perdere il focus della funzione delle classi del prodotto.\\ 
-Quindi l'idea è quella di analizzare e progettare una singola classe, vedere se funziona correttamente e da lì procedere ed andare avanti con lo studio per la realizzazione delle prossime classi.
-
-
+La fase di progettazione era una fase cruciale per la realizzazione del progetto. Prima ancora di iniziare la progettazione del lavoro assegnato è stato importante analizzare l'ambiente già esistente, capirne il funzionamento e individuare se c'erano elementi che potevano servire al nostro scopo. \\
+Una tecnica per una buona progettazione è stata concentrarsi su un elemento alla volta. Prendere in considerazione tutti gli elementi del progetto poteva sembrare più efficace e veloce, ma così facendo si avremmo perso il focus della funzione delle classi del prodotto.\\ 
+Quindi l'idea era di analizzare e progettare una singola classe, controllarne il corretto funzionamento e da lì procedere ed andare avanti con lo studio per la realizzazione delle prossime classi.
 
 
 \subsection{Base di Dati}
-Per la progettazione della base di dati si è partiti da un database già esistente nell'azienda e si sono inseriti i nuovi elementi del progetto. Si è eseguito un \textit{refactoring} di alcune delle tabelle preesistenti per correggerle ed adattarle a quelle nuove, senza però modificarne attributi fondamentali per le altre parti della webapp. Anche qui c'è stato allora una fase di profonda e attenta analisi per avere una base di dati consistente. 
+Per la progettazione della base di dati sono iniziato da un database già esistente nell'azienda e ho inserito i nuovi elementi del progetto. Poi ho eseguito un \textit{refactoring} di alcune delle tabelle preesistenti per correggerle ed adattarle a quelle nuove, senza però modificarne attributi fondamentali per le altre parti della webapp. Anche qui c'è stata allora una fase di profonda e attenta analisi per avere una base di dati consistente. 
 \subsubsection*{Tabelle preesistenti}
-Il progetto utilizza tabelle preesistenti per il suo scopo. Le tabelle sono: 
+Il progetto utilizzava tabelle preesistenti per il suo scopo. Le tabelle erano le seguenti: 
 \begin{itemize}
 
 
-    \item \textbf{Cliente}: questa tabella rappresenta l'entità cliente e ha tutti gli attributi necessari per definirne lo scopo all'interno della webapp. Il cliente non è la singola persona ma bensì l'azienda a cui poi saranno collegati sia i dipendenti sia i progetti richiesti da questa. Alcuni attributi presenti servono per le altre componenti della webapp;
-    \item \textbf{User}: gli user sono tutte le persone coinvolte nell'azienda, interne ed esterne. Quindi troveremo sia il personale di CWBI sia il personale delle aziende clienti;
-    \item \textbf{Progetto}: questa tabella rappresenta un progetto dell'azienda. Avrà tutti gli attributi necessari e sarà collegata ad un cliente. Un progetto può essere collegato a più aziende diverse;
-    \item \textbf{ProgettoCliente}: questa tabella rappresenta la relazione tra progetto e cliente. Viene chiamata in causa quando si dovrà scegliere l'azienda e il progetto su cui si vorrà aprire il ticket;
-        \item \textbf{ProgettoUser}: questa tabella rappresenta la relazione tra progetto e user. Ogni progetto può avere associato uno o più utenti.
+    \item \textbf{Cliente}: questa tabella rappresentava l'entità cliente e aveva tutti gli attributi necessari per definirne lo scopo all'interno della webapp. Il cliente non era la singola persona ma bensì l'azienda a cui poi erano collegati sia i dipendenti sia i progetti richiesti da questa. Alcuni attributi presenti servono per le altre componenti della webapp;
+    \item \textbf{User}: gli user erano tutte le persone coinvolte nell'azienda, interne ed esterne. Quindi la tabella comprendeva sia il personale di CWBI sia il personale delle aziende clienti;
+    \item \textbf{Progetto}: questa tabella rappresentava un progetto dell'azienda. Aveva tutti gli attributi necessari ed era collegata ad un cliente. Un progetto poteva essere collegato a più aziende diverse;
+    \item \textbf{ProgettoCliente}: questa tabella rappresentava la relazione tra progetto e cliente. Veniva chiamata in causa quando si doveva scegliere l'azienda e il progetto su cui si voleva aprire il ticket;
+        \item \textbf{ProgettoUser}: questa tabella rappresentava la relazione tra progetto e user. Ad ogni progetto si potevano associare uno o più utenti.
 \end{itemize}
 
 \subsubsection*{Tabelle introdotte}
 \begin{itemize}
-	\item \textbf{Ticket}: questa tabella rappresenta l'entità ticket con tutti gli attributi che lo caratterizzano. Sarà collegata all'entità ProgettoCliente in quanto il ticket sarà aperto per uno specifico progetto di una specifica azienda.
+	\item \textbf{Ticket}: questa tabella rappresentava l'entità ticket con tutti gli attributi che lo caratterizzavano. Aveva un collegamento all'entità ProgettoCliente in quanto il ticket era aperto per uno specifico progetto di una specifica azienda.
 	
-	\item \textbf{TicketItem}: questa tabella rappresenta i commenti presenti in ogni ticket. Un commento potrà avere un solo ticket di riferimento, cioè quello in cui è stato scritto.
+	\item \textbf{TicketItem}: questa tabella rappresentava i commenti presenti in ogni ticket. Un commento poteva avere un solo ticket di riferimento, cioè quello in cui è stato scritto.
 \end{itemize}
 
 
@@ -330,7 +328,7 @@ Il progetto utilizza tabelle preesistenti per il suo scopo. Le tabelle sono:
             
 \newpage
 \subsection{Architettura}
-Lo sviluppo dell'applicazione avviene secondo il \textit{pattern} architetturale \textbf{MVC \glsfirstoccur} (\textit{Model - View - Controller}). \\
+Lo sviluppo dell'applicazione è avvenuta secondo il \textit{pattern} architetturale \textbf{MVC \glsfirstoccur} (\textit{Model - View - Controller}). \\
 Questo \textit{pattern} permette di dividere e rendere modulabile l'applicazione.
 \begin{itemize}
 \item \textbf{Model}: si occupa della gestione dei dati, del salvataggio delle risorse e della logica di business;
