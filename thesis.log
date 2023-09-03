@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.16)  3 SEP 2023 11:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.16)  3 SEP 2023 15:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2063,6 +2063,19 @@ File: images/SchemaModel.png Graphic file (type png)
 Package pdftex.def Info: images/SchemaModel.png  used on input line 362.
 (pdftex.def)             Requested size: 223.20227pt x 147.8103pt.
  [36 <./images/MVC.png>]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
+75.
+
+(c:/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 379.
+
 Underfull \hbox (badness 10000) in paragraph at lines 367--385
 
  []
@@ -2070,6 +2083,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 367--385
 
 Underfull \hbox (badness 10000) in paragraph at lines 367--385
 
+ []
+
+
+Overfull \hbox (1.70709pt too wide) in paragraph at lines 367--385
+\T1/cmr/m/n/10 (-20) In real-t�, l'e-se-cu-zio-ne ef-fet-ti-va del-la fun-zio-n
+e CRUD ri-chie-sta, non av-vie-ne in \T1/cmtt/m/n/10 TicketDao-
  []
 
 
@@ -2108,6 +2127,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 410--412
  []
 
 [38]
+! Undefined control sequence.
+<recently read> \textttTicketAction 
+                                    
+l.427 \item \textttTicketAction
+                               }: come si può leggere, la classe non presen...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra }, or forgotten \endgroup.
+l.427 \item \textttTicketAction}
+                                : come si può leggere, la classe non presen...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 438--442
 
  []
@@ -2136,12 +2176,12 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [40]
-<images/decorator.png, id=570, 1027.84pt x 814.04124pt>
+<images/decorator.png, id=571, 1027.84pt x 814.04124pt>
 File: images/decorator.png Graphic file (type png)
 <use images/decorator.png>
 Package pdftex.def Info: images/decorator.png  used on input line 477.
 (pdftex.def)             Requested size: 223.20227pt x 176.76685pt.
-<images/DAO.jpg, id=571, 1003.75pt x 501.875pt>
+<images/DAO.jpg, id=572, 1003.75pt x 501.875pt>
 File: images/DAO.jpg Graphic file (type jpg)
 <use images/DAO.jpg>
 Package pdftex.def Info: images/DAO.jpg  used on input line 493.
@@ -2149,7 +2189,7 @@ Package pdftex.def Info: images/DAO.jpg  used on input line 493.
  [41 <./images/decorator.png>]) (./chapters/product-design.tex [42 <./images/DA
 O.jpg (PNG copy)>]
 Capitolo 6.
-<images/debug.png, id=584, 574.5465pt x 524.96124pt>
+<images/debug.png, id=585, 574.5465pt x 524.96124pt>
 File: images/debug.png Graphic file (type png)
 <use images/debug.png>
 Package pdftex.def Info: images/debug.png  used on input line 21.
@@ -2158,12 +2198,12 @@ Package pdftex.def Info: images/debug.png  used on input line 21.
 
 ]) (./chapters/prodotto-finale.tex [44 <./images/debug.png>]
 Capitolo 7.
-<images/ticketApertidaMe1.png, id=593, 649.67719pt x 271.0125pt>
+<images/ticketApertidaMe1.png, id=594, 649.67719pt x 271.0125pt>
 File: images/ticketApertidaMe1.png Graphic file (type png)
 <use images/ticketApertidaMe1.png>
 Package pdftex.def Info: images/ticketApertidaMe1.png  used on input line 24.
 (pdftex.def)             Requested size: 409.20227pt x 170.70155pt.
-<images/ticketApertidaMe2.png, id=594, 684.30656pt x 271.0125pt>
+<images/ticketApertidaMe2.png, id=595, 684.30656pt x 271.0125pt>
 File: images/ticketApertidaMe2.png Graphic file (type png)
 <use images/ticketApertidaMe2.png>
 Package pdftex.def Info: images/ticketApertidaMe2.png  used on input line 25.
@@ -2181,19 +2221,19 @@ Overfull \hbox (37.20227pt too wide) in paragraph at lines 24--26
 [45
 
 ]
-<images/menu.png, id=599, 344.03531pt x 161.10187pt>
+<images/menu.png, id=600, 344.03531pt x 161.10187pt>
 File: images/menu.png Graphic file (type png)
 <use images/menu.png>
 Package pdftex.def Info: images/menu.png  used on input line 34.
 (pdftex.def)             Requested size: 260.39886pt x 121.93721pt.
  [46 <./images/ticketApertidaMe1.PNG> <./images/ticketApertidaMe2.PNG> <./image
 s/menu.PNG>]
-<images/NewTicket-Step1.png, id=608, 438.8897pt x 402.75468pt>
+<images/NewTicket-Step1.png, id=609, 438.8897pt x 402.75468pt>
 File: images/NewTicket-Step1.png Graphic file (type png)
 <use images/NewTicket-Step1.png>
 Package pdftex.def Info: images/NewTicket-Step1.png  used on input line 51.
 (pdftex.def)             Requested size: 260.39886pt x 238.96292pt.
-<images/newTicket-Step2-prima parte.png, id=609, 1346.78156pt x 438.13687pt>
+<images/newTicket-Step2-prima parte.png, id=610, 1346.78156pt x 438.13687pt>
 File: images/newTicket-Step2-prima parte.png Graphic file (type png)
 <use images/newTicket-Step2-prima parte.png>
 Package pdftex.def Info: images/newTicket-Step2-prima parte.png  used on input 
@@ -2204,7 +2244,7 @@ Overfull \hbox (186.0pt too wide) in paragraph at lines 59--60
  [][] 
  []
 
-<images/newTicket-Step2-seconda parte.png, id=610, 1344.52313pt x 220.57407pt>
+<images/newTicket-Step2-seconda parte.png, id=611, 1344.52313pt x 220.57407pt>
 File: images/newTicket-Step2-seconda parte.png Graphic file (type png)
 <use images/newTicket-Step2-seconda parte.png>
 Package pdftex.def Info: images/newTicket-Step2-seconda parte.png  used on inpu
@@ -2216,17 +2256,17 @@ Overfull \hbox (186.0pt too wide) in paragraph at lines 66--67
  []
 
 [47 <./images/NewTicket-Step1.PNG> <./images/newTicket-Step2-prima parte.PNG>]
-<images/ricercaTicket1.1.png, id=620, 191.9672pt x 328.22626pt>
+<images/ricercaTicket1.1.png, id=621, 191.9672pt x 328.22626pt>
 File: images/ricercaTicket1.1.png Graphic file (type png)
 <use images/ricercaTicket1.1.png>
 Package pdftex.def Info: images/ricercaTicket1.1.png  used on input line 77.
 (pdftex.def)             Requested size: 130.20227pt x 222.63496pt.
-<images/ricercaTicket1.2.png, id=621, 191.9672pt x 321.45094pt>
+<images/ricercaTicket1.2.png, id=622, 191.9672pt x 321.45094pt>
 File: images/ricercaTicket1.2.png Graphic file (type png)
 <use images/ricercaTicket1.2.png>
 Package pdftex.def Info: images/ricercaTicket1.2.png  used on input line 78.
 (pdftex.def)             Requested size: 130.20227pt x 218.03929pt.
-<images/ricercaTicket2.png, id=622, 1153.30875pt x 420.82219pt>
+<images/ricercaTicket2.png, id=623, 1153.30875pt x 420.82219pt>
 File: images/ricercaTicket2.png Graphic file (type png)
 <use images/ricercaTicket2.png>
 Package pdftex.def Info: images/ricercaTicket2.png  used on input line 83.
@@ -2238,12 +2278,12 @@ Overfull \hbox (111.60114pt too wide) in paragraph at lines 83--84
 
 [48 <./images/newTicket-Step2-seconda parte.PNG> <./images/ricercaTicket1.1.PNG
 > <./images/ricercaTicket1.2.PNG>]
-<images/dettaglioTicket1.png, id=631, 464.4853pt x 46.67438pt>
+<images/dettaglioTicket1.png, id=632, 464.4853pt x 46.67438pt>
 File: images/dettaglioTicket1.png Graphic file (type png)
 <use images/dettaglioTicket1.png>
 Package pdftex.def Info: images/dettaglioTicket1.png  used on input line 114.
 (pdftex.def)             Requested size: 409.20227pt x 41.11984pt.
-<images/dettaglioTicket2.png, id=632, 322.20375pt x 43.66313pt>
+<images/dettaglioTicket2.png, id=633, 322.20375pt x 43.66313pt>
 File: images/dettaglioTicket2.png Graphic file (type png)
 <use images/dettaglioTicket2.png>
 Package pdftex.def Info: images/dettaglioTicket2.png  used on input line 115.
@@ -2254,7 +2294,7 @@ Overfull \hbox (37.20227pt too wide) in paragraph at lines 114--116
  []
 
 [49 <./images/ricercaTicket2.PNG>]
-<images/dettaglioTicket3.png, id=638, 1342.2647pt x 183.68625pt>
+<images/dettaglioTicket3.png, id=639, 1342.2647pt x 183.68625pt>
 File: images/dettaglioTicket3.png Graphic file (type png)
 <use images/dettaglioTicket3.png>
 Package pdftex.def Info: images/dettaglioTicket3.png  used on input line 125.
@@ -2264,7 +2304,7 @@ Overfull \hbox (93.0pt too wide) in paragraph at lines 125--126
  [][] 
  []
 
-<images/dettaglioTicket4.png, id=639, 536.0025pt x 179.92218pt>
+<images/dettaglioTicket4.png, id=640, 536.0025pt x 179.92218pt>
 File: images/dettaglioTicket4.png Graphic file (type png)
 <use images/dettaglioTicket4.png>
 Package pdftex.def Info: images/dettaglioTicket4.png  used on input line 134.
@@ -2276,7 +2316,7 @@ Overfull \hbox (74.39886pt too wide) in paragraph at lines 134--135
 
 [50 <./images/dettaglioTicket1.PNG> <./images/dettaglioTicket2.PNG> <./images/d
 ettaglioTicket3.PNG> <./images/dettaglioTicket4.PNG>]
-<images/nota.png, id=648, 489.32813pt x 416.30531pt>
+<images/nota.png, id=649, 489.32813pt x 416.30531pt>
 File: images/nota.png Graphic file (type png)
 <use images/nota.png>
 Package pdftex.def Info: images/nota.png  used on input line 144.
@@ -2331,11 +2371,11 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 (\end occurred when \if on line 11 was incomplete)
 (\end occurred when \ifdefined on line 1 was incomplete) 
 Here is how much of TeX's memory you used:
- 39281 strings out of 475237
- 690549 string characters out of 5768555
+ 39304 strings out of 475237
+ 691270 string characters out of 5768555
  1933238 words of memory out of 5000000
- 59375 multiletter control sequences out of 15000+600000
- 589780 words of font info for 203 fonts, out of 8000000 for 9000
+ 59400 multiletter control sequences out of 15000+600000
+ 589797 words of font info for 201 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  99i,15n,125p,2259b,3164s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -2361,11 +2401,12 @@ uper/sfrm0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1
 -dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2023/texmf-dist/font
 s/type1/public/cm-super/sfti0700.pfb><c:/texlive/2023/texmf-dist/fonts/type1/pu
 blic/cm-super/sfti1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-su
-per/sfti1200.pfb>
-Output written on thesis.pdf (64 pages, 3325872 bytes).
+per/sfti1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt10
+00.pfb>
+Output written on thesis.pdf (64 pages, 3353916 bytes).
 PDF statistics:
- 969 PDF objects out of 1000 (max. 8388607)
- 773 compressed objects within 8 object streams
+ 974 PDF objects out of 1000 (max. 8388607)
+ 776 compressed objects within 8 object streams
  249 named destinations out of 1000 (max. 500000)
- 62032 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 62544 words of extra memory for PDF output out of 74296 (max. 10000000)
 
