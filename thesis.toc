@@ -67,4 +67,5 @@
 \contentsline {section}{\numberline {7.2}Raggiungimento degli obiettivi}{53}{section.7.2}%
 \contentsline {section}{\numberline {7.3}Valutazione degli strumenti utilizzati}{54}{section.7.3}%
 \contentsline {section}{\numberline {7.4}Miglioramenti e future estensioni}{54}{section.7.4}%
-\contentsline {chapter}{Bibliografia}{56}{appendix*.133}%
+\contentsline {chapter}{Glossario}{56}{appendix*.133}%
+\contentsline {chapter}{Bibliografia}{58}{appendix*.146}%

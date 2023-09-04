@@ -21,7 +21,7 @@ Ad oggi si cerca di migrare dalle versioni più vecchie a quella più recente.
 \subsection*{Servlet}
 Le \textit{servlet} permettono di soddisfare delle \textit{request\gls} \textit{HTTP\gls} proveniente da web. Ogni servlet viene richiamata e caricata una sola volta e poi resta in memoria per rispondere alle chiamate successive. 
 \subsection*{JSP}
-Le \textit{JavaServer Page} rappresentano una tecnologia fondamentale per la realizzazione di pagine web dinamiche. Infatti forniscono dei \textit{tag} speciali con i quali possono essere richiamate delle funzioni specifiche in modo da rendere la pagina dinamica. I file \textit{JSP} sono caratterizzati dell'estensione .jsp e costituiscono le vere e proprie pagine web visualizzate dall'utente; infatti sono codificate in \textit{HTML} e \textit{XML}.
+Le \textit{JavaServer Page} rappresentano una tecnologia fondamentale per la realizzazione di pagine web dinamiche. Infatti forniscono dei \textit{tag} speciali con i quali possono essere richiamate delle funzioni specifiche in modo da rendere la pagina dinamica. I file \textit{JSP} sono caratterizzati dell'estensione .jsp e costituiscono le vere e proprie pagine web visualizzate dall'utente; infatti sono codificate in \textit{HTML} e \textit{XML\glsfirstoccur}.
 \subsection*{JSTL}
 \textit{JavaServer Pages Standard Tag Library} è una libreria che estende JSP offrendo nuove funzionalità per applicazioni web in \texit{JAVA EE}. 
 \subsection*{Apache Struts}
@@ -37,11 +37,11 @@ Il framework è composto da tre elementi principali:
 Per configurare tutti i collegamenti tra i vari elementi e le loro interazioni si utilizza il file \textit{\textbf{struts.xml}}. In questo file vengono specificati anche gli \textit{\textbf{interceptor}} per le \textit{Action} delle nostre classi. La specifica degli \textit{interceptor} è una fase importante dello sviluppo di un'applicazione web.
 
 \subsection*{JQUERY Taconite}
-\textit{JQUERY Taconite} permette di aggiornare \texit{DOM} multipli utilizzando il risultato di una singola chiamata \textit{AJAX\gls}. \\
+\textit{JQUERY Taconite} permette di aggiornare \texit{DOM} multipli utilizzando il risultato di una singola chiamata \textit{AJAX\glsfirstoccur}. \\
 Viene generato un \textit{XML} con le istruzioni per l'aggiornamento dei diversi \textit{DOM}.
 
 \subsection*{Hibernate}
-È un framework che permette di mappare gli oggetti del modello ad un \textit{database} relazionale. Lo sviluppatore non deve preoccuparsi di implementazione ma è \textit{Hibernate} che si occupa del collegamento al database e di eseguire le operazioni \textit{CRUD\gls}, andando a generare query e leggerne il risultato.
+È un framework che permette di mappare gli oggetti del modello ad un \textit{database} relazionale. Lo sviluppatore non deve preoccuparsi di implementazione ma è \textit{Hibernate\glsfirstoccur} che si occupa del collegamento al database e di eseguire le operazioni \textit{CRUD\gls}, andando a generare query e leggerne il risultato.
 
 \subsection*{Spring}
 \textit{Spring}\gls è un framework volto ad aiutare lo sviluppo di applicazioni più o meno complesse attraverso la sua architettura modulare. Spring è diviso in cinque livelli e in questo modo si possono escludere le parti non necessarie per l'applicazione.\\
@@ -375,7 +375,7 @@ Le nomenclatura \textit{DB} dopo il nome della classe è uno standard dell'azien
 \\
 \noindent
 Successivamente sono state create due classi: \texttt{\textbf{TicketDao}} e \texttt{\textbf{TicketDaoHibernate}}. \\
-Partiamo con \textit{TicketDao} che rappresentava l'interfaccia in cui erano presenti le firme di tutte le funzioni per la manipolazione dei dati, secondo il pattern \textit{\textbf{Dao}}: le operazioni \textit{CRUD}. \\
+Partiamo con \textit{TicketDao} che rappresentava l'interfaccia in cui erano presenti le firme di tutte le funzioni per la manipolazione dei dati, secondo il pattern \textit{\textbf{Dao\glsfirstoccur}}: le operazioni \textit{CRUD\glsfirstoccur}. \\
 La classe \texttt{TicketDaoHibernate} invece era l'implementazione dell'interfaccia \texttt{TicketDao}, che implementava quindi le funzioni presenti. \\
 In realtà, l'esecuzione effettiva della funzione CRUD richiesta, non avveniva in \texttt{TicketDao-} \texttt{Hibernate} ma all'interno di ogni funzione implementata, veniva richiamata un'altra funzione con lo stesso scopo ma era implementata in un'altra classe \textit{Hibernate}, padre di \texttt{TicketDaoHibarnate} che 
 effettuerà le operazioni classiche CRUD. \\
