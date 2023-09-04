@@ -353,7 +353,7 @@ Utilizzare il pattern \textit{MVC} permette di avere dei \textbf{vantaggi}:
 \end{itemize}
 
 \subsection*{Model}
-Si parte da un modello preesistente e strutturato secondo gli standard aziendali. Questa parte è divisa in più livelli, ognuno dei quali ha un diverso scopo e diverse funzionalità. In generale, la struttura è illustrata come segue: 
+Si iniziava da un modello preesistente e strutturato secondo gli standard aziendali. Questa parte era divisa in più livelli, ognuno dei quali possedeva un diverso scopo e diverse funzionalità. In generale, la struttura era illustrata come segue: 
 
 \begin{figure}[H]
     \centering 
@@ -363,90 +363,90 @@ Si parte da un modello preesistente e strutturato secondo gli standard aziendali
 \end{figure}
 
 \noindent
-Come detto in precedenza alcune delle classi già presenti sono utilizzate per supportare le nuove entità introdotte con il progetto. Per la codifica del nostro nuovo Model ci basiamo sulla figura \textit{5.4}, partendo dal basso e andando verso l'alto.  \\
+Come detto in precedenza alcune delle classi già presenti sono state utilizzate per supportare le nuove entità introdotte con il progetto. Per la codifica del nostro nuovo Model ci siamo basati sulla figura \textit{5.4}, partendo dal basso e andando verso l'alto.  \\
 \\
 \noindent
-Il primo passo per la creazione di una nuova classe è mappare i suoi attributi all'interno del file xml che conterrà la mappatura e specificherà la struttura della tabella che sarà costruita poi sul database. \\
-Prendiamo come esempio la classe Ticket. Allora creeremo il file \textit{\textbf{ticket.xml}} e scriveremo la tabella \textit{ticket-a} con tutti gli attributi.\\
+Il primo passo per la creazione di una nuova classe è stato mappare i suoi attributi all'interno del file xml che conteneva la mappatura e specificava la struttura della tabella che sarebbe stata costruita poi sul database. \\
+Prendiamo come esempio la classe Ticket. È stato creato il file \textit{\textbf{ticket.xml}} e all'interno è stata specificata la tabella \textit{ticket-a} con tutti gli attributi.\\
 \\
 \noindent
-Dopo si comincia a codificare la classe \texttt{TicketDB.java} che rappresenta l'oggetto vero e proprio che sarà utilizzato nella  webapp. Importante specificare che gli attributi inseriti in questa classe saranno uguali agli attributi specificati nella tabella   \textit{ticket-a} nel file di mappatura. La classe sarà composta quindi dagli attributi, i costruttori e le funzioni di \textit{get} degli attributi.\\
+Dopo è avvenuta la codifica della classe \texttt{TicketDB.java} che rappresentava l'oggetto vero e proprio utilizzato nella  webapp. Importante specificare che gli attributi inseriti in questa classe erano uguali agli attributi specificati nella tabella   \textit{ticket-a} nel file di mappatura. La classe era composta quindi dagli attributi, i costruttori e le funzioni di \textit{get} degli attributi.\\
 Le nomenclatura \textit{DB} dopo il nome della classe è uno standard dell'azienda inserito per ogni nuovo modello che si introduce.
 \\
 \noindent
-Successivamente si creano due classi: \texttt{\textbf{TicketDao}} e \texttt{\textbf{TicketDaoHibernate}}. \\
-Partiamo con \textit{TicketDao} che rappresenta l'interfaccia in cui saranno presenti le firme di tutte le funzioni per la manipolazione dei dati, secondo il pattern \textit{\textbf{Dao}}: le operazioni \textit{CRUD}. \\
-La classe \texttt{TicketDaoHibernate} invece è l'implementazione dell'interfaccia \texttt{TicketDao}, che implementa quindi le funzioni presenti. \\
-In realtà, l'esecuzione effettiva della funzione CRUD richiesta, non avviene in \texttt{TicketDao-} \texttt{Hibernate} ma all'interno di ogni funzione implementata, viene richiamata un'altra funzione che ha lo stesso scopo di quella in cui sta venendo richiamata ma è implementata in un'altra classe \textit{Hibernate}, padre di \texttt{TicketDaoHibarnate} che 
+Successivamente sono state create due classi: \texttt{\textbf{TicketDao}} e \texttt{\textbf{TicketDaoHibernate}}. \\
+Partiamo con \textit{TicketDao} che rappresentava l'interfaccia in cui erano presenti le firme di tutte le funzioni per la manipolazione dei dati, secondo il pattern \textit{\textbf{Dao}}: le operazioni \textit{CRUD}. \\
+La classe \texttt{TicketDaoHibernate} invece era l'implementazione dell'interfaccia \texttt{TicketDao}, che implementava quindi le funzioni presenti. \\
+In realtà, l'esecuzione effettiva della funzione CRUD richiesta, non avveniva in \texttt{TicketDao-} \texttt{Hibernate} ma all'interno di ogni funzione implementata, veniva richiamata un'altra funzione con lo stesso scopo ma era implementata in un'altra classe \textit{Hibernate}, padre di \texttt{TicketDaoHibarnate} che 
 effettuerà le operazioni classiche CRUD. \\
-In generale, \texttt{TicketDaoHibarnate} implementa le funzioni dell'interfaccia a cui si riferisce, ma le operazioni CRUD vengono sempre effettuate dall'\textit{Hibernate} padre.\\
+In generale, \texttt{TicketDaoHibarnate} implementava le funzioni dell'interfaccia a cui si riferiva, ma le operazioni CRUD erano sempre effettuate dall'\textit{Hibernate} padre.\\
 
 \noindent
-Il prossimo passo è creare le classi service: \texttt{\textbf{TicketService}} e \texttt{\textbf{TicketServiceImpl}}.\\
-La classe \texttt{TicketService} è l'interfaccia al cui interno troviamo le firme delle funzioni che la webapp consentirà di svolgere, come ad esempio la funzione di ricerca. \\
-\texttt{TicketServiceImpl} invece è l'implementazione delle funzioni di \texttt{TicketService}. All'interno di ogni funzione, il dato viene manipolato e alla fine, verrà richiamata la funzione della classe \texttt{TicketDao} specifica per il contesto. 
-Si può dire che all'interno dell'implementazione di una funzione \textit{service} il dato viene manipolato e personalizzato affinché, ad esempio la funzione di ricerca, ci fornisca il risultato desiderato.\\
+Il prossimo passo è stato creare le classi service: \texttt{\textbf{TicketService}} e \texttt{\textbf{TicketServiceImpl}}.\\
+La classe \texttt{TicketService} era l'interfaccia al cui interno trovavamo le firme delle funzioni che la webapp consentiva di svolgere, come ad esempio la funzione di ricerca. \\
+\texttt{TicketServiceImpl} invece era l'implementazione delle funzioni di \texttt{TicketService}. All'interno di ogni funzione, il dato veniva manipolato e alla fine, si richiamava la funzione della classe \texttt{TicketDao} specifica per il contesto. 
+Si può dire che all'interno dell'implementazione di una funzione \textit{service} il dato era manipolato e personalizzato con l'obiettivo di fornire il risultato desiderato.\\
 
 \noindent
-È importante notare che la funzione di ricerca non è una funzione \textit{CRUD} e viene implementata nel service. Infatti nella sua implementazione, questa funzione richiamerà la funzione di \textit{TicketDaoHibernate} che effettuerà la \textbf{lettura} del dato corrispondete ai parametri di ricerca.\\
+Importante notare che la funzione di ricerca non era una funzione \textit{CRUD} e veniva implementata nel service. Infatti nella sua implementazione, questa funzione richiamava la funzione di \textit{TicketDaoHibernate} che avrebbe effettuato la \textbf{lettura} del dato corrispondete ai parametri di ricerca.\\
 
 \noindent
-Allora tutte le funzioni all'interno delle applicazioni si riducono sempre a delle semplice funzioni \textit{\textbf{CRUD}}.\\
+Allora tutte le funzioni all'interno delle applicazioni si riducevano sempre a delle semplice funzioni \textit{\textbf{CRUD}}.\\
 
 \noindent
-L'ultima fase è creare le classi manager. Queste classi non sempre sono necessarie e fungono da supporto per le classi service. \\
+L'ultima fase è stata creare le classi manager. Queste classi non sempre erano necessarie e fungevano da supporto per le classi service. \\
 Nel progetto \textbf{non} sono state codificate classi manager.
 
 \subsection*{Controller}
-Lo scopo dei \textit{controller} all'interno dell'applicazione è quello di gestire le interazioni tra la parte di \textit{front-end} (View) e la parte di \textit{back-end} (Model), oltre a gestire anche gli input degli utenti.\\
+Lo scopo dei \textit{controller} all'interno dell'applicazione era quello di gestire le interazioni tra la parte di \textit{front-end} (View) e la parte di \textit{back-end} (Model), oltre a gestire anche gli input degli utenti.\\
 
 \noindent
-Il \textit{controller} ha il compito di \textit{istanziare} le classi del Model, richiamarne le funzioni per avere un risultato e inviarlo poi al \textit{front-end} in modo da essere visualizzato.
-All'interno dell'applicazione le classi che fungono da \textit{controller} sono marcate dall'annotazione \textit{@Controller} di Spring.\\
-Un'altra annotazione Spring presente è \textit{@Autowired} che serve per indicare le dipendenze dei \textit{bean} (classi. Infatti all'interno dei controller troveremo degli oggetti \textit{Service} che saranno utilizzati per le operazioni sul Model. Quindi quando verrà istanziata il controller, anche gli oggetti all'interno di esso verranno creati.\\
+Il \textit{controller} aveva il compito di \textit{istanziare} le classi del Model, richiamarne le funzioni per avere un risultato e inviarlo poi al \textit{front-end} in modo da essere visualizzato.
+All'interno dell'applicazione le classi che fungevano da \textit{controller} erano marcate dall'annotazione \textit{@Controller} di Spring.\\
+Un'altra annotazione Spring presente era \textit{@Autowired} che serviva per indicare le dipendenze dei \textit{bean} (classi. Infatti all'interno dei controller si potevano trovare degli oggetti \textit{Service} utilizzati per le operazioni sul Model. Quindi, quando veniva istanziato il controller, si creavano anche gli oggetti all'interno di esso.\\
 
 \noindent
 \textit{CWBI} struttura i controller in due cartelle distinte. Prendiamo come esempio la classe Ticket del modello:\\
 
 \textbf{Cartella Form}
 \begin{itemize}
-\item \texttt{TicketForm}: questa classe identifica i campi di input presenti alla creazione o alla modifica di un ticket, detti appunto \textit{Form}. Quindi quando l'utente compilerà i campi, andrà a popolare gli attributi di questa classe. \\ Le caratteristiche di \texttt{TicketForm} saranno adeguate alla controparte dell'oggetto Ticket nel modello. Infatti il \textit{controller} che si occupa della creazione e della modifica, dovrà costruire l'oggetto Ticket partendo dall'oggetto TicketForm appena popolato. 
+\item \texttt{TicketForm}: questa classe identificava i campi di input presenti alla creazione o alla modifica di un ticket, detti appunto \textit{Form}. Quindi quando l'utente compilava i campi, popolava gli attributi di questa classe. \\ Le caratteristiche di \texttt{TicketForm} dovevano essere adeguate alla controparte dell'oggetto Ticket nel modello. Infatti il \textit{controller} che si occupava della creazione e della modifica, aveva il compito di costruire l'oggetto Ticket partendo dall'oggetto TicketForm appena popolato. 
 
-\item \texttt{TicketSearchForm}: questa classe identifica i campi di input presenti alla ricerca di un ticket. L'utente per effettuare la ricerca di un ticket potrà scegliere o compilare dei filtri , che saranno rappresentati da \texttt{TicketSearchForm}. \\
-Le caratteristiche di tale classe sono redatte in base ai tipi di filtri che si vogliono fornire all'utente e devono essere adeguati per le proprietà dell'oggetto su cui si sta facendo la ricerca.
+\item \texttt{TicketSearchForm}: questa classe identificava i campi di input presenti alla ricerca di un ticket. L'utente per effettuare la ricerca di un ticket poteva scegliere o compilare dei filtri , rappresentati da \texttt{TicketSearchForm}. \\
+Le caratteristiche di tale classe erano redatte in base ai tipi di filtri che si volevano fornire all'utente e dovevano essere adeguati per le proprietà dell'oggetto su cui si stava effettuando la ricerca.
 
 \end{itemize}
 \medskip
 
 \textbf{Cartella Action} 
 \begin{itemize}
-\item[] Le classi presenti in questa cartella, sono dette \textit{Action} e sono i veri e propri \textit{controller} che svolgono le varie funzioni.
+\item[] Le classi presenti in questa cartella, sono dette \textit{Action} ed erano i veri e propri \textit{controller} che svolgevano le varie funzioni.
 
-\item \textttTicketAction}: come si può leggere, la classe non presenta la nomenclatura \textit{Form}. Infatti questa \textit{Action} si occupa di gestire le pagine della webapp che non hanno form al loro interno. Il dettaglio del Ticket sarà gestito da \texttt{TicketAction} in quanto non possiede nessun tipo di campo da compilare.\\
-Si trovano diverse funzioni, come ad esempio la funzione di caricamento della pagina di dettaglio di un Ticket. In questa funzione viene utilizzato l'oggetto \texttt{TicketService} per richiamare la funzione di ricerca per id e trovare l'oggetto \textit{Ticket} corrispondente e stampare i dati a schermo.
+\item \textttTicketAction}: come si può leggere, la classe non presenta la nomenclatura \textit{Form}. Infatti questa \textit{Action} si occupava di gestire le pagine della webapp che non possedevano form al loro interno. Il dettaglio del Ticket era gestito da \texttt{TicketAction} in quanto non possedeva nessun tipo di campo da compilare.\\
+Erano presenti diverse funzioni, come ad esempio la funzione di caricamento della pagina di dettaglio di un Ticket. In questa funzione veniva utilizzato l'oggetto \texttt{TicketService} per richiamare la funzione di ricerca per id e trovare l'oggetto \textit{Ticket} corrispondente e stampare i dati a schermo.
 
-\item \texttt{TicketFormAction}: questo \textit{controller} si occupa di gestire le \textit{Action} che riguardano la pagina di creazione e modifica di un \textit{Ticket} attraverso la manipolazione dell'oggetto \texttt{TicketForm}. Prendiamo come esempio la creazione di un nuovo Ticket.\\
-Quando si entra nella pagina di creazione di un ticket, i campi dell'oggetto \texttt{TicketForm} sono inizializzati vuoti dall'Action \textit{input} e devono essere compilati dall'utente. Al salvataggio, viene richiamata un'altra \textit{Action} che si occupa di prendere i valori presenti nell'oggetto\texttt{TicketForm} e creare un nuovo oggetto \textit{Ticket} con i dati prelevati.\\ Alla fine, utilizzando l'oggetto\texttt{TicketService} il nuovo oggetto \textit{Ticket} viene salvato. 
+\item \texttt{TicketFormAction}: questo \textit{controller} si occupava di gestire le \textit{Action} che riguardano la pagina di creazione e modifica di un \textit{Ticket} attraverso la manipolazione dell'oggetto \texttt{TicketForm}. Prendiamo come esempio la creazione di un nuovo Ticket.\\
+Quando si entrava nella pagina di creazione di un ticket, i campi dell'oggetto \texttt{TicketForm} erano inizializzati vuoti dall'Action \textit{input} e dovevano essere compilati dall'utente. Al salvataggio, veniva richiamata un'altra \textit{Action} che si occupava di prendere i valori presenti nell'oggetto\texttt{TicketForm} e creare un nuovo oggetto \textit{Ticket} con i dati prelevati.\\ Alla fine, si utilizzava l'oggetto\texttt{TicketService} per salvere il nuovo oggetto \textit{Ticket}.
 
-\item \texttt{TicketSearchFormAction}: l'ultimo \textit{controller} è utilizzato per le pagine di ricerca di un ticket e utilizza l'oggetto \texttt{TicketSearchForm} per le proprie funzionalità. Quando si entra nella pagina di ricerca, i campi dell'oggetto\texttt{TicketSearchForm} che rappresentano i filtri di ricerca, vengono lasciati vuoti e sarà l'utente poi a riempirli. Quando si effettua la ricerca, viene richiamata la \textit{Action} di \textit{search}, dove si costruisce un nuovo oggetto \textit{Ticket} a seconda delle caratteristiche (filtri) dell'oggetto \texttt{TicketSearchForm}. \\
-Viene quindi utilizzato l'oggetto \texttt{TicketService} per richiamare la funzione di ricerca che prende in input un oggetto \textit{Ticket} e confronta quale dei ticket presenti nel database ha i valori uguali a quelli del ticket passato. Vengono così trovati tutti i ticket corrispondenti ai filtri inseriti.
+\item \texttt{TicketSearchFormAction}: l'ultimo \textit{controller} era utilizzato per le pagine di ricerca di un ticket e utilizzava l'oggetto \texttt{TicketSearchForm} per le proprie funzionalità. Quando si entrava nella pagina di ricerca, i campi dell'oggetto\texttt{TicketSearchForm} che rappresentavano i filtri di ricerca, erano inizializzati vuoti ed era l'utente poi a riempirli. Quando si effettuava la ricerca, veniva richiamata la \textit{Action} di \textit{search}, dove si costruiva un nuovo oggetto \textit{Ticket} a seconda delle caratteristiche (filtri) dell'oggetto \texttt{TicketSearchForm}. \\
+Veniva quindi utilizzato l'oggetto \texttt{TicketService} per richiamare la funzione di ricerca che prendeva in input un oggetto \textit{Ticket} e confrontava quale dei ticket presenti nel database aveva i valori uguali a quelli del ticket passato. Venivano così trovati tutti i ticket corrispondenti ai filtri inseriti.
 \end{itemize}
 
 \subsection*{View}
-L'ultimo componente dell'architettura è la \textit{\textbf{View}} che ha il compito di visualizzare i dati secondo una logica e fornire la possibilità all'utente di interagire con il modello.
+L'ultimo componente dell'architettura era la \textit{\textbf{View}} che aveva il compito di visualizzare i dati secondo una logica e fornire la possibilità all'utente di interagire con il modello.
 \\
 \noindent
-Le pagine che compongono la webapp sono file \textit{jsp} che permettono di scrivere codice con standard HTML o XML, ma anche di integrare le funzionalità di Java rendendo i contenuti dinamici. \\
+Le pagine che componevano la webapp erano file \textit{jsp} che permettevano di scrivere codice con standard HTML o XML, ma anche di integrare le funzionalità di Java rendendo i contenuti dinamici. \\
 \newpage
 \noindent
-La \textbf{\textit{View}} è supportata anche da diversi \textit{framework} come \textit{Bootstrap} che fornisce delle classi per personalizzare il contenuto della pagina andando a codificare tali classi direttamente nel attributo "class" dei tag di HTML. \\
-Alle pagine jsp è affiancata un'estensione detta \textit{JSTL} che mette a disposizione dei tag per la visualizzazione dei dati in modo dinamico.
+La \textbf{\textit{View}} era supportata anche da diversi \textit{framework} come \textit{Bootstrap} che forniva delle classi per personalizzare il contenuto della pagina andando a codificare tali classi direttamente nel attributo "class" dei tag di HTML. \\
+Alle pagine jsp era affiancata un'estensione detta \textit{JSTL} che mette a disposizione dei tag per la visualizzazione dei dati in modo dinamico.
 \\
 \noindent
-Per l'interazione tra modello, controller e view entra in gioco un'ulteriore \textit{framework}, senza il quale, non sarebbe possibile il funzionamento della webapp cos' com'è stata pensata e codificata da CWBI: \textit{\textbf{Struts}}.\\
+Per l'interazione tra modello, controller e view entrava in gioco un'ulteriore \textit{framework}, senza il quale, non era possibile il funzionamento della webapp cos' com'è stata pensata e codificata da CWBI: \textit{\textbf{Struts}}.\\
 
 \noindent
-L'utente, nell'utilizzo della webapp, interagisce con gli elementi messi a disposizione dalla \textit{View} e richiama delle specifiche \textit{Action} di controller specifici. Questa interazione è possibile grazie a \textit{Struts} che permette di associare un file jsp ad una Action di un controller, andando a configurare il file \textit{struts.xml}.
+L'utente, nell'utilizzo della webapp, interagiva con gli elementi messi a disposizione dalla \textit{View} e richiamava delle specifiche \textit{Action} di controller specifici. Questa interazione era possibile grazie a \textit{Struts} che permetteva di associare un file jsp ad una Action di un controller, andando a configurare il file \textit{struts.xml}.
 
 \section{Design Pattern}
 I \textbf{\textit{Design Pattern}} sono soluzioni generali utilizzate per risolvere problemi ricorrenti durante lo sviluppo di un'applicazione. Esistono diversi \textit{design pattern} ed ognuno di loro ha uno scopo preciso durante la codifica del prodotto. \\

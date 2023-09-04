@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.16)  3 SEP 2023 20:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.16)  4 SEP 2023 12:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2083,9 +2083,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 365--383
  []
 
 
-Overfull \hbox (1.70709pt too wide) in paragraph at lines 365--383
+Overfull \hbox (6.58923pt too wide) in paragraph at lines 365--383
 \T1/cmr/m/n/10 (-20) In real-tà, l'e-se-cu-zio-ne ef-fet-ti-va del-la fun-zio-n
-e CRUD ri-chie-sta, non av-vie-ne in \T1/cmtt/m/n/10 TicketDao-
+e CRUD ri-chie-sta, non av-ve-ni-va in \T1/cmtt/m/n/10 TicketDao-
  []
 
 
@@ -2329,22 +2329,51 @@ No file thesis.gls.
 (./appendix/bibliography.tex [55
 
 ]
-
-Package biblatex Warning: Type 'book' not found on input line 7.
-
-
-LaTeX Warning: Empty bibliography on input line 7.
-
-
-Package biblatex Warning: Type 'online' not found on input line 10.
-
-
-LaTeX Warning: Empty bibliography on input line 10.
-
-) [56
+! You can't use `macro parameter character #' in horizontal mode.
+l.13 \item http://malsup.com/jquery/taconite/#
+                                              overview;
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-] (./thesis.aux)
+Overfull \hbox (7.07024pt too wide) in paragraph at lines 26--27
+[]\T1/cmr/m/n/10 (-20) https://www.ionos.it/digitalguide/siti-web/programmazion
+e-del-sito-web/che-cosa-
+ []
+
+
+Overfull \hbox (0.10721pt too wide) in paragraph at lines 28--29
+[]\T1/cmr/m/n/10 (-16) https://learn.microsoft.com/en-us/dotnet/core/extensions
+/dependency-injection; 
+ []
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.30 ...wikipedia.org/wiki/Inversion\_of\_control#
+                                                  ;
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+[56
+
+
+]
+
+Package biblatex Warning: Type 'book' not found on input line 40.
+
+
+LaTeX Warning: Empty bibliography on input line 40.
+
+
+Package biblatex Warning: Type 'online' not found on input line 43.
+
+
+LaTeX Warning: Empty bibliography on input line 43.
+
+) [57] (./thesis.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
@@ -2368,11 +2397,11 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 (\end occurred when \if on line 11 was incomplete)
 (\end occurred when \ifdefined on line 1 was incomplete) 
 Here is how much of TeX's memory you used:
- 39317 strings out of 475237
- 691402 string characters out of 5768555
+ 39319 strings out of 475237
+ 691429 string characters out of 5768555
  1933238 words of memory out of 5000000
- 59402 multiletter control sequences out of 15000+600000
- 590177 words of font info for 205 fonts, out of 8000000 for 9000
+ 59403 multiletter control sequences out of 15000+600000
+ 590164 words of font info for 205 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  99i,15n,125p,2259b,3164s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -2400,10 +2429,10 @@ s/type1/public/cm-super/sfti0700.pfb><c:/texlive/2023/texmf-dist/fonts/type1/pu
 blic/cm-super/sfti1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-su
 per/sfti1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt10
 00.pfb>
-Output written on thesis.pdf (65 pages, 3355463 bytes).
+Output written on thesis.pdf (66 pages, 3356576 bytes).
 PDF statistics:
- 988 PDF objects out of 1000 (max. 8388607)
- 789 compressed objects within 8 object streams
- 252 named destinations out of 1000 (max. 500000)
+ 994 PDF objects out of 1000 (max. 8388607)
+ 794 compressed objects within 8 object streams
+ 253 named destinations out of 1000 (max. 500000)
  62560 words of extra memory for PDF output out of 74296 (max. 10000000)
 
