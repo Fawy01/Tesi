@@ -1,7 +1,7 @@
 \chapter{Progettazione e codifica}
 \label{cap:progettazione-codifica}
 
-Il capitolo inizialmente presenta gli strumenti e le tecnologie analizzate e utilizzate per la realizzazione del prodotto. Successivamente si vede l'effettiva creazione delle classi del progetto, affiancate da una struttura preesistente fondamentale per le classi affinché il modulo funzioni e svolga la sua funzione.\\
+Il capitolo inizialmente presenta gli strumenti e le tecnologie analizzate e utilizzate per la realizzazione del prodotto. Successivamente espone l'effettiva creazione delle classi del progetto, affiancate da una struttura preesistente, fondamentale al funzionamento del modulo.\\
 
 \section{Tecnologie e strumenti}
 \label{sec:tecnologie-strumenti}
@@ -9,19 +9,19 @@ Il capitolo inizialmente presenta gli strumenti e le tecnologie analizzate e uti
 Di seguito viene data una panoramica delle tecnologie e strumenti utilizzati.
 
 \subsection*{HTML5}
-Tecnologia standard per la creazione di pagine web. Studiata attraverso il corso di Tecnologie Web.
+Tecnologia standard per la creazione di pagine web, studiata attraverso il corso di Tecnologie Web.
 
 \subsection*{CSS}
 Tecnologia standard per la creazione di pagine web e il loro abbellimento. Fornisce una vasta gamma di funzionalità per la personalizzazione delle pagine. Studiata attraverso il corso di Tecnologie Web.
 \subsection*{Bootstrap3/5}
-Bootstrap è un framework che fornisce delle classi le quali raggruppano uno o più attributi del css, per la creazione di pagine web \textit{responsive\gls}. \\
+Bootstrap è un framework che fornisce delle classi le quali raggruppano uno o più attributi del css per la creazione di pagine web \textit{responsive\gls}. \\
 Bootstrap è utilizzato nello stile \textit{inline} di \textit{HTML} e le sue classi vengono inserite all'interno del \textit{tag\gls} "class" di HTML di un elemento. In questo modo, specificando la classe di Boostrap che si vuole utilizzare, verrà applicato un certo stile all'elemento selezionato. Si possono concatenare più classi per un certo elemento.\\
-La differenza tra le due versioni di \textit{Boostrap} 3 e 5 è nella gamma di funzionalità che offrono. La versione 5 è la più recente e molte più funzionalità di quelle precedenti, adattandosi alle nuove feature di \textit{HTML5}. \\
-Ad oggi si cerca di migrare dalle versioni più vecchie a quella più recente.
+La differenza tra le due versioni di \textit{Boostrap} 3 e 5 è nella gamma di funzionalità che offrono. La versione 5 è la più recente e possiede molte più funzionalità di quelle precedenti, adattandosi alle nuove feature di \textit{HTML5}. \\
+Ad oggi si cerca di migrare dalle versioni più vecchie a quelle più recenti.
 \subsection*{Servlet}
-Le \textit{servlet} permettono di soddisfare delle \textit{request\gls} \textit{HTTP\gls} proveniente da web. Ogni servlet viene richiamata e caricata una sola volta e poi resta in memoria per rispondere alle chiamate successive. 
+Le \textit{servlet} permettono di soddisfare delle \textit{request\gls} \textit{HTTP\gls} proveniente dal web. Ogni servlet viene richiamata e caricata una sola volta e poi resta in memoria per rispondere alle chiamate successive. 
 \subsection*{JSP}
-Le \textit{JavaServer Page} rappresentano una tecnologia fondamentale per la realizzazione di pagine web dinamiche. Infatti forniscono dei \textit{tag} speciali con i quali possono essere richiamate delle funzioni specifiche in modo da rendere la pagina dinamica. I file \textit{JSP} sono caratterizzati dell'estensione .jsp e costituiscono le vere e proprie pagine web visualizzate dall'utente; infatti sono codificate in \textit{HTML} e \textit{XML\glsfirstoccur}.
+Le \textit{JavaServer Page} rappresentano una tecnologia fondamentale per la realizzazione di pagine web dinamiche. Infatti forniscono dei \textit{tag} speciali con i quali possono essere richiamate delle funzioni specifiche in modo da rendere la pagina dinamica. I file \textit{JSP} sono caratterizzati dell'estensione .jsp e costituiscono le vere e proprie pagine web visualizzate dall'utente, sono infatti codificate in \textit{HTML} e \textit{XML\glsfirstoccur}.
 \subsection*{JSTL}
 \textit{JavaServer Pages Standard Tag Library} è una libreria che estende JSP offrendo nuove funzionalità per applicazioni web in \texit{JAVA EE}. 
 \subsection*{Apache Struts}
@@ -29,7 +29,7 @@ Le \textit{JavaServer Page} rappresentano una tecnologia fondamentale per la rea
 Il framework è composto da tre elementi principali:
 \begin{itemize}
 \item \textit{Request Handler\gls}: viene mappato ad un URI dallo sviluppatore;
-\item \textit{Response Handler\gls}: la risposta verrà passata ad un'altra risorsa che la completerà;
+\item \textit{Response Handler\gls}: la risposta viene passata ad un'altra risorsa che la completerà;
 \item \textit{Tag}: aiutano lo sviluppatore per lo sviluppo.
 \end{itemize}
 
@@ -41,42 +41,42 @@ Per configurare tutti i collegamenti tra i vari elementi e le loro interazioni s
 Viene generato un \textit{XML} con le istruzioni per l'aggiornamento dei diversi \textit{DOM}.
 
 \subsection*{Hibernate}
-È un framework che permette di mappare gli oggetti del modello ad un \textit{database} relazionale. Lo sviluppatore non deve preoccuparsi di implementazione ma è \textit{Hibernate\glsfirstoccur} che si occupa del collegamento al database e di eseguire le operazioni \textit{CRUD\gls}, andando a generare query e leggerne il risultato.
+È un framework che permette di mappare gli oggetti del modello ad un \textit{database} relazionale. Lo sviluppatore non deve preoccuparsi dell'implementazione ma è \textit{Hibernate\glsfirstoccur} che si occupa del collegamento al database e di eseguire le operazioni \textit{CRUD\gls}, andando a generare query e leggerne il risultato.
 
 \subsection*{Spring}
 \textit{Spring}\gls è un framework volto ad aiutare lo sviluppo di applicazioni più o meno complesse attraverso la sua architettura modulare. Spring è diviso in cinque livelli e in questo modo si possono escludere le parti non necessarie per l'applicazione.\\
-L'elemento principale di \textit{Spring} è il \textit{Core Container} che ha il compito di creazione e gestione di tutti gli oggetti dell'applicazione, detti anche \textit{\textbf{beans}\gls}.
+L'elemento principale di \textit{Spring} è il \textit{Core Container} che ha il compito di creare e gestire gli oggetti dell'applicazione, detti anche \textit{\textbf{beans}\gls}.
 \subsection*{Wro4j}
-\textit{Wro4j} è uno strumento per l'ottimizzare le risorse web e velocizzare il caricamento delle pagine. Il suo compito è quello di organizzare le risorse, come i file \textit{css} e \textit{js}, raggrupparli e farli scaricare tutti in una sola volta alla pagina web.\\
-Normalmente un browser può scaricare al massimo due risorse contemporaneamente e questo limite porta ad un caricamento della pagina lento in vista di molte risorse da scaricare. \textit{Wro4j} elimina questo problema comprendendo tutte le risorse in un'unica risorsa.
+\textit{Wro4j} è uno strumento per ottimizzare le risorse web e velocizzare il caricamento delle pagine. Il suo compito è quello di organizzare le risorse, come i file \textit{css} e \textit{js}, raggrupparli e farli scaricare tutti in una sola volta dalla pagina web.\\
+Di solito, un browser può scaricare al massimo due risorse simultaneamente, il che può causare un rallentamento del caricamento della pagina quando ci sono numerose risorse da scaricare. \textit{Wro4j} elimina questo problema comprendendo tutte le risorse in un unico file.
 \subsection*{SVNKit}
-\textit{SVNKit} è uno \textit{toolkit} \textit{Open-Source} e permette l'accesso il remoto e in locale a delle \textit{repository} per le applicazioni Java. Funge anche da sistema di versionamento. 
+\textit{SVNKit} è uno \textit{toolkit} \textit{Open-Source} e permette l'accesso in remoto e in locale a delle \textit{repository} per le applicazioni Java. Funge anche da sistema di versionamento. 
 
 \subsection*{Apache Maven}
-\textit{Apache Maven} è uno strumento per la gestione delle dipendenze tra un progetto Java e le versioni delle librerie che servono e si occupa anche di effettuare il download di tali risorse. \\
+\textit{Apache Maven} è uno strumento per la gestione delle dipendenze tra un progetto Java e le versioni delle librerie essenziali, e si occupa anche di effettuare il download di tali risorse. \\
 Le relazioni tra progetto e librerie sono definite in un file \textit{XML} chiamato \textit{\textbf{pom.xml}}.
 
 \subsection*{Apache Tomcat}
 \textit{Apache Tomcat} è un server web che permette l'esecuzione di applicazioni web. Supporta le specifiche di \textit{JSP} e \textit{servlet}.\\
-Esistono diverse versioni per i server \textit{Tomcat} e si può scegliere la versione che offre le funzionalità giuste per la propria applicazione.
+Esistono diverse versioni per i server \textit{Tomcat} e si può scegliere la versione che offre le funzionalità adeguate alla propria applicazione.
 \subsection*{DBeaver}
 È un'applicazione che si occupa di gestire i database. Si possono creare nuovi database, creare tabelle, manipolare i dati, ecc...
 
 \section{Progettazione}
 \label{sec:progettazione}
-La fase di progettazione era una fase cruciale per la realizzazione del progetto. Prima ancora di iniziare la progettazione del lavoro assegnato è stato importante analizzare l'ambiente già esistente, capirne il funzionamento e individuare se c'erano elementi che potevano servire al nostro scopo. \\
-Una tecnica per una buona progettazione è stata concentrarsi su un elemento alla volta. Prendere in considerazione tutti gli elementi del progetto poteva sembrare più efficace e veloce, ma così facendo si avremmo perso il focus della funzione delle classi del prodotto.\\ 
-Quindi l'idea era di analizzare e progettare una singola classe, controllarne il corretto funzionamento e da lì procedere ed andare avanti con lo studio per la realizzazione delle prossime classi.
+La fase di progettazione è stata una fase cruciale per la realizzazione del progetto. Prima ancora di iniziare la progettazione del lavoro assegnato è stato importante analizzare l'ambiente già esistente, capirne il funzionamento e individuare eventuali elementi che potevano servire al nostro scopo. \\
+Una tecnica per una buona progettazione è stata concentrarsi su un elemento alla volta. Prendere in considerazione tutti gli elementi del progetto poteva sembrare più efficace e veloce, ma così facendo si sarebbe perso il focus della funzione delle classi del prodotto.\\ 
+Quindi l'idea è stata quella di analizzare e progettare una singola classe, controllarne il corretto funzionamento e poi procedere ed andare avanti con lo studio per la realizzazione delle prossime classi.
 
 
 \subsection{Base di Dati}
-Per la progettazione della base di dati sono iniziato da un database già esistente nell'azienda e ho inserito i nuovi elementi del progetto. Poi ho eseguito un \textit{refactoring} di alcune delle tabelle preesistenti per correggerle ed adattarle a quelle nuove, senza però modificarne attributi fondamentali per le altre parti della webapp. Anche qui c'è stata allora una fase di profonda e attenta analisi per avere una base di dati consistente. 
+Per la progettazione della base di dati si è partiti da un database già esistente nell'azienda per poi inserire i nuovi elementi del progetto. Successivamente si è eseguito un \textit{refactoring} di alcune delle tabelle preesistenti per correggerle ed adattarle a quelle nuove, senza però modificarne gli attributi fondamentali per le altre parti della webapp. Anche qui c'è stata una fase di profonda e attenta analisi per avere una base di dati consistente. 
 \subsubsection*{Tabelle preesistenti}
 Il progetto utilizzava tabelle preesistenti per il suo scopo. Le tabelle erano le seguenti: 
 \begin{itemize}
 
 
-    \item \textbf{Cliente}: questa tabella rappresentava l'entità cliente e aveva tutti gli attributi necessari per definirne lo scopo all'interno della webapp. Il cliente non era la singola persona ma bensì l'azienda a cui poi erano collegati sia i dipendenti sia i progetti richiesti da questa. Alcuni attributi presenti servono per le altre componenti della webapp;
+    \item \textbf{Cliente}: questa tabella rappresentava l'entità cliente e aveva tutti gli attributi necessari per definirne lo scopo all'interno della webapp. Il cliente non era la singola persona ma bensì l'azienda, a cui poi erano collegati sia i dipendenti sia i progetti richiesti da questa. Alcuni attributi presenti servono per le altre componenti della webapp;
     \item \textbf{User}: gli user erano tutte le persone coinvolte nell'azienda, interne ed esterne. Quindi la tabella comprendeva sia il personale di CWBI sia il personale delle aziende clienti;
     \item \textbf{Progetto}: questa tabella rappresentava un progetto dell'azienda. Aveva tutti gli attributi necessari ed era collegata ad un cliente. Un progetto poteva essere collegato a più aziende diverse;
     \item \textbf{ProgettoCliente}: questa tabella rappresentava la relazione tra progetto e cliente. Veniva chiamata in causa quando si doveva scegliere l'azienda e il progetto su cui si voleva aprire il ticket;
@@ -328,7 +328,7 @@ Il progetto utilizzava tabelle preesistenti per il suo scopo. Le tabelle erano l
             
 \newpage
 \subsection{Architettura}
-Lo sviluppo dell'applicazione è avvenuta secondo il \textit{pattern} architetturale \textbf{MVC \glsfirstoccur} (\textit{Model - View - Controller}). \\
+Lo sviluppo dell'applicazione è avvenuto secondo il \textit{pattern} architetturale \textbf{MVC \glsfirstoccur} (\textit{Model - View - Controller}). \\
 Questo \textit{pattern} permette di dividere e rendere modulabile l'applicazione.
 \begin{itemize}
 \item \textbf{Model}: si occupa della gestione dei dati, del salvataggio delle risorse e della logica di business;
@@ -353,7 +353,7 @@ Utilizzare il pattern \textit{MVC} permette di avere dei \textbf{vantaggi}:
 \end{itemize}
 
 \subsection*{Model}
-Si iniziava da un modello preesistente e strutturato secondo gli standard aziendali. Questa parte era divisa in più livelli, ognuno dei quali possedeva un diverso scopo e diverse funzionalità. In generale, la struttura era illustrata come segue: 
+Si iniziava da un modello preesistente e strutturato secondo gli standard aziendali. Questa parte era divisa in più livelli, ognuno dei quali possedeva un diverso scopo e diverse funzionalità. In generale, la struttura era composta come segue: 
 
 \begin{figure}[H]
     \centering 
@@ -363,54 +363,54 @@ Si iniziava da un modello preesistente e strutturato secondo gli standard aziend
 \end{figure}
 
 \noindent
-Come detto in precedenza alcune delle classi già presenti sono state utilizzate per supportare le nuove entità introdotte con il progetto. Per la codifica del nostro nuovo Model ci siamo basati sulla figura \textit{5.4}, partendo dal basso e andando verso l'alto.  \\
+Come detto in precedenza alcune delle classi già presenti sono state utilizzate per supportare le nuove entità introdotte con il progetto. Nella codifica del nuovo modello, ci si è orientati utilizzando come riferimento la figura \textit{5.4}. \\
 \\
 \noindent
 Il primo passo per la creazione di una nuova classe è stato mappare i suoi attributi all'interno del file xml che conteneva la mappatura e specificava la struttura della tabella che sarebbe stata costruita poi sul database. \\
 Prendiamo come esempio la classe Ticket. È stato creato il file \textit{\textbf{ticket.xml}} e all'interno è stata specificata la tabella \textit{ticket-a} con tutti gli attributi.\\
 \\
 \noindent
-Dopo è avvenuta la codifica della classe \texttt{TicketDB.java} che rappresentava l'oggetto vero e proprio utilizzato nella  webapp. Importante specificare che gli attributi inseriti in questa classe erano uguali agli attributi specificati nella tabella   \textit{ticket-a} nel file di mappatura. La classe era composta quindi dagli attributi, i costruttori e le funzioni di \textit{get} degli attributi.\\
+Dopo è avvenuta la codifica della classe \texttt{TicketDB.java} che rappresentava l'oggetto vero e proprio utilizzato nella  webapp. Importante specificare che gli attributi inseriti in questa classe dovevano essere uguali agli attributi specificati nella tabella   \textit{ticket-a} nel file di mappatura. La classe era quindi composta  dagli attributi, i costruttori e le funzioni di \textit{get} degli attributi.\\
 Le nomenclatura \textit{DB} dopo il nome della classe è uno standard dell'azienda inserito per ogni nuovo modello che si introduce.
 \\
 \noindent
 Successivamente sono state create due classi: \texttt{\textbf{TicketDao}} e \texttt{\textbf{TicketDaoHibernate}}. \\
-Partiamo con \textit{TicketDao} che rappresentava l'interfaccia in cui erano presenti le firme di tutte le funzioni per la manipolazione dei dati, secondo il pattern \textit{\textbf{Dao\glsfirstoccur}}: le operazioni \textit{CRUD\glsfirstoccur}. \\
-La classe \texttt{TicketDaoHibernate} invece era l'implementazione dell'interfaccia \texttt{TicketDao}, che implementava quindi le funzioni presenti. \\
-In realtà, l'esecuzione effettiva della funzione CRUD richiesta, non avveniva in \texttt{TicketDao-} \texttt{Hibernate} ma all'interno di ogni funzione implementata, veniva richiamata un'altra funzione con lo stesso scopo ma era implementata in un'altra classe \textit{Hibernate}, padre di \texttt{TicketDaoHibarnate} che 
-effettuerà le operazioni classiche CRUD. \\
+\textit{TicketDao} rappresentava l'interfaccia in cui erano presenti le firme di tutte le funzioni per la manipolazione dei dati secondo il pattern \textit{\textbf{Dao\glsfirstoccur}}: le operazioni \textit{CRUD\glsfirstoccur}. \\
+La classe \texttt{TicketDaoHibernate} invece implementava le funzioni presenti nell'interfaccia \texttt{TicketDao}.
+In realtà, l'esecuzione effettiva della funzione CRUD richiesta non avveniva in \texttt{TicketDao-} \texttt{Hibernate}, ma all'interno di ogni implementazione, veniva richiamata un'altra funzione con lo stesso scopo, implementata in una classe \textit{Hibernate} separata. Questa classe, che funge da classe padre di \texttt{TicketDaoHibernate}, era responsabile dello svolgimento delle operazioni CRUD . \\
 In generale, \texttt{TicketDaoHibarnate} implementava le funzioni dell'interfaccia a cui si riferiva, ma le operazioni CRUD erano sempre effettuate dall'\textit{Hibernate} padre.\\
 
 \noindent
 Il prossimo passo è stato creare le classi service: \texttt{\textbf{TicketService}} e \texttt{\textbf{TicketServiceImpl}}.\\
-La classe \texttt{TicketService} era l'interfaccia al cui interno trovavamo le firme delle funzioni che la webapp consentiva di svolgere, come ad esempio la funzione di ricerca. \\
-\texttt{TicketServiceImpl} invece era l'implementazione delle funzioni di \texttt{TicketService}. All'interno di ogni funzione, il dato veniva manipolato e alla fine, si richiamava la funzione della classe \texttt{TicketDao} specifica per il contesto. 
+La classe \texttt{TicketService} era l'interfaccia al cui interno trovavamo le firme delle funzioni che la webapp consentiva di svolgere, come  la funzione di ricerca. \\
+\texttt{TicketServiceImpl} invece era l'implementazione delle funzioni di \texttt{TicketService}. All'interno di ogni funzione il dato veniva manipolato e alla fine si richiamava la funzione della classe \texttt{TicketDao} specifica per il contesto. 
 Si può dire che all'interno dell'implementazione di una funzione \textit{service} il dato era manipolato e personalizzato con l'obiettivo di fornire il risultato desiderato.\\
 
 \noindent
-Importante notare che la funzione di ricerca non era una funzione \textit{CRUD} e veniva implementata nel service. Infatti nella sua implementazione, questa funzione richiamava la funzione di \textit{TicketDaoHibernate} che avrebbe effettuato la \textbf{lettura} del dato corrispondete ai parametri di ricerca.\\
+È importante sottolineare che la funzione di ricerca non rientrava tra le operazioni \textit{CRUD} e veniva implementata nel service. Infatti nella sua implementazione, questa funzione richiamava la funzione di \textit{TicketDaoHibernate} che avrebbe effettuato la \textbf{lettura} del dato corrispondete ai parametri di ricerca.\\
 
 \noindent
-Allora tutte le funzioni all'interno delle applicazioni si riducevano sempre a delle semplice funzioni \textit{\textbf{CRUD}}.\\
+Di conseguenza, tutte le funzioni all'interno dell'applicazione finivano per ridursi a operazioni \textit{\textbf{CRUD}}.\\
 
 \noindent
-L'ultima fase è stata creare le classi manager. Queste classi non sempre erano necessarie e fungevano da supporto per le classi service. \\
-Nel progetto \textbf{non} sono state codificate classi manager.
+L'ultima fase consisteva nella codifica delle classi \textit{manager}. Queste classi non sempre erano necessarie e fungevano da supporto per le classi service. \\
+Nel progetto \textbf{non} sono state inserite classi \textit{manager}.
 
 \subsection*{Controller}
-Lo scopo dei \textit{controller} all'interno dell'applicazione era quello di gestire le interazioni tra la parte di \textit{front-end} (View) e la parte di \textit{back-end} (Model), oltre a gestire anche gli input degli utenti.\\
+I \textit{controller} all'interno dell'applicazione hanno avuto il compito di gestire le interazioni tra la parte di \textit{front-end} (View) e la parte di \textit{back-end} (Model), oltre ad occuparsi anche degli input degli utenti.\\
 
 \noindent
-Il \textit{controller} aveva il compito di \textit{istanziare} le classi del Model, richiamarne le funzioni per avere un risultato e inviarlo poi al \textit{front-end} in modo da essere visualizzato.
+Il \textit{controller} aveva il compito di \textit{istanziare} le classi del Model, richiamarne le funzioni per avere un risultato ed inviare quest'ultimo al \textit{front-end} in modo da essere visualizzato.
 All'interno dell'applicazione le classi che fungevano da \textit{controller} erano marcate dall'annotazione \textit{@Controller} di Spring.\\
-Un'altra annotazione Spring presente era \textit{@Autowired} che serviva per indicare le dipendenze dei \textit{bean} (classi. Infatti all'interno dei controller si potevano trovare degli oggetti \textit{Service} utilizzati per le operazioni sul Model. Quindi, quando veniva istanziato il controller, si creavano anche gli oggetti all'interno di esso.\\
+Un'altra annotazione Spring presente era \textit{@Autowired} che serviva per indicare le dipendenze dei \textit{bean} (classi. Infatti all'interno dei controller si potevano trovare degli oggetti \textit{Service} utilizzati per le operazioni sul Model. Pertanto, quando veniva istanziato il controller, venivano creati anche gli oggetti correlati all'interno di esso.\\
 
 \noindent
-\textit{CWBI} struttura i controller in due cartelle distinte. Prendiamo come esempio la classe Ticket del modello:\\
+\textit{CWBI} struttura i controller in due cartelle distinte. Analizziamo la classe Ticket del modello:\\
 
 \textbf{Cartella Form}
 \begin{itemize}
-\item \texttt{TicketForm}: questa classe identificava i campi di input presenti alla creazione o alla modifica di un ticket, detti appunto \textit{Form}. Quindi quando l'utente compilava i campi, popolava gli attributi di questa classe. \\ Le caratteristiche di \texttt{TicketForm} dovevano essere adeguate alla controparte dell'oggetto Ticket nel modello. Infatti il \textit{controller} che si occupava della creazione e della modifica, aveva il compito di costruire l'oggetto Ticket partendo dall'oggetto TicketForm appena popolato. 
+\item \texttt{TicketForm}: questa classe identificava i campi di input presenti alla creazione o alla modifica di un ticket, detti appunto \textit{Form}. Quando l'utente inseriva dati nei campi, stava effettivamente popolando gli attributi di questa classe. \\ 
+Le caratteristiche di \texttt{TicketForm} dovevano essere adeguate alla controparte dell'oggetto Ticket nel modello. Infatti il \textit{controller} che si occupava della creazione e della modifica, aveva il compito di costruire l'oggetto Ticket partendo dall'oggetto TicketForm appena popolato. 
 
 \item \texttt{TicketSearchForm}: questa classe identificava i campi di input presenti alla ricerca di un ticket. L'utente per effettuare la ricerca di un ticket poteva scegliere o compilare dei filtri , rappresentati da \texttt{TicketSearchForm}. \\
 Le caratteristiche di tale classe erano redatte in base ai tipi di filtri che si volevano fornire all'utente e dovevano essere adeguati per le proprietà dell'oggetto su cui si stava effettuando la ricerca.
@@ -420,10 +420,10 @@ Le caratteristiche di tale classe erano redatte in base ai tipi di filtri che si
 
 \textbf{Cartella Action} 
 \begin{itemize}
-\item[] Le classi presenti in questa cartella, sono dette \textit{Action} ed erano i veri e propri \textit{controller} che svolgevano le varie funzioni.
+\item[] Le classi presenti in questa cartella, sono dette \textit{Action} ed erano i veri e propri \textit{controller} che eseguivano le funzioni.
 
-\item \textttTicketAction}: come si può leggere, la classe non presenta la nomenclatura \textit{Form}. Infatti questa \textit{Action} si occupava di gestire le pagine della webapp che non possedevano form al loro interno. Il dettaglio del Ticket era gestito da \texttt{TicketAction} in quanto non possedeva nessun tipo di campo da compilare.\\
-Erano presenti diverse funzioni, come ad esempio la funzione di caricamento della pagina di dettaglio di un Ticket. In questa funzione veniva utilizzato l'oggetto \texttt{TicketService} per richiamare la funzione di ricerca per id e trovare l'oggetto \textit{Ticket} corrispondente e stampare i dati a schermo.
+\item \textttTicketAction}: la classe non presenta la nomenclatura \textit{Form}. Infatti questa \textit{Action} si occupava di gestire le pagine della webapp che non possedevano form al loro interno. Il dettaglio del Ticket era gestito da \texttt{TicketAction} in quanto non possedeva nessun tipo di campo da compilare.\\
+Erano presenti diverse funzioni, come ad esempio la funzione di caricamento della pagina di dettaglio di un Ticket. In questa funzione veniva utilizzato l'oggetto \texttt{TicketService} per richiamare la funzione di ricerca per id, trovare l'oggetto \textit{Ticket} corrispondente e stampare i dati a schermo.
 
 \item \texttt{TicketFormAction}: questo \textit{controller} si occupava di gestire le \textit{Action} che riguardano la pagina di creazione e modifica di un \textit{Ticket} attraverso la manipolazione dell'oggetto \texttt{TicketForm}. Prendiamo come esempio la creazione di un nuovo Ticket.\\
 Quando si entrava nella pagina di creazione di un ticket, i campi dell'oggetto \texttt{TicketForm} erano inizializzati vuoti dall'Action \textit{input} e dovevano essere compilati dall'utente. Al salvataggio, veniva richiamata un'altra \textit{Action} che si occupava di prendere i valori presenti nell'oggetto\texttt{TicketForm} e creare un nuovo oggetto \textit{Ticket} con i dati prelevati.\\ Alla fine, si utilizzava l'oggetto\texttt{TicketService} per salvere il nuovo oggetto \textit{Ticket}.

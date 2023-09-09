@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.16)  9 SEP 2023 17:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.16)  9 SEP 2023 18:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1813,7 +1813,7 @@ You need to define a glossary entry before you can use it.
 <to be read again> 
                    \aftergroup 
 l.22 ...lle \textit{request\gls} \textit{HTTP\gls}
-                                                   proveniente da web. Ogni ...
+                                                   proveniente dal web. Ogni...
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
@@ -1826,7 +1826,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.22 ...lle \textit{request\gls} \textit{HTTP\gls}
-                                                   proveniente da web. Ogni ...
+                                                   proveniente dal web. Ogni...
 
 You need to define a glossary entry before you can use it.
 
@@ -1867,7 +1867,7 @@ You need to define a glossary entry before you can use it.
 <to be read again> 
                    \aftergroup 
 l.32 \item \textit{Response Handler\gls}
-                                        : la risposta verrà passata ad un'a...
+                                        : la risposta viene passata ad un'al...
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
@@ -1880,7 +1880,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.32 \item \textit{Response Handler\gls}
-                                        : la risposta verrà passata ad un'a...
+                                        : la risposta viene passata ad un'al...
 
 You need to define a glossary entry before you can use it.
 
@@ -2009,53 +2009,47 @@ Package microtype Info: Loading generic protrusion settings for font family
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 377.
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--383
+Underfull \hbox (badness 10000) in paragraph at lines 365--382
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--383
+Underfull \hbox (badness 10000) in paragraph at lines 365--382
 
  []
 
 
-Overfull \hbox (6.58923pt too wide) in paragraph at lines 365--383
-\T1/cmr/m/n/10 (-20) In real-t�, l'e-se-cu-zio-ne ef-fet-ti-va del-la fun-zio-n
-e CRUD ri-chie-sta, non av-ve-ni-va in \T1/cmtt/m/n/10 TicketDao-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 365--383
+Underfull \hbox (badness 10000) in paragraph at lines 365--382
 
  []
 
 [38 <./images/SchemaModel.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 384--389
+Underfull \hbox (badness 10000) in paragraph at lines 383--388
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--392
+Underfull \hbox (badness 10000) in paragraph at lines 389--391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--395
+Underfull \hbox (badness 10000) in paragraph at lines 392--394
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--402
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--407
+Underfull \hbox (badness 10000) in paragraph at lines 402--406
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--410
+Underfull \hbox (badness 10000) in paragraph at lines 407--409
 
  []
 
@@ -2063,7 +2057,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 408--410
 ! Undefined control sequence.
 <recently read> \textttTicketAction 
                                     
-l.425 \item \textttTicketAction
+l.424 \item \textttTicketAction
                                }: come si può leggere, la classe non presen...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2072,7 +2066,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Extra }, or forgotten \endgroup.
-l.425 \item \textttTicketAction}
+l.424 \item \textttTicketAction}
                                 : come si può leggere, la classe non presen...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2081,17 +2075,17 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--440
+Underfull \hbox (badness 10000) in paragraph at lines 435--439
 
  []
 
 [40]
-Underfull \hbox (badness 10000) in paragraph at lines 441--447
+Underfull \hbox (badness 10000) in paragraph at lines 440--446
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 452--454
+Underfull \hbox (badness 10000) in paragraph at lines 451--453
 
  []
 
@@ -2102,7 +2096,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.460 \noindent
+l.459 \noindent
                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2112,12 +2106,12 @@ or  <return>  to continue without it.
 <images/decorator.png, id=578, 1027.84pt x 814.04124pt>
 File: images/decorator.png Graphic file (type png)
 <use images/decorator.png>
-Package pdftex.def Info: images/decorator.png  used on input line 475.
+Package pdftex.def Info: images/decorator.png  used on input line 474.
 (pdftex.def)             Requested size: 223.20227pt x 176.76685pt.
 <images/DAO.jpg, id=579, 1003.75pt x 501.875pt>
 File: images/DAO.jpg Graphic file (type jpg)
 <use images/DAO.jpg>
-Package pdftex.def Info: images/DAO.jpg  used on input line 491.
+Package pdftex.def Info: images/DAO.jpg  used on input line 490.
 (pdftex.def)             Requested size: 260.39886pt x 130.20107pt.
  [42 <./images/decorator.png>]) (./chapters/product-design.tex [43 <./images/DA
 O.jpg (PNG copy)>]
@@ -2334,11 +2328,11 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 (\end occurred when \if on line 11 was incomplete)
 (\end occurred when \ifdefined on line 1 was incomplete) 
 Here is how much of TeX's memory you used:
- 39309 strings out of 475237
- 690801 string characters out of 5768555
+ 39307 strings out of 475237
+ 690779 string characters out of 5768555
  1933238 words of memory out of 5000000
  59378 multiletter control sequences out of 15000+600000
- 590073 words of font info for 207 fonts, out of 8000000 for 9000
+ 589954 words of font info for 206 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  99i,15n,125p,2259b,3164s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-
@@ -2362,7 +2356,7 @@ c/cm-super/sfsl1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super
 /sfti0700.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.
 pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/te
 xlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on thesis.pdf (68 pages, 3365625 bytes).
+Output written on thesis.pdf (68 pages, 3365710 bytes).
 PDF statistics:
  1020 PDF objects out of 1200 (max. 8388607)
  817 compressed objects within 9 object streams
