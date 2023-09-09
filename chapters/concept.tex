@@ -4,15 +4,15 @@
 In questo capitolo vengono analizzati tutti i requisiti individuati, come ad esempio apertura ticket, chiusura ecc..\\
 Lo scopo è definire con chiarezza la funzione che svolge ogni requisito all'interno dell'applicazione, andando  ad assegnare a questi un'etichetta che li identifica in base alla  loro natura.
 \section{Ciclo di vita di un Ticket}
-Lo studio del ciclo di vita di un ticket è stato fondamentale per capire le interazioni che questo oggetto doveva avere con le altre classi della webapp e per comprendere gli elementi fondamentali che componevano la nostra entità. \\
-Un ticket poteva essere nello stato di:
+Lo studio del ciclo di vita di un ticket è stato essenziale per capire le interazioni che questo oggetto avrebbe dovuto avere con le altre classi della webapp e per comprendere gli elementi fondamentali che avrebbero composto la nostra entità. \\
+Un ticket può essere in stato di:
 \begin{itemize}
 \item APERTO
 \item CHIUSO
 \end{itemize}
-Lo stato APERTO era assegnato al ticket la prima volta che viene creato e rimaneva tale fino allo conclusione delle attività previste.
-Lo stato CHIUSO era assegnato quando, chi ha in carico il ticket aveva concluso tutte le operazioni e quindi cambiava lo stato in chiuso.
-Quando un ticket veniva chiuso poteva essere aperto nuovamente qualora, chi se ne occupa, riteneva che le attività non erano state svolte completamente o se il cliente non rimaneva soddisfatto delle soluzioni applicate.\\
+Lo stato APERTO era assegnato al ticket la prima volta che veniva creato e rimaneva tale fino allo conclusione delle attività previste.
+Lo stato CHIUSO invece era assegnato quando la persona incaricata del ticket aveva concluso tutte le operazioni, veniva così cambiato lo stato da aperto a chiuso.
+Quando un ticket veniva chiuso poteva essere aperto nuovamente qualora si riteneva che le attività non erano state svolte completamente oppure se il cliente non rimaneva soddisfatto delle soluzioni applicate.\\
 È importante specificare che un ticket poteva essere preso in carico da più tecnici durante il suo ciclo di vita. Infatti le operazioni assegnate dal cliente potevano richiedere diversi ruoli; il ticket veniva chiuso da chi lo avrebbe preso in carico per ultimo.
 \section{Casi d'uso}
 
