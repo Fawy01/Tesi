@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.16)  9 SEP 2023 23:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.16)  18 SEP 2023 11:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1316,6 +1316,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
 ) (./preface/summary.tex [2
 
 ]
@@ -2328,11 +2353,11 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 (\end occurred when \if on line 11 was incomplete)
 (\end occurred when \ifdefined on line 1 was incomplete) 
 Here is how much of TeX's memory you used:
- 39311 strings out of 475237
- 690823 string characters out of 5768555
+ 39313 strings out of 475237
+ 690843 string characters out of 5768555
  1933238 words of memory out of 5000000
  59378 multiletter control sequences out of 15000+600000
- 590192 words of font info for 208 fonts, out of 8000000 for 9000
+ 590311 words of font info for 209 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  99i,15n,125p,2259b,3164s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-
@@ -2356,7 +2381,7 @@ c/cm-super/sfsl1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super
 /sfti0700.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.
 pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/te
 xlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on thesis.pdf (68 pages, 3319795 bytes).
+Output written on thesis.pdf (68 pages, 3321548 bytes).
 PDF statistics:
  1020 PDF objects out of 1200 (max. 8388607)
  817 compressed objects within 9 object streams
